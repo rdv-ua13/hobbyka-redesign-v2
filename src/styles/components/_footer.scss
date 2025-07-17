@@ -1,0 +1,292 @@
+.footer {
+	position: relative;
+	flex: 0 0 auto;
+	min-width: 320px;
+	background-color: var(--gray1-color);
+	color: var(--white-color);
+
+	&__row {
+		display: flex;
+		flex-wrap: wrap;
+	}
+
+	&__column {
+		flex: 1;
+	}
+
+	&-main {
+		.link {
+			&:hover {
+				color: var(--gray3-color);
+			}
+		}
+		.ac {
+			&-trigger {
+				position: relative;
+				display: flex;
+				justify-content: space-between;
+				align-items: flex-start;
+				gap: 12px;
+				width: 100%;
+				line-height: 24px;
+				cursor: pointer;
+				transition: var(--transition);
+
+				&::after {
+					content: "";
+					position: absolute;
+					right: 0;
+					top: 4px;
+					text-align: center;
+					min-width: 16px;
+					width: 16px;
+					min-height: 16px;
+					height: 16px;
+					background: url("data:image/svg+xml;base64,PHN2ZyBpZD0iY2hldnJvbi1kb3duIiB2aWV3Qm94PSIwIDAgMTIgMTIiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+Cgk8cGF0aCBkPSJNOC45NiA0LjA4OTk3SDUuODQ1SDMuMDRDMi41NiA0LjA4OTk3IDIuMzIgNC42Njk5NyAyLjY2IDUuMDA5OTdMNS4yNSA3LjU5OTk3QzUuNjY1IDguMDE0OTcgNi4zNCA4LjAxNDk3IDYuNzU1IDcuNTk5OTdMNy43NCA2LjYxNDk3TDkuMzQ1IDUuMDA5OTdDOS42OCA0LjY2OTk3IDkuNDQgNC4wODk5NyA4Ljk2IDQuMDg5OTdaIiBmaWxsPSIjZmZmIi8+Cjwvc3ZnPgo=");
+					transition: var(--transition);
+				}
+			}
+
+			.icon {
+				fill: var(--white-color);
+				stroke: var(--white-color);
+			}
+
+			.footer__title {
+				margin-bottom: unset;
+			}
+		}
+
+		.footer-contacts {
+			&__tel {
+				display: flex;
+				flex-direction: column;
+				gap: 4px;
+
+				&-caption {
+					color: var(--gray3-color);
+					line-height: 1.4;
+				}
+			}
+			&__number {
+				font-weight: 700;
+			}
+		}
+	}
+
+	&__title {
+		font-weight: 600;
+	}
+
+	&__list {
+		li:not(:last-child) {
+			margin-bottom: 16px;
+		}
+		a {
+			color: var(--white-color);
+		}
+	}
+
+	&-contacts {
+		display: flex;
+		flex-direction: column;
+
+		&__tel {
+			display: flex;
+			flex-direction: column;
+
+			&-caption {
+				&:hover {
+					color: var(--gray2-color);
+				}
+			}
+		}
+	}
+
+	.social {
+		&__list {
+			a {
+				overflow: hidden;
+				border-radius: 8px;
+
+				.icon {
+					min-width: 36px;
+					width: 36px;
+					min-height: 36px;
+					height: 36px;
+				}
+			}
+		}
+	}
+
+	&-bottom {
+		&__content {
+			display: flex;
+			flex-direction: column;
+			gap: 24px;
+			border-top: 1px solid var(--gray3-color-20);
+			line-height: 1.4;
+
+			&-row {
+				display: flex;
+			}
+		}
+	}
+
+	&__rights {
+		color: var(--gray4-color);
+	}
+
+	.column-between {
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+		gap: 20px;
+
+		&__item {
+			flex: 1;
+
+			&:not(:first-child) {
+				flex: 0;
+			}
+		}
+	}
+}
+@media (min-width: 992px) {
+	.footer {
+		padding-top: 60px;
+		padding-bottom: 32px;
+
+		&-item {
+			&:not(:last-child) {
+				margin-bottom: 60px;
+			}
+		}
+
+		&__row {
+			gap: 24px;
+		}
+
+		&-main {
+			.link {
+				font-size: 14px;
+			}
+			.footer-contacts {
+				&__tel {
+					&-caption {
+						font-size: 14px;
+					}
+				}
+				&__number {
+					font-size: 24px;
+				}
+			}
+			.ac {
+				&-trigger {
+					cursor: text;
+
+					&::after {
+						content: none;
+					}
+				}
+			}
+		}
+
+		&__title {
+			font-size: 16px;
+
+			&:not(:last-child) {
+				margin-bottom: 20px;
+			}
+		}
+
+		&-contacts {
+			gap: 48px;
+		}
+
+		&-bottom {
+			&__content {
+				padding-top: 32px;
+				font-size: 14px;
+
+				.footer__row {
+					gap: 32px;
+				}
+
+				.payment-supports {
+					margin-left: auto;
+				}
+			}
+		}
+	}
+}
+@media (max-width: 991.98px) {
+	.footer {
+		padding-top: 32px;
+		padding-bottom: 24px;
+
+		&__column {
+			min-width: 100%;
+			width: 100%;
+		}
+
+		&-item {
+			&:not(:last-child) {
+				margin-bottom: 32px;
+			}
+		}
+
+		&__row {
+			gap: 32px;
+		}
+
+		&-main {
+			.link {
+				font-size: 13px;
+			}
+			.footer-contacts {
+				&__tel {
+					&-caption {
+						font-size: 13px;
+					}
+				}
+				&__number {
+					font-size: 20px;
+				}
+			}
+		}
+
+		&__title {
+			font-size: 15px;
+
+			&:not(:last-child) {
+				margin-bottom: 16px;
+			}
+		}
+
+		&-contacts {
+			gap: 24px;
+		}
+
+		&-bottom {
+			&__content {
+				padding-top: 24px;
+				font-size: 13px;
+
+				.footer__row {
+					flex-direction: column;
+					flex-wrap: nowrap;
+					gap: 16px;
+				}
+
+				.payment-supports {
+					padding-top: 4px;
+				}
+			}
+		}
+
+		.payment-supports {
+			gap: 24px;
+		}
+	}
+}

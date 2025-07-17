@@ -1,0 +1,51 @@
+:root {
+	// base
+	--font-family-base: "Inter", sans-serif;
+	--font-family-base2: "Manrope", sans-serif;
+	--content-width: 1280px;
+	--header-content-width: 1344px;
+	--container-width: calc(var(--content-width) + (var(--container-offset) * 2));
+	--header-container-width: calc(var(--header-content-width) + (var(--header-container-offset) * 2));
+
+	// colors
+	--black-color: #000000;
+	--white-color: #FFFFFF;
+
+	--text-primary: #070707;
+	--text-secondary: #808185; //--surface-gray3
+	--text-caption: #B1B1B2;
+
+	--surface-bg: #F5F7FA;
+	--surface-brand: #FBC40A;
+	--surface-gray1: #030303;
+	--surface-gray2: #1E1E1E; //brand2
+	--surface-gray4: #D5D5D6;
+	--surface-gray5: #EAEAEB;
+	--surface-gray6: #F8F8F8;
+	--surface-red: #B22B29;
+	--surface-orange: #F7A039;
+	--surface-green: #41B941;
+
+	--shadow: 0 2px 16px 0 rgba(0, 0, 0, 0.04);
+
+	// fancybox
+	--fancybox-scrollbar-compensate: 17px;
+	--fancybox-bg: rgba(0, 0, 0, 0.7);
+
+	// transition
+	--transition: 0.2s ease-out;
+}
+@media (min-width: 992px) {
+	:root {
+		--container-offset: 110px;
+		--header-container-offset: 78px;
+		--fz: 13px;
+	}
+}
+/*
+@media (max-width: 991.98px) {
+	:root {
+		--container-offset: 16px;
+		--header-container-offset: 78px;
+	}
+}*/
