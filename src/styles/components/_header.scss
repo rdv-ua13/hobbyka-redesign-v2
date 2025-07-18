@@ -93,6 +93,7 @@
 			padding-right: 8px;
 			border: 1px solid var(--surface-gray4);
 			border-radius: 16px;
+			background-color: var(--white-color);
 		}
 		.input-wrapper {
 			display: flex;
@@ -296,6 +297,9 @@
 			.header-top {
 				display: none;
 			}
+		}
+		&:not(.scrolled) {
+			margin-bottom: -180px;
 		}
 	}
 

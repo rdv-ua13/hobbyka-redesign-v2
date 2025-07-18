@@ -1,6 +1,33 @@
     </main>
 
     <footer class="footer">
+        <div class="footer-item pre-footer">
+            <div class="container pre-footer__container">
+                <div class="pre-footer__item pre-footer__descr">
+                    <div class="pre-footer__descr-title h3">Получите наш дизайн-каталог 2025</div>
+                </div>
+                <div class="pre-footer__item pre-footer__act">
+                    <div class="pre-footer__subscribe">
+                        <form id="" method="" action="javascript:;">
+                            <div class="input-wrapper input-wrapper-split">
+                                <input
+                                        id=""
+                                        class="input-reset input"
+                                        type="text"
+                                        name=""
+                                        value=""
+                                        placeholder="Ваш e-mail или номер телефона"
+                                        autocomplete="off"
+                                >
+                                <button class="btn-reset btn btn-secondary" type="submit">
+                                    <span class="text-content">Подписаться</span>
+                                </button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
         <div class="footer-item footer-main">
             <div class="container">
                 <div class="footer-main__content">
@@ -9,19 +36,19 @@
                             <div class="ac">
                                 <div class="ac-header">
                                     <button class="btn-reset ac-trigger" type="button">
-                                        <span class="footer__title">Покупателям</span>
+                                        <span class="footer__title">популярные разделы</span>
                                     </button>
                                 </div>
                                 <div class="ac-panel">
                                     <div class="ac-content">
                                         <ul class="list-reset footer__list">
-                                            <li><a class="link" href="javascript:;">Оплата</a></li>
-                                            <li><a class="link" href="javascript:;">Доставка</a></li>
-                                            <li><a class="link" href="javascript:;">Сборка и монтаж</a></li>
-                                            <li><a class="link" href="javascript:;">Гарантия на продукцию</a></li>
-                                            <li><a class="link" href="javascript:;">Где посмотреть</a></li>
-                                            <li><a class="link" href="javascript:;">Материалы для скачивания</a></li>
-                                            <li><a class="link" href="javascript:;">Программа лояльности</a></li>
+                                            <li><a class="link" href="javascript:;">Скамейки</a></li>
+                                            <li><a class="link" href="javascript:;">Урны</a></li>
+                                            <li><a class="link" href="javascript:;">Навесы</a></li>
+                                            <li><a class="link" href="javascript:;">Дачная мебель</a></li>
+                                            <li><a class="link" href="javascript:;">Мебель для кафе</a></li>
+                                            <li><a class="link" href="javascript:;">Контейнерные площадки</a></li>
+                                            <li><a class="link" href="javascript:;">В наличии</a></li>
                                         </ul>
                                     </div>
                                 </div>
@@ -31,20 +58,19 @@
                             <div class="ac">
                                 <div class="ac-header">
                                     <button class="btn-reset ac-trigger" type="button">
-                                        <span class="footer__title">Компания «Хоббика»</span>
+                                        <span class="footer__title">О нас</span>
                                     </button>
                                 </div>
                                 <div class="ac-panel">
                                     <div class="ac-content">
                                         <ul class="list-reset footer__list">
                                             <li><a class="link" href="javascript:;">История компании</a></li>
-                                            <li><a class="link" href="javascript:;">Наше производство</a></li>
                                             <li><a class="link" href="javascript:;">Сертификаты</a></li>
-                                            <li><a class="link" href="javascript:;">Наши партнеры</a></li>
-                                            <li><a class="link" href="javascript:;">Отзывы и награды</a></li>
-                                            <li><a class="link" href="javascript:;">Пресса о нас</a></li>
+                                            <li><a class="link" href="javascript:;">Наше производство</a></li>
                                             <li><a class="link" href="javascript:;">Наши работы</a></li>
-                                            <li><a class="link" href="javascript:;">Контакты</a></li>
+                                            <li><a class="link" href="javascript:;">Отзывы и награды</a></li>
+                                            <li><a class="link" href="javascript:;">О нас говорят</a></li>
+                                            <li><a class="link" href="javascript:;">Партнеры</a></li>
                                         </ul>
                                     </div>
                                 </div>
@@ -65,35 +91,47 @@
                                             <li><a class="link" href="javascript:;">Гос. компаниям</a></li>
                                             <li><a class="link" href="javascript:;">Паркам</a></li>
                                             <li><a class="link" href="javascript:;">Застройщикам</a></li>
-                                            <li><a class="link" href="javascript:;">Пароектировщикам / Архитекторам</a></li>
-                                            <li><a class="link" href="javascript:;">Производство урн</a></li>
+                                            <li><a class="link" href="javascript:;">Дизайнерам / Архитекторам</a></li>
+                                            <li><a class="link" href="javascript:;">Умный город</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="footer__column accordion-container accordion-footer">
+                            <div class="ac">
+                                <div class="ac-header">
+                                    <button class="btn-reset ac-trigger" type="button">
+                                        <span class="footer__title">Клиентам</span>
+                                    </button>
+                                </div>
+                                <div class="ac-panel">
+                                    <div class="ac-content">
+                                        <ul class="list-reset footer__list">
+                                            <li><a class="link" href="javascript:;">Оплата</a></li>
+                                            <li><a class="link" href="javascript:;">Доставка</a></li>
+                                            <li><a class="link" href="javascript:;">Сборка и монтаж</a></li>
+                                            <li><a class="link" href="javascript:;">Гарантия</a></li>
+                                            <li><a class="link" href="javascript:;">Примеры работ</a></li>
+                                            <li><a class="link" href="javascript:;">Документация</a></li>
+                                            <li><a class="link" href="javascript:;">Прайс</a></li>
                                         </ul>
                                     </div>
                                 </div>
                             </div>
                         </div>
                         <div class="footer__column">
-                            <div class="footer__title">Нужна помощь?</div>
+                            <div class="footer__title">Связаться с нами</div>
 
                             <div class="footer-contacts">
                                 <div class="footer-contacts__tel">
-                                    <a class="footer-contacts__number" href="tel:+88003333778">8 800 333-37-78</a>
-                                    <span class="footer-contacts__tel-caption">Бесплатно по России</span>
+                                    <a class="footer-contacts__number" href="tel:+74956467094">+7 495 646-70-94</a>
+                                    <a class="footer-contacts__number" href="tel:+74952480318">+7 495 248-03-18</a>
+                                    <a class="footer-contacts__number footer-contacts__email" href="mailto:zakaz@hobbyka.ru">zakaz@hobbyka.ru</a>
                                 </div>
                                 <div class="social">
-                                    <div class="social__title footer__title">Мы в соцсетях</div>
+                                    <div class="social__title footer__title">Напишите в соцсетях</div>
                                     <ul class="list-reset social__list">
-                                        <li>
-                                            <a
-                                                    href="javascript:;"
-                                                    target="_blank"
-                                                    aria-label="Наша страничка в Youtube"
-                                            >
-                                                <svg class="icon icon-fill">
-                                                    <use href="img/soc-yt.svg#soc-yt"></use>
-                                                </svg>
-                                            </a>
-                                        </li>
                                         <li>
                                             <a
                                                     href="javascript:;"
@@ -101,7 +139,7 @@
                                                     aria-label="Наша страничка в Вконтакте"
                                             >
                                                 <svg class="icon icon-fill">
-                                                    <use href="img/soc-vk.svg#soc-vk"></use>
+                                                    <use href="img/sprite.svg#soc-vk"></use>
                                                 </svg>
                                             </a>
                                         </li>
@@ -109,41 +147,37 @@
                                             <a
                                                     href="javascript:;"
                                                     target="_blank"
-                                                    aria-label="Наша страничка в Pinterest"
+                                                    aria-label="Наша страничка в Одноклассники"
                                             >
                                                 <svg class="icon icon-fill">
-                                                    <use href="img/soc-pt.svg#soc-pt"></use>
+                                                    <use href="img/sprite.svg#soc-ok"></use>
+                                                </svg>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a
+                                                    href="javascript:;"
+                                                    target="_blank"
+                                                    aria-label="Наша страничка в Telegram"
+                                            >
+                                                <svg class="icon icon-fill">
+                                                    <use href="img/sprite.svg#soc-tg"></use>
+                                                </svg>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a
+                                                    href="javascript:;"
+                                                    target="_blank"
+                                                    aria-label="Наша страничка в Youtube"
+                                            >
+                                                <svg class="icon icon-fill">
+                                                    <use href="img/sprite.svg#soc-yt"></use>
                                                 </svg>
                                             </a>
                                         </li>
                                     </ul>
                                 </div>
-                                <ul class="list-reset social-extra">
-                                    <li>
-                                        <a
-                                                href="javascript:;"
-                                                target="_blank"
-                                                aria-label="Наша страничка в Telegram"
-                                        >
-                                            <svg class="icon icon-fill">
-                                                <use href="img/sprite.svg#soc-tg"></use>
-                                            </svg>
-                                            <span>Канал в Telegram</span>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a
-                                                href="javascript:;"
-                                                target="_blank"
-                                                aria-label="Наша страничка в Telegram"
-                                        >
-                                            <svg class="icon icon-fill">
-                                                <use href="img/sprite.svg#soc-tg"></use>
-                                            </svg>
-                                            <span>Канал «Умный город»</span>
-                                        </a>
-                                    </li>
-                                </ul>
                             </div>
                         </div>
                     </div>
@@ -154,61 +188,64 @@
         <div class="footer-item footer-bottom">
             <div class="container">
                 <div class="footer-bottom__content">
-                    <div class="footer__row">
-                        <div class="footer__rights">&#169; <?= date('Y'); ?> «Хоббика»</div>
-                        <a class="privacy-policy" href="javascript:;">Политика обработки персональных данных</a>
-                        <a class="privacy-policy" href="javascript:;">Политика конфиденциальности</a>
-                        <ul class="list-reset payment-supports">
-                            <li>
-                                <a href="javascript:;" target="_blank">
-                                    <img
-                                            loading="lazy"
-                                            class="image"
-                                            src="img/ps-mir.svg"
-                                            width="54"
-                                            height="13"
-                                            alt="Мы принимаем к оплате Мир"
-                                    >
-                                </a>
-                            </li>
-                            <li>
-                                <a href="javascript:;" target="_blank">
-                                    <img
-                                            loading="lazy"
-                                            class="image"
-                                            src="img/ps-maestro.svg"
-                                            width="33"
-                                            height="21"
-                                            alt="Мы принимаем к оплате Maestro"
-                                    >
-                                </a>
-                            </li>
-                            <li>
-                                <a href="javascript:;" target="_blank">
-                                    <img
-                                            loading="lazy"
-                                            class="image"
-                                            src="img/ps-visa.svg"
-                                            width="44"
-                                            height="15"
-                                            alt="Мы принимаем к оплате Visa"
-                                    >
-                                </a>
-                            </li>
-                        </ul>
+                    <a class="footer-logo logo" href="javascript:;">
+                        <img
+                                loading="lazy"
+                                class="image"
+                                src="img/logo-light.svg#logo-light"
+                                width="135"
+                                height="30"
+                                alt="Хоббика - производство садовой и парковой мебели!"
+                        >
+                    </a>
+
+                    <div class="footer-bottom__info">
+                        ООО&nbsp;"Хоббика"<br><br>
+                        Юридический&nbsp;адрес:&nbsp;111558,&nbsp;г.&nbsp;Москва,&nbsp;ул.&nbsp;Молостовых&nbsp;14А<br><br>
+                        Адрес&nbsp;для&nbsp;корреспонденции:&nbsp;111394,&nbsp;г.&nbsp;Москва,&nbsp;а/я&nbsp;2<br><br>
+                        Физический&nbsp;адрес:&nbsp;111558,&nbsp;г.&nbsp;Москва,&nbsp;ул.&nbsp;Молостовых&nbsp;14А<br>
                     </div>
-                    <div class="footer__row">
-                        <p class="fz-caption caption-color">
-                            Обращаем Ваше внимание на то, что вся представленная на сайте информация носит информационный характер и ни при каких условиях не является офертой, определяемой положениями Гражданского кодекса Российской Федерации.<br>
-                            Опубликованная на страницах данного сайта информация, продукция и её изображения являются объектом прав интеллектуальной собственности ООО «Хоббика».<br>
-                            Использование изображений, фотографий и текстов, а также прочей информации с сайта, возможно только с письменного согласия ООО «Хоббика». Случаи незаконного использования информации будут преследоваться по закону.<br>
-                            Изображение товара на сайте может отличаться от фактического изображения товара.
-                        </p>
+                    <div class="footer-bottom__info">
+                        ИНН/КПП&nbsp;7720668789/772001001<br><br>
+                        ОКПО&nbsp;63646134<br><br>
+                        ОГРН&nbsp;1097746608189<br><br>
+                        Расчетный&nbsp;счет&nbsp;40702810138120012559<br>
+                    </div>
+                    <div class="footer-bottom__info">
+                        БИК&nbsp;044525225&nbsp;в&nbsp;ПАО&nbsp;"СБЕРБАНК РОССИИ"&nbsp;г.&nbsp;Москва<br><br>
+                        Корр.&nbsp;счет&nbsp;30101810400000000225<br><br>
+                        Генеральный&nbsp;директор:&nbsp;Артеменко&nbsp;Максим&nbsp;Анатольевич<br>
                     </div>
                 </div>
             </div>
         </div>
     </footer>
+
+    <div class="preloader">
+        <div class="preloader__inner">
+            <div class="preloader__icon"></div>
+            <div class="preloader__text">
+				<?/*<span>Подождите, идёт загрузка...</span>*/?>
+                <span>Версия разрабатывается...</span>
+            </div>
+        </div>
+    </div>
+    <script>
+        function loading(isShow = true, text) {
+            let $loading = $('.preloader');
+
+            $loading.find('.preloader__text span').text(text)
+
+            if(isShow) {
+                $loading.fadeIn(600);
+                $('body').css('overflow', 'hidden');
+            }
+            else {
+                $loading.fadeOut(600);
+                $('body').css('overflow', '');
+            }
+        }
+    </script>
 
 	<?/*php include($_SERVER["DOCUMENT_ROOT"] . "/build/" . "components/modals.php"); ?>
 

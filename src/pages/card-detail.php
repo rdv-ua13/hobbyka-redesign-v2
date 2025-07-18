@@ -821,7 +821,7 @@
                                                         <ul class="list-reset mini-slider__dots"></ul>
                                                     </div>
                                                     <div class="card__ar">
-                                                        <button class="btn-reset btn btn-primary-invert tooltip" type="button" data-tippy-content="AR">
+                                                        <button class="btn-reset btn tooltip" type="button" data-tippy-content="AR">
                                                             <svg class="icon icon-fill">
                                                                 <use href="img/sprite.svg#box-3d"></use>
                                                             </svg>
@@ -956,7 +956,7 @@
                                                         <span class="chip chip-hit-star">Хит</span>
                                                     </div>
                                                     <div class="card__ar">
-                                                        <button class="btn-reset btn btn-primary-invert tooltip" type="button" data-tippy-content="AR">
+                                                        <button class="btn-reset btn tooltip" type="button" data-tippy-content="AR">
                                                             <svg class="icon icon-fill">
                                                                 <use href="img/sprite.svg#box-3d"></use>
                                                             </svg>
@@ -1085,7 +1085,7 @@
                                                         <span class="chip chip-hit-star">Хит</span>
                                                     </div>
                                                     <div class="card__ar">
-                                                        <button class="btn-reset btn btn-primary-invert tooltip" type="button" data-tippy-content="AR">
+                                                        <button class="btn-reset btn tooltip" type="button" data-tippy-content="AR">
                                                             <svg class="icon icon-fill">
                                                                 <use href="img/sprite.svg#box-3d"></use>
                                                             </svg>
@@ -1211,7 +1211,7 @@
                                                         <ul class="list-reset mini-slider__dots"></ul>
                                                     </div>
                                                     <div class="card__ar">
-                                                        <button class="btn-reset btn btn-primary-invert tooltip" type="button" data-tippy-content="AR">
+                                                        <button class="btn-reset btn tooltip" type="button" data-tippy-content="AR">
                                                             <svg class="icon icon-fill">
                                                                 <use href="img/sprite.svg#box-3d"></use>
                                                             </svg>
@@ -1343,7 +1343,7 @@
                                                         <ul class="list-reset mini-slider__dots"></ul>
                                                     </div>
                                                     <div class="card__ar">
-                                                        <button class="btn-reset btn btn-primary-invert tooltip" type="button" data-tippy-content="AR">
+                                                        <button class="btn-reset btn tooltip" type="button" data-tippy-content="AR">
                                                             <svg class="icon icon-fill">
                                                                 <use href="img/sprite.svg#box-3d"></use>
                                                             </svg>
@@ -1478,7 +1478,7 @@
                                                         <span class="chip chip-hit-star">Хит</span>
                                                     </div>
                                                     <div class="card__ar">
-                                                        <button class="btn-reset btn btn-primary-invert tooltip" type="button" data-tippy-content="AR">
+                                                        <button class="btn-reset btn tooltip" type="button" data-tippy-content="AR">
                                                             <svg class="icon icon-fill">
                                                                 <use href="img/sprite.svg#box-3d"></use>
                                                             </svg>
@@ -1607,7 +1607,7 @@
                                                         <span class="chip chip-hit-star">Хит</span>
                                                     </div>
                                                     <div class="card__ar">
-                                                        <button class="btn-reset btn btn-primary-invert tooltip" type="button" data-tippy-content="AR">
+                                                        <button class="btn-reset btn tooltip" type="button" data-tippy-content="AR">
                                                             <svg class="icon icon-fill">
                                                                 <use href="img/sprite.svg#box-3d"></use>
                                                             </svg>

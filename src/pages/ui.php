@@ -404,7 +404,7 @@
 
                 <div class="ui-row">
                     <div class="ui-title">
-                        <div class="fz-subtitle">size L (default)</div>
+                        <div class="fz-subtitle">default</div>
                     </div>
                     <div class="ui-tooltip-set">
                         <span class="tooltip" data-tippy-content="class='btn-reset btn btn-primary'">
@@ -433,9 +433,74 @@
                             </button>
                             <!--end ui content-->
                         </span>
-                        <span class="tooltip" data-tippy-content="class='btn-reset btn btn-light'">
+                        <span class="tooltip" data-tippy-content="class='btn-reset btn btn-extra'">
                             <!--start ui content-->
-                            <button class="btn-reset btn btn-light">
+                            <button class="btn-reset btn btn-extra">
+                                <svg class="icon icon-fill">
+                                    <use href="img/sprite.svg#catalog"></use>
+                                </svg>
+                                <span class="text-content">Кнопка</span>
+                                <svg class="icon icon-fill">
+                                    <use href="img/sprite.svg#catalog"></use>
+                                </svg>
+                            </button>
+                            <!--end ui content-->
+                        </span>
+                        <span class="tooltip" data-tippy-content="class='btn-reset btn btn-extra-2'">
+                            <!--start ui content-->
+                            <button class="btn-reset btn btn-extra-2">
+                                <svg class="icon icon-fill">
+                                    <use href="img/sprite.svg#catalog"></use>
+                                </svg>
+                                <span class="text-content">Кнопка</span>
+                                <svg class="icon icon-fill">
+                                    <use href="img/sprite.svg#catalog"></use>
+                                </svg>
+                            </button>
+                            <!--end ui content-->
+                        </span>
+                        <span class="tooltip" data-tippy-content="class='btn-reset btn btn-transparent'">
+                            <!--start ui content-->
+                            <button class="btn-reset btn btn-transparent">
+                                <svg class="icon icon-fill">
+                                    <use href="img/sprite.svg#catalog"></use>
+                                </svg>
+                                <span class="text-content">Кнопка</span>
+                                <svg class="icon icon-fill">
+                                    <use href="img/sprite.svg#catalog"></use>
+                                </svg>
+                            </button>
+                            <!--end ui content-->
+                        </span>
+                        <span class="tooltip" data-tippy-content="class='btn-reset btn btn-transparent-bordered'">
+                            <!--start ui content-->
+                            <button class="btn-reset btn btn-transparent-bordered">
+                                <svg class="icon icon-fill">
+                                    <use href="img/sprite.svg#catalog"></use>
+                                </svg>
+                                <span class="text-content">Кнопка</span>
+                                <svg class="icon icon-fill">
+                                    <use href="img/sprite.svg#catalog"></use>
+                                </svg>
+                            </button>
+                            <!--end ui content-->
+                        </span>
+                        <span class="tooltip" data-tippy-content="class='btn-reset btn btn-transparent-bordered-2'">
+                            <!--start ui content-->
+                            <button class="btn-reset btn btn-transparent-bordered-2">
+                                <svg class="icon icon-fill">
+                                    <use href="img/sprite.svg#catalog"></use>
+                                </svg>
+                                <span class="text-content">Кнопка</span>
+                                <svg class="icon icon-fill">
+                                    <use href="img/sprite.svg#catalog"></use>
+                                </svg>
+                            </button>
+                            <!--end ui content-->
+                        </span>
+                        <span class="tooltip" data-tippy-content="class='btn-reset btn btn-shapeless'">
+                            <!--start ui content-->
+                            <button class="btn-reset btn btn-shapeless">
                                 <svg class="icon icon-fill">
                                     <use href="img/sprite.svg#catalog"></use>
                                 </svg>
@@ -451,101 +516,7 @@
 
                 <div class="ui-row">
                     <div class="ui-title">
-                        <div class="fz-subtitle">size M (on mobile)</div>
-                    </div>
-                    <div class="ui-tooltip-set">
-                        <span class="tooltip" data-tippy-content="class='btn-reset btn btn-md btn-primary'">
-                            <!--start ui content-->
-                            <button class="btn-reset btn btn-md btn-primary">
-                                <svg class="icon icon-fill">
-                                    <use href="img/sprite.svg#catalog"></use>
-                                </svg>
-                                <span class="text-content">Кнопка</span>
-                                <svg class="icon icon-fill">
-                                    <use href="img/sprite.svg#catalog"></use>
-                                </svg>
-                            </button>
-                            <!--end ui content-->
-                        </span>
-                        <span class="tooltip" data-tippy-content="class='btn-reset btn btn-md btn-secondary'">
-                            <!--start ui content-->
-                            <button class="btn-reset btn btn-md btn-secondary">
-                                <svg class="icon icon-fill">
-                                    <use href="img/sprite.svg#catalog"></use>
-                                </svg>
-                                <span class="text-content">Кнопка</span>
-                                <svg class="icon icon-fill">
-                                    <use href="img/sprite.svg#catalog"></use>
-                                </svg>
-                            </button>
-                            <!--end ui content-->
-                        </span>
-                        <span class="tooltip" data-tippy-content="class='btn-reset btn btn-md btn-light'">
-                            <!--start ui content-->
-                            <button class="btn-reset btn btn-md btn-light">
-                                <svg class="icon icon-fill">
-                                    <use href="img/sprite.svg#catalog"></use>
-                                </svg>
-                                <span class="text-content">Кнопка</span>
-                                <svg class="icon icon-fill">
-                                    <use href="img/sprite.svg#catalog"></use>
-                                </svg>
-                            </button>
-                            <!--end ui content-->
-                        </span>
-                    </div>
-                </div>
-
-                <div class="ui-row">
-                    <div class="ui-title">
-                        <div class="fz-subtitle">size S (on mobile)</div>
-                    </div>
-                    <div class="ui-tooltip-set">
-                        <span class="tooltip" data-tippy-content="class='btn-reset btn btn-sm btn-primary'">
-                            <!--start ui content-->
-                            <button class="btn-reset btn btn-sm btn-primary">
-                                <svg class="icon icon-fill">
-                                    <use href="img/sprite.svg#catalog"></use>
-                                </svg>
-                                <span class="text-content">Кнопка</span>
-                                <svg class="icon icon-fill">
-                                    <use href="img/sprite.svg#catalog"></use>
-                                </svg>
-                            </button>
-                            <!--end ui content-->
-                        </span>
-                        <span class="tooltip" data-tippy-content="class='btn-reset btn btn-sm btn-secondary'">
-                            <!--start ui content-->
-                            <button class="btn-reset btn btn-sm btn-secondary">
-                                <svg class="icon icon-fill">
-                                    <use href="img/sprite.svg#catalog"></use>
-                                </svg>
-                                <span class="text-content">Кнопка</span>
-                                <svg class="icon icon-fill">
-                                    <use href="img/sprite.svg#catalog"></use>
-                                </svg>
-                            </button>
-                            <!--end ui content-->
-                        </span>
-                        <span class="tooltip" data-tippy-content="class='btn-reset btn btn-sm btn-light'">
-                            <!--start ui content-->
-                            <button class="btn-reset btn btn-sm btn-light">
-                                <svg class="icon icon-fill">
-                                    <use href="img/sprite.svg#catalog"></use>
-                                </svg>
-                                <span class="text-content">Кнопка</span>
-                                <svg class="icon icon-fill">
-                                    <use href="img/sprite.svg#catalog"></use>
-                                </svg>
-                            </button>
-                            <!--end ui content-->
-                        </span>
-                    </div>
-                </div>
-
-                <div class="ui-row">
-                    <div class="ui-title">
-                        <div class="fz-subtitle">alternative buttons</div>
+                        <div class="fz-subtitle">other buttons</div>
                     </div>
                     <div class="ui-tooltip-set">
                         <span class="tooltip" data-tippy-content="class='btn-reset btn btn-header'">

@@ -326,33 +326,33 @@
                         </div>
                     </div>*/?>
                     <div class="header-categories__list">
-                        <button class="btn-reset btn header-categories__item" type="button">
+                        <a class="btn-reset btn header-categories__item" href="javascript:;">
                             <span class="text-content">Скамейки</span>
-                        </button>
-                        <button class="btn-reset btn header-categories__item" type="button">
+                        </a>
+                        <a class="btn-reset btn header-categories__item" href="javascript:;">
                             <span class="text-content">Урны</span>
-                        </button>
-                        <button class="btn-reset btn header-categories__item" type="button">
+                        </a>
+                        <a class="btn-reset btn header-categories__item" href="javascript:;">
                             <span class="text-content">навесы</span>
-                        </button>
-                        <button class="btn-reset btn header-categories__item" type="button">
+                        </a>
+                        <a class="btn-reset btn header-categories__item" href="javascript:;">
                             <span class="text-content">детские игровые</span>
-                        </button>
-                        <button class="btn-reset btn header-categories__item" type="button">
+                        </a>
+                        <a class="btn-reset btn header-categories__item" href="javascript:;">
                             <span class="text-content">дачная мебель</span>
-                        </button>
-                        <button class="btn-reset btn header-categories__item" type="button">
+                        </a>
+                        <a class="btn-reset btn header-categories__item" href="javascript:;">
                             <span class="text-content">Мебель для кафе</span>
-                        </button>
-                        <button class="btn-reset btn header-categories__item" type="button">
+                        </a>
+                        <a class="btn-reset btn header-categories__item" href="javascript:;">
                             <span class="text-content">Контейнерные площадки</span>
-                        </button>
-                        <button class="btn-reset btn header-categories__item" type="button">
+                        </a>
+                        <a class="btn-reset btn header-categories__item" href="javascript:;">
                             <span class="text-content">в наличии</span>
-                        </button>
-                        <button class="btn-reset btn header-categories__item" type="button">
+                        </a>
+                        <a class="btn-reset btn header-categories__item" href="javascript:;">
                             <span class="text-content">Еще...</span>
-                        </button>
+                        </a>
                     </div>
                 </div>
             </div>
