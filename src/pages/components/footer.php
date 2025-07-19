@@ -225,7 +225,6 @@
         <div class="preloader__inner">
             <div class="preloader__icon"></div>
             <div class="preloader__text">
-				<?/*<span>Подождите, идёт загрузка...</span>*/?>
                 <span>Версия разрабатывается...</span>
             </div>
         </div>
