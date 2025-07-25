@@ -279,7 +279,7 @@ const watchFiles = () => {
     watch(path.watch.svg, svgSprites);
     watch(path.watch.resources, resources);
     watch(`${path.src.img}/**/**.{jpg,jpeg,png,svg}`, images);
-    watch(`${path.src.img}/**/**.{jpg,jpeg,png}`, webpImages);
+    /*watch(`${path.src.img}/!**!/!**.{jpg,jpeg,png}`, webpImages);*/
 };
 
 const toProd = (done) => {
@@ -291,4 +291,4 @@ exports.default = series(clean, cacheBuild, phpBuild, cssBuild, includedJsBuild,
 
 exports.svg = series(clean, cacheBuild, phpBuild, svgPreparation, watchFiles);
 
-exports.build = series(toProd, clean, cacheBuild, phpBuild,  cssBuild, libsJsBuild, mainJsBuild, resources, images, /*webpImages,*/ svgSprites, watchFiles);
+exports.build = series(toProd, clean, cacheBuild, phpBuild,  cssBuild, libsJsBuild, mainJsBuild, resources, images, webpImages, svgSprites, watchFiles);

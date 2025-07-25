@@ -49,17 +49,19 @@
                         <span class="ui-color__item tooltip" data-tippy-content="--surface-brand" style="background-color: var(--surface-brand);"></span>
                         <span class="ui-color__item tooltip" data-tippy-content="--surface-gray1" style="background-color: var(--surface-gray1);"></span>
                         <span class="ui-color__item tooltip" data-tippy-content="--surface-gray2" style="background-color: var(--surface-gray2);"></span>
+                        <span class="ui-color__item tooltip" data-tippy-content="--surface-gray3" style="background-color: var(--surface-gray3);"></span>
                         <span class="ui-color__item tooltip" data-tippy-content="--surface-gray4" style="background-color: var(--surface-gray4);"></span>
                         <span class="ui-color__item tooltip" data-tippy-content="--surface-gray5" style="background-color: var(--surface-gray5);"></span>
                         <span class="ui-color__item light tooltip" data-tippy-content="--surface-gray6" style="background-color: var(--surface-gray6);"></span>
                         <span class="ui-color__item tooltip" data-tippy-content="--surface-red" style="background-color: var(--surface-red);"></span>
                         <span class="ui-color__item tooltip" data-tippy-content="--surface-orange" style="background-color: var(--surface-orange);"></span>
                         <span class="ui-color__item tooltip" data-tippy-content="--surface-green" style="background-color: var(--surface-green);"></span>
+                        <span class="ui-color__item tooltip" data-tippy-content="--surface-green2" style="background-color: var(--surface-green2);"></span>
                     </div>
                 </div>
             </div>
 
-            <div class="ui-section">
+            <?/*<div class="ui-section">
                 <h3 class="h3 ui-title title-bold text-center">Gaps</h3>
 
                 <div class="ui-row">
@@ -84,10 +86,10 @@
                         </pre>
                     </div>
                 </div>
-            </div>
+            </div>*/?>
 
             <div class="ui-section">
-                <h3 class="h3 ui-title title-bold text-center">Icons</h3>
+                <h3 class="h3 ui-title title-bold text-center">Icons*</h3>
 
                 <div class="ui-row">
                     <div class="ui-title">
@@ -519,17 +521,6 @@
                         <div class="fz-subtitle">other buttons</div>
                     </div>
                     <div class="ui-tooltip-set">
-                        <span class="tooltip" data-tippy-content="class='btn-reset btn btn-header'">
-                            <!--start ui content-->
-                            <button class="btn-reset btn btn-header">
-                                <span class="btn-header__count">16</span>
-                                <svg class="icon icon-fill">
-                                    <use href="img/sprite.svg#filled-heart"></use>
-                                </svg>
-                                <span class="text-content">Избранное</span>
-                            </button>
-                            <!--end ui content-->
-                        </span>
                         <span class="tooltip" data-tippy-content="class='btn-reset btn btn-square'">
                             <!--start ui content-->
                             <button class="btn-reset btn btn-square">
@@ -539,35 +530,50 @@
                             </button>
                             <!--end ui content-->
                         </span>
+                    </div>
+                </div>
+            </div>
 
-                        <?/*
-                        <span class="tooltip" data-tippy-content="class='btn-reset btn btn-cart'">
+            <div class="ui-section">
+                <h3 class="h3 ui-title title-bold text-center">Links*</h3>
+
+                <div class="ui-row">
+                    <div class="ui-tooltip-set">
+                        <span class="tooltip" data-tippy-content="class='link link-primary' (default)">
                             <!--start ui content-->
-                            <button class="btn-reset btn btn-cart">
-                                <svg class="icon icon-fill">
-                                    <use href="img/sprite.svg#cart-add"></use>
-                                </svg>
-                            </button>
+                            <a class="link link-primary" href="javascript:;">Ссылка</a>
                             <!--end ui content-->
                         </span>
-                        <span class="tooltip" data-tippy-content="class='btn-reset btn btn-icon'">
+                        <span class="tooltip" data-tippy-content="class='link link-invert'">
                             <!--start ui content-->
-                            <button class="btn-reset btn btn-icon">
-                                <svg class="icon icon-fill">
-                                    <use href="img/sprite.svg#filled-tag-cross"></use>
-                                </svg>
-                            </button>
+                            <a class="link link-invert" href="javascript:;">Витамины и добавки</a>
                             <!--end ui content-->
                         </span>
-                        <span class="tooltip" data-tippy-content="class='btn-reset btn btn-play'">
+                        <span class="tooltip" data-tippy-content="class='link link-secondary'">
                             <!--start ui content-->
-                            <button class="btn-reset btn btn-play">
-                                <svg class="icon icon-fill">
-                                    <use href="img/sprite.svg#play"></use>
-                                </svg>
-                            </button>
+                            <a class="link link-secondary" href="javascript:;">Витамины и добавки</a>
                             <!--end ui content-->
-                        </span>*/?>
+                        </span>
+                        <span class="tooltip" data-tippy-content="class='link link-tdu link-primary'">
+                            <!--start ui content-->
+                            <a class="link link-tdu link-primary" href="javascript:;">Витамины и добавки</a>
+                            <!--end ui content-->
+                        </span>
+                        <span class="tooltip" data-tippy-content="class='link link-tdu link-dashed link-primary'">
+                            <!--start ui content-->
+                            <a class="link link-tdu link-dashed link-primary" href="javascript:;">Витамины и добавки</a>
+                            <!--end ui content-->
+                        </span>
+                        <span class="tooltip" data-tippy-content="class='link link-primary' (default)">
+                            <!--start ui content-->
+                            <a class="link link-primary link-dropdown" href="javascript:;">
+                                <span class="text-content">Витамины и добавки</span>
+                                <svg class="icon icon-fill">
+                                    <use href="img/sprite.svg#chevron-down"></use>
+                                </svg>
+                            </a>
+                            <!--end ui content-->
+                        </span>
                     </div>
                 </div>
             </div>
@@ -577,163 +583,83 @@
 
                 <div class="ui-row">
                     <div class="ui-title">
-                        <div class="fz-subtitle">chip</div>
-                    </div>
-                    <div class="ui-tooltip-set">
-                        <span class="tooltip" data-tippy-content="class='chip'">
-                            <!--start ui content-->
-                            <span class="chip">–15%</span>
-                            <!--end ui content-->
-                        </span>
-                        <span class="tooltip" data-tippy-content="class='chip chip-hit'">
-                            <!--start ui content-->
-                            <span class="chip chip-hit">Хит</span>
-                            <!--end ui content-->
-                        </span>
-                        <span class="tooltip" data-tippy-content="class='chip chip-hit-star'">
-                            <!--start ui content-->
-                            <span class="chip chip-hit-star">Хит</span>
-                            <!--end ui content-->
-                        </span>
-                    </div>
-                </div>
-
-                <div class="ui-row">
-                    <div class="ui-title">
                         <div class="fz-subtitle">tag default</div>
                     </div>
                     <div class="ui-tooltip-set">
-                        <div class="slider-out">
-                            <div class="tag-bar">
-                                <div class="tag-bar__list">
-                                    <div class="tag-bar__item">
-                                        <label class="tag-wrapper">
-                                            <input
-                                                    class="visually-hidden"
-                                                    type="checkbox"
-                                                    name="UI[TAGS][]"
-                                                    value=""
-                                            >
-                                            <span class="tag tag--yellow">
-                                                <span>Текст</span>
-                                            </span>
-                                        </label>
-                                    </div>
-                                    <div class="tag-bar__item">
-                                        <label class="tag-wrapper">
-                                            <input
-                                                    class="visually-hidden"
-                                                    type="checkbox"
-                                                    name="UI[TAGS][]"
-                                                    value=""
-                                            >
-                                            <span class="tag tag--yellow">
-                                                <span>Текст</span>
-                                            </span>
-                                        </label>
-                                    </div>
-                                    <div class="tag-bar__item">
-                                        <label class="tag-wrapper">
-                                            <input
-                                                    class="visually-hidden"
-                                                    type="checkbox"
-                                                    name="UI[TAGS][]"
-                                                    value=""
-                                            >
-                                            <span class="tag tag--border">
-                                                <span>Текст</span>
-                                            </span>
-                                        </label>
-                                    </div>
-                                    <div class="tag-bar__item">
-                                        <label class="tag-wrapper">
-                                            <input
-                                                    class="visually-hidden"
-                                                    type="checkbox"
-                                                    name="UI[TAGS][]"
-                                                    value=""
-                                                    checked
-                                            >
-                                            <span class="tag tag--border">
-                                                <span>Текст</span>
-                                            </span>
-                                        </label>
-                                    </div>
-                                    <div class="tag-bar__item">
-                                        <label class="tag-wrapper">
-                                            <input
-                                                    class="visually-hidden"
-                                                    type="checkbox"
-                                                    name="UI[TAGS][]"
-                                                    value=""
-                                            >
-                                            <span class="tag">
-                                                <span>Текст</span>
-                                            </span>
-                                        </label>
-                                    </div>
-                                    <div class="tag-bar__item">
-                                        <label class="tag-wrapper">
-                                            <input
-                                                    class="visually-hidden"
-                                                    type="checkbox"
-                                                    name="UI[TAGS][]"
-                                                    value=""
-                                            >
-                                            <span class="tag">
-                                                <span>Текст</span>
-                                            </span>
-                                        </label>
-                                    </div>
-                                    <div class="tag-bar__item">
-                                        <label class="tag-wrapper">
-                                            <input
-                                                    class="visually-hidden"
-                                                    type="checkbox"
-                                                    name="UI[TAGS][]"
-                                                    value=""
-                                            >
-                                            <span class="tag">
-                                                <span>Текст</span>
-                                            </span>
-                                        </label>
-                                    </div>
-                                    <div class="tag-bar__item">
-                                        <label class="tag-wrapper">
-                                            <input
-                                                    class="visually-hidden"
-                                                    type="checkbox"
-                                                    name="UI[TAGS][]"
-                                                    value=""
-                                            >
-                                            <span class="tag tag--yellow">
-                                                <span>Текст</span>
-                                            </span>
-                                        </label>
-                                    </div>
-                                    <div class="tag-bar__item">
-                                        <label class="tag-wrapper">
-                                            <input
-                                                    class="visually-hidden"
-                                                    type="checkbox"
-                                                    name="UI[TAGS][]"
-                                                    value=""
-                                            >
-                                            <span class="tag tag--green">
-                                                <svg class="icon icon-fill icon-md">
-                                                    <use href="img/sprite.svg#sale"></use>
-                                                </svg>
-                                                <span>Текст</span>
-                                            </span>
-                                        </label>
-                                    </div>
-                                </div>
-                            </div>
+                        <div class="tag-bar">
+                            <ul class="list-reset tag-bar__list">
+                                <li class="tag-bar__item">
+                                    <label class="tag-wrapper">
+                                        <input
+                                                class="visually-hidden"
+                                                type="checkbox"
+                                                name="UI[TAGS][]"
+                                                value=""
+                                        >
+                                        <span class="tag  tooltip" data-tippy-content="class='tag'">
+                                            <span class="text-content">Текст</span>
+                                        </span>
+                                    </label>
+                                </li>
+                                <li class="tag-bar__item">
+                                    <label class="tag-wrapper">
+                                        <input
+                                                class="visually-hidden"
+                                                type="checkbox"
+                                                name="UI[TAGS][]"
+                                                value=""
+                                        >
+                                        <span class="tag tag--sm  tooltip" data-tippy-content="class='tag tag--sm'">
+                                            <span class="text-content">Текст</span>
+                                        </span>
+                                    </label>
+                                </li>
+                                <li class="tag-bar__item">
+                                    <label class="tag-wrapper">
+                                        <input
+                                                class="visually-hidden"
+                                                type="checkbox"
+                                                name="UI[TAGS][]"
+                                                value=""
+                                        >
+                                        <span class="tag tag--yellow  tooltip" data-tippy-content="class='tag tag--yellow'">
+                                            <span class="text-content">Текст</span>
+                                        </span>
+                                    </label>
+                                </li>
+                                <li class="tag-bar__item">
+                                    <label class="tag-wrapper">
+                                        <input
+                                                class="visually-hidden"
+                                                type="checkbox"
+                                                name="UI[TAGS][]"
+                                                value=""
+                                        >
+                                        <span class="tag tag--red  tooltip" data-tippy-content="class='tag tag--red'">
+                                            <span class="text-content">Текст</span>
+                                        </span>
+                                    </label>
+                                </li>
+                                <li class="tag-bar__item">
+                                    <label class="tag-wrapper">
+                                        <input
+                                                class="visually-hidden"
+                                                type="checkbox"
+                                                name="UI[TAGS][]"
+                                                value=""
+                                                checked
+                                        >
+                                        <span class="tag tag--green  tooltip" data-tippy-content="class='tag tag--green'">
+                                            <span class="text-content">Текст</span>
+                                        </span>
+                                    </label>
+                                </li>
+                            </ul>
                         </div>
                     </div>
                 </div>
 
-                <div class="ui-row">
+				<?/*<div class="ui-row">
                     <div class="ui-title">
                         <div class="fz-subtitle">tag slider</div>
                     </div>
@@ -865,55 +791,11 @@
                             </div>
                         </div>
                     </div>
-                </div>
+                </div>*/?>
             </div>
 
             <div class="ui-section">
-                <h3 class="h3 ui-title title-bold text-center">Links</h3>
-
-                <div class="ui-row">
-                    <div class="ui-tooltip-set">
-                        <span class="tooltip" data-tippy-content="class='link link-primary' (default)">
-                            <!--start ui content-->
-                            <a class="link link-primary" href="javascript:;">Витамины и добавки</a>
-                            <!--end ui content-->
-                        </span>
-                        <span class="tooltip" data-tippy-content="class='link link-invert'">
-                            <!--start ui content-->
-                            <a class="link link-invert" href="javascript:;">Витамины и добавки</a>
-                            <!--end ui content-->
-                        </span>
-                        <span class="tooltip" data-tippy-content="class='link link-secondary'">
-                            <!--start ui content-->
-                            <a class="link link-secondary" href="javascript:;">Витамины и добавки</a>
-                            <!--end ui content-->
-                        </span>
-                        <span class="tooltip" data-tippy-content="class='link link-tdu link-primary'">
-                            <!--start ui content-->
-                            <a class="link link-tdu link-primary" href="javascript:;">Витамины и добавки</a>
-                            <!--end ui content-->
-                        </span>
-                        <span class="tooltip" data-tippy-content="class='link link-tdu link-dashed link-primary'">
-                            <!--start ui content-->
-                            <a class="link link-tdu link-dashed link-primary" href="javascript:;">Витамины и добавки</a>
-                            <!--end ui content-->
-                        </span>
-                        <span class="tooltip" data-tippy-content="class='link link-primary' (default)">
-                            <!--start ui content-->
-                            <a class="link link-primary link-dropdown" href="javascript:;">
-                                <span class="text-content">Витамины и добавки</span>
-                                <svg class="icon icon-fill">
-                                    <use href="img/sprite.svg#chevron-down"></use>
-                                </svg>
-                            </a>
-                            <!--end ui content-->
-                        </span>
-                    </div>
-                </div>
-            </div>
-
-            <div class="ui-section">
-                <h3 class="h3 ui-title title-bold text-center">Fields</h3>
+                <h3 class="h3 ui-title title-bold text-center">Fields*</h3>
 
                 <div class="ui-row">
                     <div class="ui-title">
@@ -977,7 +859,7 @@
                     </div>
                 </div>
 
-                <div class="ui-row">
+                <?/*<div class="ui-row">
                     <div class="ui-title">
                         <div class="fz-subtitle">input flatpickr (date)</div>
                     </div>
@@ -997,35 +879,8 @@
                             <!--end ui content-->
                         </span>
                     </div>
-                </div>
+                </div>*/?>
             </div>
-
-            <?/*
-            <div class="ui-section">
-                <h3 class="h3 ui-title title-bold text-center">Content</h3>
-
-                <div class="ui-row">
-                    <div class="ui-title">
-                        <div class="fz-subtitle">card</div>
-                    </div>
-                    <div class="ui-tooltip-set">
-                        <span class="tooltip" data-tippy-content="class='card' (default)">
-                            <!--start ui content-->
-                            <span class="card card-info">
-                                <a class="card__view" href="javascript:;">
-                                    <img
-                                            loading="lazy"
-                                            class="image"
-                                            src="img/brand-1.png"
-                                            alt="Изображение блока"
-                                    >
-                                </a>
-                            </span>
-                            <!--end ui content-->
-                        </span>
-                    </div>
-                </div>
-            </div>*/?>
         </div>
 
         <br>

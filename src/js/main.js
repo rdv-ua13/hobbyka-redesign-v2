@@ -16,32 +16,32 @@ application.prototype.init = function () {
     this.initBasicSlider();
     /*this.initBasicTabSlider();*/
     this.initSliders();
-    this.initSticky();
-    this.initMiniSlider();
-    this.initSelect2();
-    this.initSelect2Unsearch();
-    this.initReadmore();
-    this.initClipboard();
+    /*this.initSticky()*/;
+    /*this.initMiniSlider();*/
+    /*this.initSelect2();*/
+    /*this.initSelect2Unsearch();*/
+    /*this.initReadmore();*/
+    /*this.initClipboard();*/
     this.initTooltips();
     this.initCardActTooltips();
     this.initInputSearch();
-    this.initHeaderInputSearch();
+    /*this.initHeaderInputSearch();*/
     /*this.initMaskedInput();*/
     this.initSwitchContent();
-    this.initNotification();
+    /*this.initNotification();*/
     /*this.initCatalogPriceSlider();*/
-    this.initCatalogSidebarFilter();
-    this.initCatalogSidebarApplyFilter();
-    this.initCatalogContentSort();
-    this.initContactsMap();
-    this.initBasicTabs();
-    this.initAccordion();
-    this.initFooterAccordion();
+    /*this.initCatalogSidebarFilter();*/
+    /*this.initCatalogSidebarApplyFilter();*/
+    /*this.initCatalogContentSort();*/
+    /*this.initContactsMap();*/
+    /*this.initBasicTabs();*/
+    /*this.initAccordion();*/
+    /*this.initFooterAccordion();*/
     this.initFancyBehavior();
-    this.initPasswordSwitcher();
+    /*this.initPasswordSwitcher();*/
     /*this.initDatepicker();*/
-    this.setCardProductMore();
-    this.initSmoothScrollTo();
+    /*this.setCardProductMore();*/
+    /*this.initSmoothScrollTo();*/
     this.initCartQuantity();
 };
 
@@ -213,29 +213,18 @@ application.prototype.initBasicSlider = function () {
     if ($('.basic-slider-wrap').length) {
         const slider = $('[data-basic-slider]');
         let basicSlider = null;
-        let spaceBetweenMobile = 16;
-        let spaceBetweenDesktop = 24;
+        let spaceBetween = 16;
 
         slider.each(function (i) {
             slider.eq(i).closest('.basic-slider-wrap').addClass('basic-slider-wrap-' + i);
-            if ($(this).is('[data-bs-gap-sm]')) {
-                spaceBetweenDesktop = 16;
-                spaceBetweenMobile = 12;
-            }
-
             const basicSliderSetting = {
                 slidesPerView: 'auto',
                 slidesPerGroup: 1,
-                spaceBetween: spaceBetweenMobile,
+                spaceBetween: spaceBetween,
                 direction: 'horizontal',
                 navigation: {
                     nextEl: '.basic-slider-wrap-' + i + ' .swiper-button-next',
                     prevEl: '.basic-slider-wrap-' + i + ' .swiper-button-prev',
-                },
-                breakpoints: {
-                    992: {
-                        spaceBetween: spaceBetweenDesktop
-                    },
                 }
             };
 
@@ -304,20 +293,29 @@ application.prototype.initSliders = function () {
         });
     }
 
-    if ($('.index-slider-wrap').length) {
-        const indexSliderDesktopSettings = new Swiper('.index-slider', {
-            slidesPerView: 1,
-            autoHeight: true,
-            effect: 'fade',
-            watchOverflow: true,
-            navigation: {
-                nextEl: '.index-slider-wrap .swiper-button-next',
-                prevEl: '.index-slider-wrap .swiper-button-prev',
-            },
-            pagination: {
-                el: '.index-slider .swiper-pagination',
-                clickable: true,
-            },
+    if ($('.index-slider').length) {
+        const slider = $('.index-slider');
+        let indexSlider = null;
+
+        slider.each(function (i) {
+            slider.eq(i).closest('.index-slider-wrap').addClass('index-slider-wrap-' + i);
+
+            const indexSliderSettings = {
+                slidesPerView: 1,
+                autoHeight: true,
+                effect: 'fade',
+                watchOverflow: true,
+                navigation: {
+                    nextEl: '.index-slider-wrap-' + i + ' .swiper-button-next',
+                    prevEl: '.index-slider-wrap-' + i + ' .swiper-button-prev',
+                },
+                pagination: {
+                    el: '.index-slider-wrap-' + i + ' .swiper-pagination',
+                    clickable: true,
+                },
+            }
+
+            indexSlider = new Swiper('.index-slider-wrap-' + i + ' .index-slider', indexSliderSettings);
         });
     }
 
@@ -1167,6 +1165,29 @@ application.prototype.initSmoothScrollTo = function () {
 // Initialization cart quantity
 application.prototype.initCartQuantity = function () {
     if ($('.cart-quantity').length) {
+        $('.cart-buy .cart-in').on("click", function() {
+            if(!$(this).hasClass('active')) {
+                $(this).addClass('active');
+                $(this).closest('.card-product').addClass('active');
+                $(this).closest('.cart-buy').find('.cart-quantity').removeClass('disabled');
+                $(this).closest('.cart-buy').find('.cart-quantity-btn--remove').addClass('selected');
+            } else {
+                $(this).removeClass('active');
+                $(this).closest('.card-product').removeClass('active');
+                $(this).closest('.cart-buy').find('.cart-quantity').addClass('disabled');
+                $(this).closest('.cart-buy').find('.cart-quantity-btn--remove').removeClass('selected');
+                $(this).closest('.cart-buy').find('input.cart-quantity-input').val(1);
+            }
+        });
+
+        $(document).on('click','.cart-quantity-btn--remove', function() {
+            if ($(this).hasClass('selected')) {
+                $(this).removeClass('selected');
+                $(this).closest('.cart-buy').find('.cart-in').removeClass('active');
+                $(this).closest('.cart-quantity').addClass('disabled');
+            }
+        });
+
         $(document).on('click', '.cart-quantity-btn', function(e) {
             let $button = $(this);
             let oldValue = $button.closest('.cart-quantity').find('input.cart-quantity-input').val();
@@ -1179,9 +1200,20 @@ application.prototype.initCartQuantity = function () {
 
             if($button.data('value') === 'qty-add') {
                 newVal = parseInt(oldValue) + mult;
+
+                if(newVal > 1) {
+                    $(this).closest('.cart-quantity').find('.cart-quantity-btn--remove').removeClass('selected');
+                } else {
+                    $(this).closest('.cart-quantity').find('.cart-quantity-btn--remove').addClass('selected');
+                }
             } else {
                 if (oldValue > 0) {
                     newVal = parseInt(oldValue) - mult;
+                    $(this).closest('.cart-quantity').find('.cart-quantity-btn--remove').removeClass('selected');
+
+                    if(oldValue > 1 && oldValue < 3) {
+                        $(this).closest('.cart-quantity').find('.cart-quantity-btn--remove').addClass('selected');
+                    }
                 } else {
                     newVal = 0;
                 }

@@ -17,7 +17,6 @@
 
 	--surface-bg: #F5F7FA;
 	--surface-brand: #FBC40A;
-	--surface-brand: #FBC40A;
 	--surface-gray1: #030303;
 	--surface-gray2: #1E1E1E; //brand2
 	--surface-gray3: #2B2D32;
@@ -28,11 +27,14 @@
 	--surface-orange: #F7A039;
 	--surface-yellow: #FAE74D;
 	--surface-green: #41B941;
+	--surface-green2: #52C652;
 
 	--shadow: 0 2px 16px 0 rgba(0, 0, 0, 0.04);
 	--shadow2: 0 12px 28px -16px rgba(247, 209, 57, 0.2);
 	--shadow3: 0 12px 28px -16px rgba(43, 45, 50, 0.2);
 	--shadow-float: 0 8px 20px -6px rgba(17, 17, 17, 0.12);
+	--shadow-card: 0 20px 32px -8px rgba(17, 17, 17, 0.12);
+
 
 	// fancybox
 	--fancybox-scrollbar-compensate: 17px;
