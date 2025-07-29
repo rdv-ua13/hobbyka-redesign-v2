@@ -93,24 +93,39 @@
             <div class="header-social social">
                 <ul class="list-reset social__list">
                     <li>
-                        <a href="javascript:;" target="_blank" aria-label="Наша страничка в Whatsapp">
-                            <svg class="icon icon-fill">
-                                <use href="img/sprite.svg#soc-wa"></use>
-                            </svg>
+                        <a href="javascript:;" target="_blank" aria-label="Наша страничка в WhatsApp">
+                            <img
+                                    loading="lazy"
+                                    class="image"
+                                    src="img/soc-wa.png"
+                                    width="24"
+                                    height="24"
+                                    alt="Изображение блока"
+                            >
                         </a>
                     </li>
                     <li>
                         <a href="javascript:;" target="_blank" aria-label="Наша страничка в Telegram">
-                            <svg class="icon icon-fill">
-                                <use href="img/sprite.svg#soc-tg"></use>
-                            </svg>
+                            <img
+                                    loading="lazy"
+                                    class="image"
+                                    src="img/soc-tg.png"
+                                    width="24"
+                                    height="24"
+                                    alt="Изображение блока"
+                            >
                         </a>
                     </li>
                     <li>
-                        <a href="javascript:;" target="_blank" aria-label="Наша страничка в Whatsapp">
-                            <svg class="icon icon-fill">
-                                <use href="img/sprite.svg#email"></use>
-                            </svg>
+                        <a href="javascript:;" target="_blank" aria-label="Напишите нам на почту">
+                            <img
+                                    loading="lazy"
+                                    class="image"
+                                    src="img/soc-email.png"
+                                    width="24"
+                                    height="24"
+                                    alt="Изображение блока"
+                            >
                         </a>
                     </li>
                 </ul>

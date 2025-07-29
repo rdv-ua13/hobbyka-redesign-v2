@@ -205,7 +205,7 @@ const svgPreparation = () => {
 // Обработка картинок (dev)
 const imagesDev = () => {
     return src([`${path.src.img}/**/**.{jpg,jpeg,png,svg}`, `!${path.src.svg}`])
-        .pipe(image([
+        /*.pipe(image([
             image.mozjpeg({
                 quality: 80,
                 progressive: true
@@ -219,14 +219,14 @@ const imagesDev = () => {
                     {cleanupIDs: false}
                 ]
             })
-        ]))
+        ]))*/
         .pipe(dest(path.build.img));
 };
 
 // Обработка картинок (build)
 const images = () => {
     return src([`${path.src.img}/**/**.{jpg,jpeg,png,svg}`])
-        .pipe(image([
+        /*.pipe(image([
             image.mozjpeg({
                 quality: 80,
                 progressive: true
@@ -240,7 +240,7 @@ const images = () => {
                     {cleanupIDs: false}
                 ]
             })
-        ]))
+        ]))*/
         .pipe(dest(path.build.img));
 };
 

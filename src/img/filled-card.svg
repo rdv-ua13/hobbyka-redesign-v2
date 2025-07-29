@@ -1,0 +1,8 @@
+<svg id="filled-card" viewBox="0 0 77 69" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <path d="M40.9092 11.5742L45.4092 13.5742L47.4092 16.0742L19.6784 42.0742L16.4092 38.5742L15.4092 33.5742L37.4092 13.5742L40.9092 11.5742Z" fill="#FBC40A"/>
+    <path d="M20.0786 42.8024L47.9619 15.9149" stroke="#292D32" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M36.812 48.202L39.612 45.502" stroke="#292D32" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M43.0928 42.1489L48.6694 36.7714" stroke="#292D32" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M19.312 30.112L34.8053 15.172C39.752 10.402 42.2253 10.3795 47.1253 15.1045L58.582 26.152C63.482 30.877 63.4586 33.262 58.512 38.032L43.0186 52.972C38.072 57.742 35.5986 57.7645 30.6986 53.0395L19.242 41.992C14.342 37.267 14.342 34.9045 19.312 30.112Z" stroke="#292D32" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M15.5757 56.5709H62.2423" stroke="#292D32" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

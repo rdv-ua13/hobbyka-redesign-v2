@@ -787,14 +787,17 @@
 
             <div class="basic-hca__content">
                 <div class="index-events">
-                    <a href="javascript:;" class="index-events__item" style="background-image:url('img/news-img-1.png');">
+                    <a href="javascript:;" class="index-events__item item-1" style="background-image:url('img/news-img-1.png');">
                         <span class="index-events__title">Игровой комплекс River Camp Kids: ощути себя пиратом</span>
                     </a>
-                    <a href="javascript:;" class="index-events__item" style="background-image:url('img/news-img-6.png');">
+                    <a href="javascript:;" class="index-events__item item-2" style="background-image:url('img/news-img-6.png');">
                         <span class="index-events__title">Деревянные лежаки для парков в центре Москвы</span>
                     </a>
-                    <a href="javascript:;" class="index-events__item" style="background-image:url('img/news-img-7.png');">
+                    <a href="javascript:;" class="index-events__item item-3" style="background-image:url('img/news-img-7.png');">
                         <span class="index-events__title">Лавочки-амфитеатр для ЖК “Жилые Кварталы”</span>
+                    </a>
+                    <a href="javascript:;" class="index-events__item item-4" style="background-image:url('img/news-img-1.png');">
+                        <span class="index-events__title">Игровой комплекс River Camp Kids: ощути себя пиратом</span>
                     </a>
                     <?/*<div class="index-events__section index-events__section-main">
                         <a href="javascript:;" class="index-events__item" style="background-image:url('img/news-img-1.png');">
@@ -1916,16 +1919,72 @@
     <div class="container">
         <div class="index-advantages">
             <div class="index-advantages__item">
-                <div class="index-advantages__view">
-                    <svg class="icon">
-                        <use href="img/filled-card.svg#filled-card"></use>
+                <div class="index-advantages__decor">
+                    <svg class="icon icon-fill">
+                        <use href="img/hbk-pattern.svg#hbk-pattern"></use>
                     </svg>
                 </div>
+                <div class="index-advantages__view">
+                    <img
+                        loading="lazy"
+                        class="image"
+                        src="img/filled-card.svg"
+                        width="80"
+                        height="70"
+                        alt="Изображение блока"
+                    >
+                </div>
                 <div class="index-advantages__descr">
-                    <div class="index-advantages__title fz-md">Способы оплаты</div>
+                    <div class="index-advantages__title">Способы оплаты</div>
                     <ul class="list-reset index-advantages__list">
                         <li>Безналичный расчет</li>
                         <li>Наличными при получении</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="index-advantages__item">
+                <div class="index-advantages__decor">
+                    <svg class="icon icon-fill">
+                        <use href="img/hbk-pattern.svg#hbk-pattern"></use>
+                    </svg>
+                </div>
+                <div class="index-advantages__view">
+                    <img
+                        loading="lazy"
+                        class="image"
+                        src="img/filled-box.svg"
+                        width="80"
+                        height="70"
+                        alt="Изображение блока"
+                    >
+                </div>
+                <div class="index-advantages__descr">
+                    <div class="index-advantages__title">Доставка по всей России</div>
+                    <ul class="list-reset index-advantages__list">
+                        <li>Доставим товар по России транспортными компаниями: «Деловые линии», «Байкал-Сервис», «ЖелДорЭкспедиция», «ПЭК»</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="index-advantages__item">
+                <div class="index-advantages__decor">
+                    <svg class="icon icon-fill">
+                        <use href="img/hbk-pattern.svg#hbk-pattern"></use>
+                    </svg>
+                </div>
+                <div class="index-advantages__view">
+                    <img
+                        loading="lazy"
+                        class="image"
+                        src="img/filled-car.svg"
+                        width="80"
+                        height="70"
+                        alt="Изображение блока"
+                    >
+                </div>
+                <div class="index-advantages__descr">
+                    <div class="index-advantages__title">Самовывоз</div>
+                    <ul class="list-reset index-advantages__list">
+                        <li>Самовывоз со склада Московской<br> области: г. Москва, ул. Молостовых, дом<br> 14А</li>
                     </ul>
                 </div>
             </div>
@@ -1935,13 +1994,180 @@
 
 <div class="block">
     <div class="container">
-        Получите бесплатную консультацию прямо сейчас
+        <div class="index-consultation">
+            <div class="index-consultation__item index-consultation__descr">
+                <div class="index-consultation__support">
+                    <div class="index-consultation__support-view">
+                        <svg class="icon icon-stroke">
+                            <use href="img/sprite.svg#stroke_lovely"></use>
+                        </svg>
+                    </div>
+                    <div class="index-consultation__support-descr">Мы гарантируем качество технической поддержки и всегда будем на связи!</div>
+                </div>
+                <div class="index-consultation__title h3">Получите бесплатную консультацию прямо сейчас</div>
+                <div class="index-consultation__subtitle">Позвоните сейчас, даже если ситуация еще не критичная.
+                    Вы получите развернутую консультацию специалиста</div>
+                <div class="index-consultation__contacts">
+                    <div class="index-consultation__contacts-item">
+                        <div class="index-consultation__contacts-tel">
+                            <a href="javascript:;">8 (495) 271-83-90</a>
+                        </div>
+                        <div class="index-consultation__contacts-schedule">с 8 до 18:00</div>
+                    </div>
+
+                    <div class="index-consultation__contacts-item social">
+                        <ul class="list-reset social__list">
+                            <li>
+                                <a href="javascript:;" target="_blank" aria-label="Наша страничка в WhatsApp">
+                                    <img
+                                            loading="lazy"
+                                            class="image"
+                                            src="img/soc-wa.png"
+                                            width="32"
+                                            height="32"
+                                            alt="Изображение блока"
+                                    >
+                                </a>
+                            </li>
+                            <li>
+                                <a href="javascript:;" target="_blank" aria-label="Наша страничка в Telegram">
+                                    <img
+                                            loading="lazy"
+                                            class="image"
+                                            src="img/soc-tg.png"
+                                            width="32"
+                                            height="32"
+                                            alt="Изображение блока"
+                                    >
+                                </a>
+                            </li>
+                            <li>
+                                <a href="javascript:;" target="_blank" aria-label="Напишите нам на почту">
+                                    <img
+                                            loading="lazy"
+                                            class="image"
+                                            src="img/soc-email.png"
+                                            width="32"
+                                            height="32"
+                                            alt="Изображение блока"
+                                    >
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <form action="" class="index-consultation__item index-consultation__form">
+                <div class="gap-sm">
+                    <div class="h4">Оставьте заявку</div>
+                </div>
+                <div class="gap-xs">
+                    <div class="input-wrapper">
+                        <input
+                                id=""
+                                class="input-reset input"
+                                type="text"
+                                name=""
+                                value=""
+                                placeholder="Ваш e-mail или номер телефона"
+                                autocomplete="off"
+                        >
+                    </div>
+                </div>
+                <div class="gap-xs">
+                    <button class="btn-reset btn btn-primary" type="button">
+                        <span class="text-content">Свяжитесь со мной</span>
+                    </button>
+                </div>
+                <span class="custom-checkbox">
+                    <input id="form-request" class="custom-checkbox__input" type="checkbox" checked>
+                    <label for="form-request" class="custom-checkbox__label-for text-secondary-color">Я соглашаюсь с <a href="javascript:;" class="link link-tdu">политикой персональных данных</a></label>
+                </span>
+            </form>
+        </div>
     </div>
 </div>
 
 <div class="block">
     <div class="container">
-        Центральный офис в Москве
+        <div class="index-contacts">
+            <div class="index-contacts__item index-contacts__item--msk">
+                <div class="h4">Центральный офис в Москве</div>
+                <ul class="list-reset index-contacts__list">
+                    <li>
+                        <span class="fw-semibold">111558, г. Москва, ул. Молостовых, дом 14А</span>
+                        <span class="index-contacts__content index-contacts__text-menu">Пн-Пт - с 9:00 до 18:00</span>
+                    </li>
+                    <li>
+                        <span class="index-contacts__text-menu">Телефон отдела продаж: </span>
+                        <span class="index-contacts__content">
+                            <a href="javascript:;" class="fw-semibold">+7 495 646-70-94</a>
+                            <a href="javascript:;" class="fw-semibold">+7 495 248-03-18</a>
+                        </span>
+                        <span class="index-contacts__content index-contacts__text-caption">8:00 - 17:00</span>
+                    </li>
+                    <li>
+                        <span class="index-contacts__content">
+                            <a href="javascript:;" class="fw-semibold">zakaz@hobbyka.ru</a>
+                        </span>
+                    </li>
+                </ul>
+            </div>
+            <div class="index-contacts__item index-contacts__item--spb">
+                <div class="h4">Офис Санкт-Петербург</div>
+                <ul class="list-reset index-contacts__list">
+                    <li>
+                        <span class="fw-semibold">111558, г. Санкт-Петербург, ул. Молостовых, дом 14А</span>
+                        <span class="index-contacts__content index-contacts__text-menu">Пн-Пт - с 9:00 до 18:00</span>
+                    </li>
+                    <li>
+                        <span class="index-contacts__text-menu">Телефон отдела продаж: </span>
+                        <span class="index-contacts__content">
+                            <a href="javascript:;" class="fw-semibold">+7 812 649-03-73</a>
+                        </span>
+                        <span class="index-contacts__content index-contacts__text-caption">8:00 - 17:00</span>
+                    </li>
+                    <li>
+                        <span class="index-contacts__content">
+                            <a href="javascript:;" class="fw-semibold">zakaz@hobbyka.ru</a>
+                        </span>
+                    </li>
+                </ul>
+            </div>
+            <div class="index-contacts__item index-contacts__item--offices">
+                <div class="h4">Официальные представительства</div>
+                <ul class="list-reset index-contacts__list">
+                    <li>
+                        <span class="h5 color-secondary">Крым</span>
+                        <span class="index-contacts__content">
+                            <a href="javascript:;" class="link link-tdu fw-semibold">+7 978 742-85-95</a>
+                            <a href="javascript:;" class="link link-tdu fw-semibold">zakaz@hobbyka.ru</a>
+                        </span>
+                    </li>
+                    <li>
+                        <span class="h5 color-secondary">Ростов-на-Дону</span>
+                        <span class="index-contacts__content">
+                            <a href="javascript:;" class="link link-tdu fw-semibold">+7 863 209 78 58</a>
+                            <a href="javascript:;" class="link link-tdu fw-semibold">zakaz@hobbyka.ru</a>
+                        </span>
+                    </li>
+                    <li>
+                        <span class="h5 color-secondary">Нижний Новгород</span>
+                        <span class="index-contacts__content">
+                            <a href="javascript:;" class="link link-tdu fw-semibold">+7 920 030-00-03</a>
+                            <a href="javascript:;" class="link link-tdu fw-semibold">zakaz@hobbyka.ru</a>
+                        </span>
+                    </li>
+                    <li>
+                        <span class="h5 color-secondary">Воронеж</span>
+                        <span class="index-contacts__content">
+                            <a href="javascript:;" class="link link-tdu fw-semibold">+7 473 251-48-47</a>
+                            <a href="javascript:;" class="link link-tdu fw-semibold">zakaz@hobbyka.ru</a>
+                        </span>
+                    </li>
+                </ul>
+            </div>
+        </div>
     </div>
 </div>
 
