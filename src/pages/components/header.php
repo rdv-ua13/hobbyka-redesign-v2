@@ -34,7 +34,7 @@
     <?/*<script defer src="js/flatpickr.min.js"></script>           <!-- flatpickr -->*/?>
     <?/*<script defer src="js/ru.js"></script>                      <!-- flatpickr -->*/?>
     <?/*<script defer src="js/nouislider.js"></script>              <!-- nouislider -->*/?>
-    <?/*<script defer src="js/accordion.js"></script>               <!-- accordion -->*/?>
+    <script defer src="js/accordion.min.js"></script>               <!-- accordion -->
     <?/*<script defer src="js/sticky.min.js"></script>              <!-- sticky -->*/?>
 
 	<?/* Подключение библиотек (объединённо)
@@ -51,33 +51,6 @@
 <header class="header fixed-block">
     <div class="header-top">
         <div class="container header-container">
-            <div class="header-mobile-menu">
-                <button
-                        class="btn-reset burger"
-                        aria-label="Открыть меню"
-                        aria-expanded="false"
-                        data-menu-spoiler
-                        data-overlay
-                >
-                    <svg class="icon icon-fill">
-                        <use href="img/sprite.svg#menu"></use>
-                    </svg>
-                </button>
-
-                <div class="header-logo">
-                    <a class="logo" href="javascript:;">
-                        <img
-                                loading="lazy"
-                                class="image"
-                                src="img/sprite.svg#logo-light"
-                                width="84"
-                                height="42"
-                                alt="Хоббика - производство садовой и парковой мебели!"
-                        >
-                    </a>
-                </div>
-            </div>
-
             <div class="header-top-nav">
                 <ul class="list-reset header-top-nav__list">
                     <li><a class="header-top__link" href="javascript:;"><span class="text-content">Каталог</span></a></li>
@@ -168,7 +141,7 @@
                                     placeholder="Скамейка или 14232 (артикул)..."
                             >
                             <label for="ui-input-search-example-1" class="input-icon input-icon-l c-pointer">
-                                <svg class="icon icon-md icon-fill">
+                                <svg class="icon icon-fill">
                                     <use href="img/sprite.svg#search"></use>
                                 </svg>
                             </label>
@@ -212,134 +185,11 @@
 
                 <div class="header-categories">
                     <a class="btn-reset btn btn-primary header-categories__catalog" href="javascript:;">
-                        <svg class="icon icon-fill">
-                            <use href="img/sprite.svg#catalog"></use>
+                        <svg class="icon icon-stroke">
+                            <use href="img/sprite.svg#stroke_catalog"></use>
                         </svg>
                         <span class="text-content">Каталог</span>
                     </a>
-                    <?/*<div class="tag-wrapper slider-out basic-slider-wrap">
-                        <div class="tag-bar basic-slider basic-slider-overflow-visible swiper" data-tag-bar-slider>
-                            <div class="swiper-wrapper">
-                                <div class="swiper-slide tag-bar__item">
-                                    <label class="tag-wrapper">
-                                        <input
-                                                class="visually-hidden"
-                                                type="checkbox"
-                                                name="CATALOG_CATEGORIES[]"
-                                                value=""
-                                        >
-                                        <span class="tag">
-                                            <span>Скамейки</span>
-                                        </span>
-                                    </label>
-                                </div>
-                                <div class="swiper-slide tag-bar__item">
-                                    <label class="tag-wrapper">
-                                        <input
-                                                class="visually-hidden"
-                                                type="checkbox"
-                                                name="CATALOG_CATEGORIES[]"
-                                                value=""
-                                        >
-                                        <span class="tag">
-                                            <span>Урны</span>
-                                        </span>
-                                    </label>
-                                </div>
-                                <div class="swiper-slide tag-bar__item">
-                                    <label class="tag-wrapper">
-                                        <input
-                                                class="visually-hidden"
-                                                type="checkbox"
-                                                name="CATALOG_CATEGORIES[]"
-                                                value=""
-                                        >
-                                        <span class="tag">
-                                            <span>навесы</span>
-                                        </span>
-                                    </label>
-                                </div>
-                                <div class="swiper-slide tag-bar__item">
-                                    <label class="tag-wrapper">
-                                        <input
-                                                class="visually-hidden"
-                                                type="checkbox"
-                                                name="CATALOG_CATEGORIES[]"
-                                                value=""
-                                        >
-                                        <span class="tag">
-                                            <span>детские игровые</span>
-                                        </span>
-                                    </label>
-                                </div>
-                                <div class="swiper-slide tag-bar__item">
-                                    <label class="tag-wrapper">
-                                        <input
-                                                class="visually-hidden"
-                                                type="checkbox"
-                                                name="CATALOG_CATEGORIES[]"
-                                                value=""
-                                        >
-                                        <span class="tag">
-                                            <span>дачная мебель</span>
-                                        </span>
-                                    </label>
-                                </div>
-                                <div class="swiper-slide tag-bar__item">
-                                    <label class="tag-wrapper">
-                                        <input
-                                                class="visually-hidden"
-                                                type="checkbox"
-                                                name="CATALOG_CATEGORIES[]"
-                                                value=""
-                                        >
-                                        <span class="tag tag--yellow">
-                                            <span>Мебель для кафе</span>
-                                        </span>
-                                    </label>
-                                </div>
-                                <div class="swiper-slide tag-bar__item">
-                                    <label class="tag-wrapper">
-                                        <input
-                                                class="visually-hidden"
-                                                type="checkbox"
-                                                name="CATALOG_CATEGORIES[]"
-                                                value=""
-                                        >
-                                        <span class="tag tag--green">
-                                            <span>Контейнерные площадки</span>
-                                        </span>
-                                    </label>
-                                </div>
-                                <div class="swiper-slide tag-bar__item">
-                                    <label class="tag-wrapper">
-                                        <input
-                                                class="visually-hidden"
-                                                type="checkbox"
-                                                name="CATALOG_CATEGORIES[]"
-                                                value=""
-                                        >
-                                        <span class="tag tag--green">
-                                            <span>в наличии</span>
-                                        </span>
-                                    </label>
-                                </div>
-                                <div class="swiper-slide tag-bar__item">
-                                    <label class="tag-wrapper">
-                                        <input
-                                                class="visually-hidden"
-                                                type="checkbox"
-                                                name="CATALOG_CATEGORIES[]"
-                                                value=""
-                                        >
-                                        <span class="tag tag--green">
-                                            <span>Еще...</span>
-                                        </span>
-                                    </label>
-                                </div>
-                            </div>
-                        </div>
-                    </div>*/?>
                     <div class="header-categories__list">
                         <a class="btn-reset btn header-categories__item" href="javascript:;">
                             <span class="text-content">Скамейки</span>
@@ -365,11 +215,23 @@
                         <a class="btn-reset btn header-categories__item" href="javascript:;">
                             <span class="text-content">в наличии</span>
                         </a>
-                        <a class="btn-reset btn header-categories__item" href="javascript:;">
-                            <span class="text-content">Еще...</span>
-                        </a>
                     </div>
+                    <a class="btn-reset btn header-categories__item header-categories__item--more" href="javascript:;">
+                        <span class="text-content">Еще...</span>
+                    </a>
                 </div>
+
+                <button
+                        class="btn-reset burger"
+                        aria-label="Открыть меню"
+                        aria-expanded="false"
+                        data-menu-spoiler
+                        data-overlay
+                >
+                    <svg class="icon icon-fill">
+                        <use href="img/sprite.svg#menu"></use>
+                    </svg>
+                </button>
             </div>
         </div>
     </div>
@@ -384,100 +246,284 @@
 
     <div class="mobile-menu-header">
         <div class="mobile-menu-container">
-            <div class="header-logo">
-                <a class="logo" href="javascript:;">
-                    <img
-                            loading="lazy"
-                            class="image"
-                            src="img/sprite.svg#logo-dark"
-                            width="116"
-                            height="58"
-                            alt="Хоббика - производство садовой и парковой мебели!"
-                    >
-                </a>
-                <div class="logo-text fz-caption">Оборудование<br> для блаугоустройства<br> от производителя</div>
-            </div>
-
-            <div class="mobile-menu-contacts">
-                <div class="header-contacts">
-                    <a class="header-contacts__tel" href="tel:+88003333778"><span>8 800 333-37-78</span></a>
-                    <a class="header-contacts__office link link-tdu link-dashed" href="javascript:;"><span>Все офисы</span></a>
-                </div>
-
-                <div class="header-social social">
-                    <ul class="list-reset social__list">
-                        <li>
-                            <a href="javascript:;" target="_blank" aria-label="Наша страничка в Telegram">
-                                <svg class="icon icon-fill">
-                                    <use href="img/sprite.svg#soc-tg"></use>
-                                </svg>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="javascript:;" target="_blank" aria-label="Наша страничка в Whatsapp">
-                                <svg class="icon icon-fill">
-                                    <use href="img/sprite.svg#soc-wa"></use>
-                                </svg>
-                            </a>
-                        </li>
-                    </ul>
-                </div>
+            <div class="mobile-menu-catalog">
+                <button
+                        class="btn-reset btn btn-primary mobile-menu-catalog-spoiler"
+                        aria-label="Открыть меню"
+                        aria-expanded="false"
+                        data-catalog-spoiler
+                        data-overlay-transparent
+                >
+                    <svg class="icon icon-stroke">
+                        <use href="img/sprite.svg#stroke_category"></use>
+                    </svg>
+                    <span class="text-content">Каталог товаров</span>
+                </button>
             </div>
         </div>
     </div>
 
     <ul class="list-reset mobile-menu-list">
-        <li>
-            <div class="dropdown-container">
-                <a class="mobile-menu__item mobile-menu__link link link-dropdown dropdown-spoiler" href="javascript:;">
-                    <span class="text-content">Покупателям</span>
-                    <svg class="icon icon-sm icon-fill">
-                        <use href="img/sprite.svg#chevron-down"></use>
-                    </svg>
-                </a>
-				<?/*<ul class="list-reset dropdown-menu">
-                                <li>
-                                    <a href="javascript:;" class="link link-primary">
-                                        <span>Название</span>
-                                        <svg class="icon icon-fill">
-                                            <use href="img/sprite.svg#chevron-down"></use>
-                                        </svg>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="javascript:;" class="link link-primary">
-                                        <span>Название</span>
-                                        <svg class="icon icon-fill">
-                                            <use href="img/sprite.svg#chevron-down"></use>
-                                        </svg>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="javascript:;" class="link link-primary">
-                                        <span>Название</span>
-                                        <svg class="icon icon-fill">
-                                            <use href="img/sprite.svg#chevron-down"></use>
-                                        </svg>
-                                    </a>
-                                </li>
-                            </ul>*/?>
-            </div>
+        <li class="mobile-menu__item">
+            <a class="mobile-menu__link" href="javascript:;">
+                <span class="text-content">производство</span>
+            </a>
         </li>
-        <li><a class="mobile-menu__item mobile-menu__link" href="javascript:;"><span>Корпоративным клиентам</span></a></li>
-        <li><a class="mobile-menu__item mobile-menu__link" href="javascript:;"><span>Наше производство</span></a></li>
-        <li><a class="mobile-menu__item mobile-menu__link" href="javascript:;"><span>Инфоцентр</span></a></li>
-        <li><a class="mobile-menu__item mobile-menu__link" href="javascript:;"><span>Контакты</span></a></li>
+        <li class="mobile-menu__item">
+            <a class="mobile-menu__link" href="javascript:;">
+                <span class="text-content">наши работы</span>
+            </a>
+        </li>
+        <li class="mobile-menu__item">
+            <a class="mobile-menu__link" href="javascript:;">
+                <span class="text-content">дилерам</span>
+            </a>
+        </li>
+        <li class="mobile-menu__item">
+            <a class="mobile-menu__link" href="javascript:;">
+                <span class="text-content">инфоцентр</span>
+            </a>
+        </li>
+        <li class="mobile-menu__item">
+            <a class="mobile-menu__link" href="javascript:;">
+                <span class="text-content">услуги</span>
+            </a>
+        </li>
+        <li class="mobile-menu__item">
+            <a class="mobile-menu__link" href="javascript:;">
+                <span class="text-content">контакты</span>
+            </a>
+        </li>
     </ul>
 
-    <div class="mobile-menu-footer">
-        <div class="mobile-menu-container">
-            <div class="mobile-menu-login">
-                <button class="btn-reset btn btn-md btn-secondary" data-fancybox data-src="#modal-auth">
-                    <span class="text-content">Войти</span>
-                </button>
-                <button class="btn-reset btn btn-md btn-light" data-fancybox data-src="#modal-reg">
-                    <span class="text-content">Регистрация</span>
-                </button>
+    <div class="mobile-menu-container menu-footer">
+        <div class="menu-login">
+            <button class="btn-reset btn btn-extra" data-fancybox data-src="#modal-reg">
+                <span class="text-content">Регистрация</span>
+            </button>
+            <button class="btn-reset btn btn-primary" data-fancybox data-src="#modal-auth">
+                <span class="text-content">Вход</span>
+            </button>
+        </div>
+
+        <div class="menu-contacts">
+            <div class="header-contacts">
+                <a class="header-contacts__item header-contacts__tel" href="tel:+74956467094">
+                    <svg class="icon icon-fill">
+                        <use href="img/call.svg#call"></use>
+                    </svg>
+                    <span class="text-content">+7 495 646-70-94</span>
+                </a>
+                <a class="header-contacts__office link link-tdu link-dashed" href="javascript:;"><span>заказать звонок</span></a>
+            </div>
+
+            <div class="social">
+                <ul class="list-reset social__list">
+                    <li>
+                        <a href="javascript:;" target="_blank" aria-label="Наша страничка в WhatsApp">
+                            <img
+                                    loading="lazy"
+                                    class="image"
+                                    src="img/soc-wa.png"
+                                    width="24"
+                                    height="24"
+                                    alt="Изображение блока"
+                            >
+                        </a>
+                    </li>
+                    <li>
+                        <a href="javascript:;" target="_blank" aria-label="Наша страничка в Telegram">
+                            <img
+                                    loading="lazy"
+                                    class="image"
+                                    src="img/soc-tg.png"
+                                    width="24"
+                                    height="24"
+                                    alt="Изображение блока"
+                            >
+                        </a>
+                    </li>
+                    <li>
+                        <a href="javascript:;" target="_blank" aria-label="Напишите нам на почту">
+                            <img
+                                    loading="lazy"
+                                    class="image"
+                                    src="img/soc-email.png"
+                                    width="24"
+                                    height="24"
+                                    alt="Изображение блока"
+                            >
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="menu-catalog" data-catalog>
+    <div class="menu-catalog-header">
+        <div class="menu-catalog-title h4">
+            <span data-catalog-title="Каталог">Каталог</span>
+        </div>
+        <div class="menu-catalog-close" data-catalog-close>
+            <svg class="icon icon-fill">
+                <use href="img/sprite.svg#cross"></use>
+            </svg>
+        </div>
+    </div>
+    <div class="menu-catalog-root">
+        <div class="menu-catalog-root-item">
+            <a class="menu-catalog-root-link selected" href="javascript:;" data-submenu-section="0">
+                <span class="text-content">Скамейки</span>
+                <span class="menu-catalog-root-item-pointer">
+                        <svg class="icon icon-fill">
+                            <use href="img/sprite.svg#chevron-right"></use>
+                        </svg>
+                    </span>
+            </a>
+        </div>
+        <div class="menu-catalog-root-item">
+            <a class="menu-catalog-root-link" href="javascript:;" data-submenu-section="1">
+                <span class="text-content">Урны</span>
+                <span class="menu-catalog-root-item-pointer">
+                        <svg class="icon icon-fill">
+                            <use href="img/sprite.svg#chevron-right"></use>
+                        </svg>
+                    </span>
+            </a>
+        </div>
+        <div class="menu-catalog-root-item">
+            <a class="menu-catalog-root-link" href="javascript:;">
+                <span class="text-content">Навесы</span>
+                <span class="menu-catalog-root-item-pointer">
+                        <svg class="icon icon-fill">
+                            <use href="img/sprite.svg#chevron-right"></use>
+                        </svg>
+                    </span>
+            </a>
+        </div>
+        <div class="menu-catalog-root-item">
+            <a class="menu-catalog-root-link" href="javascript:;">
+                <span class="text-content">Детские игровые</span>
+                <span class="menu-catalog-root-item-pointer">
+                        <svg class="icon icon-fill">
+                            <use href="img/sprite.svg#chevron-right"></use>
+                        </svg>
+                    </span>
+            </a>
+        </div>
+        <div class="menu-catalog-root-item">
+            <a class="menu-catalog-root-link" href="javascript:;">
+                <span class="text-content">Дачная мебель</span>
+                <span class="menu-catalog-root-item-pointer">
+                        <svg class="icon icon-fill">
+                            <use href="img/sprite.svg#chevron-right"></use>
+                        </svg>
+                    </span>
+            </a>
+        </div>
+        <div class="menu-catalog-root-item">
+            <a class="menu-catalog-root-link" href="javascript:;">
+                <span class="text-content">Мебель для кафе</span>
+                <span class="menu-catalog-root-item-pointer">
+                        <svg class="icon icon-fill">
+                            <use href="img/sprite.svg#chevron-right"></use>
+                        </svg>
+                    </span>
+            </a>
+        </div>
+        <div class="menu-catalog-root-item">
+            <a class="menu-catalog-root-link" href="javascript:;">
+                <span class="text-content">Контейнерные площадки</span>
+                <span class="menu-catalog-root-item-pointer">
+                        <svg class="icon icon-fill">
+                            <use href="img/sprite.svg#chevron-right"></use>
+                        </svg>
+                    </span>
+            </a>
+        </div>
+        <div class="menu-catalog-root-item">
+            <a class="menu-catalog-root-link" href="javascript:;">
+                <span class="text-content">В наличии</span>
+                <span class="menu-catalog-root-item-pointer">
+                        <svg class="icon icon-fill">
+                            <use href="img/sprite.svg#chevron-right"></use>
+                        </svg>
+                    </span>
+            </a>
+        </div>
+        <div class="menu-catalog-root-item">
+            <a class="menu-catalog-root-link" href="javascript:;">
+                <span class="text-content">Распродажа</span>
+                <span class="menu-catalog-root-item-pointer">
+                        <svg class="icon icon-fill">
+                            <use href="img/sprite.svg#chevron-right"></use>
+                        </svg>
+                    </span>
+            </a>
+        </div>
+    </div>
+    <div class="mobile-menu-container menu-footer">
+        <div class="menu-login">
+            <button class="btn-reset btn btn-extra" data-fancybox data-src="#modal-reg">
+                <span class="text-content">Регистрация</span>
+            </button>
+            <button class="btn-reset btn btn-primary" data-fancybox data-src="#modal-auth">
+                <span class="text-content">Вход</span>
+            </button>
+        </div>
+
+        <div class="menu-contacts">
+            <div class="header-contacts">
+                <a class="header-contacts__item header-contacts__tel" href="tel:+74956467094">
+                    <svg class="icon icon-fill">
+                        <use href="img/call.svg#call"></use>
+                    </svg>
+                    <span class="text-content">+7 495 646-70-94</span>
+                </a>
+                <a class="header-contacts__office link link-tdu link-dashed" href="javascript:;"><span>заказать звонок</span></a>
+            </div>
+
+            <div class="social">
+                <ul class="list-reset social__list">
+                    <li>
+                        <a href="javascript:;" target="_blank" aria-label="Наша страничка в WhatsApp">
+                            <img
+                                    loading="lazy"
+                                    class="image"
+                                    src="img/soc-wa.png"
+                                    width="24"
+                                    height="24"
+                                    alt="Изображение блока"
+                            >
+                        </a>
+                    </li>
+                    <li>
+                        <a href="javascript:;" target="_blank" aria-label="Наша страничка в Telegram">
+                            <img
+                                    loading="lazy"
+                                    class="image"
+                                    src="img/soc-tg.png"
+                                    width="24"
+                                    height="24"
+                                    alt="Изображение блока"
+                            >
+                        </a>
+                    </li>
+                    <li>
+                        <a href="javascript:;" target="_blank" aria-label="Напишите нам на почту">
+                            <img
+                                    loading="lazy"
+                                    class="image"
+                                    src="img/soc-email.png"
+                                    width="24"
+                                    height="24"
+                                    alt="Изображение блока"
+                            >
+                        </a>
+                    </li>
+                </ul>
             </div>
         </div>
     </div>
@@ -487,37 +533,25 @@
     <div class="mobile-menu-panel__toolbar">
         <ul class="list-reset mobile-menu-panel__list">
             <li>
-                <a class="btn-reset btn btn-header active" href="javascript:;">
+                <a class="btn-reset btn btn-header" href="javascript:;">
                     <svg class="icon icon-fill">
-                        <use href="img/sprite.svg#filled-home"></use>
+                        <use href="img/sprite.svg#filled-home2"></use>
                     </svg>
-                    <span class="text-content">Главная</span>
                 </a>
             </li>
             <li>
                 <a class="btn-reset btn btn-header" href="javascript:;">
                     <svg class="icon icon-fill">
-                        <use href="img/sprite.svg#filled-catalog"></use>
+                        <use href="img/colored-category.svg#colored-category"></use>
                     </svg>
-                    <span class="text-content">Каталог</span>
                 </a>
             </li>
             <li>
                 <button class="btn-reset btn btn-header">
-                    <span class="btn-header__count">16</span>
+                    <span class="btn-header__count">1</span>
                     <svg class="icon icon-fill">
-                        <use href="img/sprite.svg#filled-heart"></use>
+                        <use href="img/sprite.svg#filled-favourite"></use>
                     </svg>
-                    <span class="text-content">Избранное</span>
-                </button>
-            </li>
-            <li>
-                <button class="btn-reset btn btn-header">
-                    <span class="btn-header__count">2</span>
-                    <svg class="icon icon-fill">
-                        <use href="img/sprite.svg#filled-cart"></use>
-                    </svg>
-                    <span class="text-content price">152 800 ₽</span>
                 </button>
             </li>
             <li>
@@ -525,7 +559,14 @@
                     <svg class="icon icon-fill">
                         <use href="img/sprite.svg#filled-user"></use>
                     </svg>
-                    <span class="text-content">Войти</span>
+                </button>
+            </li>
+            <li>
+                <button class="btn-reset btn btn-header">
+                    <span class="btn-header__count">1</span>
+                    <svg class="icon icon-fill">
+                        <use href="img/sprite.svg#filled-cart"></use>
+                    </svg>
                 </button>
             </li>
         </ul>

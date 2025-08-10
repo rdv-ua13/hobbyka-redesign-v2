@@ -5,6 +5,10 @@
             <div class="container pre-footer__container">
                 <div class="pre-footer__item pre-footer__descr">
                     <div class="pre-footer__descr-title h3">Получите наш дизайн-каталог 2025</div>
+                    <div class="pre-footer__descr-contacts">
+                        <div class="pre-footer__descr-contacts-title">Телефон для связи</div>
+                        <a href="javascript:;" class="pre-footer__descr-contacts-link link link-tdu link-dashed">+7 495 646-70-94</a>
+                    </div>
                 </div>
                 <div class="pre-footer__item pre-footer__act">
                     <div class="pre-footer__subscribe">
@@ -24,6 +28,9 @@
                                 </button>
                             </div>
                         </form>
+                        <button class="btn-reset btn btn-secondary btn-sm pre-footer__subscribe-mobile" type="button">
+                            <span class="text-content">Оставить заявку</span>
+                        </button>
                     </div>
                 </div>
             </div>
@@ -32,93 +39,53 @@
             <div class="container">
                 <div class="footer-main__content">
                     <div class="footer__row">
-                        <div class="footer__column accordion-container accordion-footer">
-                            <div class="ac">
-                                <div class="ac-header">
-                                    <button class="btn-reset ac-trigger" type="button">
-                                        <span class="footer__title">популярные разделы</span>
-                                    </button>
-                                </div>
-                                <div class="ac-panel">
-                                    <div class="ac-content">
-                                        <ul class="list-reset footer__list">
-                                            <li><a class="link" href="javascript:;">Скамейки</a></li>
-                                            <li><a class="link" href="javascript:;">Урны</a></li>
-                                            <li><a class="link" href="javascript:;">Навесы</a></li>
-                                            <li><a class="link" href="javascript:;">Дачная мебель</a></li>
-                                            <li><a class="link" href="javascript:;">Мебель для кафе</a></li>
-                                            <li><a class="link" href="javascript:;">Контейнерные площадки</a></li>
-                                            <li><a class="link" href="javascript:;">В наличии</a></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
+                        <div class="footer__column">
+                            <div class="footer__title">популярные&nbsp;разделы</div>
+                            <ul class="list-reset footer__list">
+                                <li><a class="link" href="javascript:;">Скамейки</a></li>
+                                <li><a class="link" href="javascript:;">Урны</a></li>
+                                <li><a class="link" href="javascript:;">Навесы</a></li>
+                                <li><a class="link" href="javascript:;">Дачная мебель</a></li>
+                                <li><a class="link" href="javascript:;">Мебель для кафе</a></li>
+                                <li><a class="link" href="javascript:;">Контейнерные площадки</a></li>
+                                <li><a class="link" href="javascript:;">В наличии</a></li>
+                            </ul>
                         </div>
-                        <div class="footer__column accordion-container accordion-footer">
-                            <div class="ac">
-                                <div class="ac-header">
-                                    <button class="btn-reset ac-trigger" type="button">
-                                        <span class="footer__title">О нас</span>
-                                    </button>
-                                </div>
-                                <div class="ac-panel">
-                                    <div class="ac-content">
-                                        <ul class="list-reset footer__list">
-                                            <li><a class="link" href="javascript:;">История компании</a></li>
-                                            <li><a class="link" href="javascript:;">Сертификаты</a></li>
-                                            <li><a class="link" href="javascript:;">Наше производство</a></li>
-                                            <li><a class="link" href="javascript:;">Наши работы</a></li>
-                                            <li><a class="link" href="javascript:;">Отзывы и награды</a></li>
-                                            <li><a class="link" href="javascript:;">О нас говорят</a></li>
-                                            <li><a class="link" href="javascript:;">Партнеры</a></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
+                        <div class="footer__column">
+                            <div class="footer__title">О нас</div>
+                            <ul class="list-reset footer__list">
+                                <li><a class="link" href="javascript:;">История компании</a></li>
+                                <li><a class="link" href="javascript:;">Сертификаты</a></li>
+                                <li><a class="link" href="javascript:;">Наше производство</a></li>
+                                <li><a class="link" href="javascript:;">Наши работы</a></li>
+                                <li><a class="link" href="javascript:;">Отзывы и награды</a></li>
+                                <li><a class="link" href="javascript:;">О нас говорят</a></li>
+                                <li><a class="link" href="javascript:;">Партнеры</a></li>
+                            </ul>
                         </div>
-                        <div class="footer__column accordion-container accordion-footer">
-                            <div class="ac">
-                                <div class="ac-header">
-                                    <button class="btn-reset ac-trigger" type="button">
-                                        <span class="footer__title">Партнерство</span>
-                                    </button>
-                                </div>
-                                <div class="ac-panel">
-                                    <div class="ac-content">
-                                        <ul class="list-reset footer__list">
-                                            <li><a class="link" href="javascript:;">Частным клиентам</a></li>
-                                            <li><a class="link" href="javascript:;">Гос. учреждениям</a></li>
-                                            <li><a class="link" href="javascript:;">Гос. компаниям</a></li>
-                                            <li><a class="link" href="javascript:;">Паркам</a></li>
-                                            <li><a class="link" href="javascript:;">Застройщикам</a></li>
-                                            <li><a class="link" href="javascript:;">Дизайнерам / Архитекторам</a></li>
-                                            <li><a class="link" href="javascript:;">Умный город</a></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
+                        <div class="footer__column desktop-only">
+                            <div class="footer__title">Партнерство</div>
+                            <ul class="list-reset footer__list">
+                                <li><a class="link" href="javascript:;">Частным клиентам</a></li>
+                                <li><a class="link" href="javascript:;">Гос. учреждениям</a></li>
+                                <li><a class="link" href="javascript:;">Гос. компаниям</a></li>
+                                <li><a class="link" href="javascript:;">Паркам</a></li>
+                                <li><a class="link" href="javascript:;">Застройщикам</a></li>
+                                <li><a class="link" href="javascript:;">Дизайнерам / Архитекторам</a></li>
+                                <li><a class="link" href="javascript:;">Умный город</a></li>
+                            </ul>
                         </div>
-                        <div class="footer__column accordion-container accordion-footer">
-                            <div class="ac">
-                                <div class="ac-header">
-                                    <button class="btn-reset ac-trigger" type="button">
-                                        <span class="footer__title">Клиентам</span>
-                                    </button>
-                                </div>
-                                <div class="ac-panel">
-                                    <div class="ac-content">
-                                        <ul class="list-reset footer__list">
-                                            <li><a class="link" href="javascript:;">Оплата</a></li>
-                                            <li><a class="link" href="javascript:;">Доставка</a></li>
-                                            <li><a class="link" href="javascript:;">Сборка и монтаж</a></li>
-                                            <li><a class="link" href="javascript:;">Гарантия</a></li>
-                                            <li><a class="link" href="javascript:;">Примеры работ</a></li>
-                                            <li><a class="link" href="javascript:;">Документация</a></li>
-                                            <li><a class="link" href="javascript:;">Прайс</a></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
+                        <div class="footer__column">
+                            <div class="footer__title">Клиентам</div>
+                            <ul class="list-reset footer__list">
+                                <li><a class="link" href="javascript:;">Оплата</a></li>
+                                <li><a class="link" href="javascript:;">Доставка</a></li>
+                                <li><a class="link" href="javascript:;">Сборка и монтаж</a></li>
+                                <li><a class="link" href="javascript:;">Гарантия</a></li>
+                                <li><a class="link" href="javascript:;">Примеры работ</a></li>
+                                <li><a class="link" href="javascript:;">Документация</a></li>
+                                <li><a class="link" href="javascript:;">Прайс</a></li>
+                            </ul>
                         </div>
                         <div class="footer__column">
                             <div class="footer__title">Связаться с нами</div>
@@ -127,53 +94,57 @@
                                 <div class="footer-contacts__tel">
                                     <a class="footer-contacts__number" href="tel:+74956467094">+7 495 646-70-94</a>
                                     <a class="footer-contacts__number" href="tel:+74952480318">+7 495 248-03-18</a>
-                                    <a class="footer-contacts__number footer-contacts__email" href="mailto:zakaz@hobbyka.ru">zakaz@hobbyka.ru</a>
+                                    <a class="footer-contacts__email" href="mailto:zakaz@hobbyka.ru">zakaz@hobbyka.ru</a>
                                 </div>
                                 <div class="social">
-                                    <div class="social__title footer__title">Напишите в соцсетях</div>
+                                    <div class="social__title">Напишите в соцсетях</div>
                                     <ul class="list-reset social__list">
                                         <li>
-                                            <a
-                                                    href="javascript:;"
-                                                    target="_blank"
-                                                    aria-label="Наша страничка в Вконтакте"
-                                            >
-                                                <svg class="icon icon-fill">
-                                                    <use href="img/sprite.svg#soc-vk"></use>
-                                                </svg>
+                                            <a href="javascript:;" target="_blank" aria-label="Наша страничка в Вконтакте">
+                                                <img
+                                                        loading="lazy"
+                                                        class="image"
+                                                        src="img/soc-vk2.png"
+                                                        width="32"
+                                                        height="32"
+                                                        alt="Изображение блока"
+                                                >
                                             </a>
                                         </li>
                                         <li>
-                                            <a
-                                                    href="javascript:;"
-                                                    target="_blank"
-                                                    aria-label="Наша страничка в Одноклассники"
-                                            >
-                                                <svg class="icon icon-fill">
-                                                    <use href="img/sprite.svg#soc-ok"></use>
-                                                </svg>
+                                            <a href="javascript:;" target="_blank" aria-label="Наша страничка в Одноклассники">
+                                                <img
+                                                        loading="lazy"
+                                                        class="image"
+                                                        src="img/soc-ok2.png"
+                                                        width="32"
+                                                        height="32"
+                                                        alt="Изображение блока"
+                                                >
                                             </a>
                                         </li>
                                         <li>
-                                            <a
-                                                    href="javascript:;"
-                                                    target="_blank"
-                                                    aria-label="Наша страничка в Telegram"
-                                            >
-                                                <svg class="icon icon-fill">
-                                                    <use href="img/sprite.svg#soc-tg"></use>
-                                                </svg>
+                                            <a href="javascript:;" target="_blank" aria-label="Наша страничка в Telegram">
+                                                <img
+                                                        loading="lazy"
+                                                        class="image"
+                                                        src="img/soc-tg2.png"
+                                                        width="32"
+                                                        height="32"
+                                                        alt="Изображение блока"
+                                                >
                                             </a>
                                         </li>
                                         <li>
-                                            <a
-                                                    href="javascript:;"
-                                                    target="_blank"
-                                                    aria-label="Наша страничка в Youtube"
-                                            >
-                                                <svg class="icon icon-fill">
-                                                    <use href="img/sprite.svg#soc-yt"></use>
-                                                </svg>
+                                            <a href="javascript:;" target="_blank" aria-label="Наша страничка в Youtube">
+                                                <img
+                                                        loading="lazy"
+                                                        class="image"
+                                                        src="img/soc-yt2.png"
+                                                        width="32"
+                                                        height="32"
+                                                        alt="Изображение блока"
+                                                >
                                             </a>
                                         </li>
                                     </ul>
@@ -221,6 +192,7 @@
         </div>
     </footer>
 
+	<?/*
     <div class="preloader">
         <div class="preloader__inner">
             <div class="preloader__icon"></div>
@@ -233,7 +205,7 @@
         function loading(isShow = true, text) {
             let $loading = $('.preloader');
 
-            $loading.find('.preloader__text span').text(text)
+            $loading.find('.preloader__text span').text(text);
 
             if(isShow) {
                 $loading.fadeIn(600);
@@ -244,7 +216,7 @@
                 $('body').css('overflow', '');
             }
         }
-    </script>
+    </script>*/?>
 
 	<?/*php include($_SERVER["DOCUMENT_ROOT"] . "/build/" . "components/modals.php"); ?>
 

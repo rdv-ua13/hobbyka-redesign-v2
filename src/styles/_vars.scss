@@ -6,6 +6,7 @@
 	--header-content-width: 1344px;
 	--container-width: calc(var(--content-width) + (var(--container-offset) * 2));
 	--header-container-width: calc(var(--header-content-width) + (var(--header-container-offset) * 2));
+	--fz: 13px;
 
 	// colors
 	--black-color: #000000;
@@ -33,6 +34,7 @@
 	--shadow2: 0 12px 28px -16px rgba(247, 209, 57, 0.2);
 	--shadow3: 0 12px 28px -16px rgba(43, 45, 50, 0.2);
 	--shadow-float: 0 8px 20px -6px rgba(17, 17, 17, 0.12);
+	--shadow-float2: 0 8px 12px 0 rgba(128, 129, 133, 0.16);
 	--shadow-card: 0 20px 32px -8px rgba(17, 17, 17, 0.12);
 	--shadow-card2: 0 2px 16px 0 rgba(0, 0, 0, 0.04);
 
@@ -44,17 +46,15 @@
 	// transition
 	--transition: 0.2s ease-out;
 }
-@media (min-width: 992px) {
+@media (min-width: 1200px) {
 	:root {
 		--container-offset: 110px;
 		--header-container-offset: 78px;
-		--fz: 13px;
 	}
 }
-/*
-@media (max-width: 991.98px) {
+@media (max-width: 1199px) {
 	:root {
 		--container-offset: 16px;
-		--header-container-offset: 78px;
+		--header-container-offset: 16px;
 	}
-}*/
+}
