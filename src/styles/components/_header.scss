@@ -116,6 +116,11 @@
 
 		&__item {
 			background-color: transparent;
+			transition: var(--transition);
+			
+			&:hover {
+				color: var(--text-secondary);
+			}
 		}
 	}
 }

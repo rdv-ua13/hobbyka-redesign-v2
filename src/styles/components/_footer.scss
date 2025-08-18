@@ -156,6 +156,10 @@
 			display: inline-flex;
 			color: var(--white-color);
 			line-height: 18px;
+
+			&:hover {
+				color: var(--surface-yellow);
+			}
 		}
 	}
 
@@ -184,13 +188,24 @@
 				overflow: hidden;
 				border-radius: 4px;
 
+				.image,
 				.icon {
 					min-width: 32px;
 					width: 32px;
 					min-height: 32px;
 					height: 32px;
-					fill: #D9D9D9;
-					stroke: #D9D9D9;
+					transition: var(--transition);
+				}
+				.icon {
+					fill: var(--text-secondary);
+					stroke: var(--text-secondary);
+				}
+
+				&:hover {
+					.icon {
+						fill: #D9D9D9;
+						stroke: #D9D9D9;
+					}
 				}
 			}
 		}

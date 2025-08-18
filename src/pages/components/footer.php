@@ -101,50 +101,62 @@
                                     <ul class="list-reset social__list">
                                         <li>
                                             <a href="javascript:;" target="_blank" aria-label="Наша страничка в Вконтакте">
-                                                <img
+                                                <!--<img
                                                         loading="lazy"
                                                         class="image"
                                                         src="img/soc-vk2.png"
                                                         width="32"
                                                         height="32"
                                                         alt="Изображение блока"
-                                                >
+                                                >-->
+                                                <svg class="icon icon-fill">
+                                                    <use href="img/social-vk.svg#social-vk"></use>
+                                                </svg>
                                             </a>
                                         </li>
                                         <li>
                                             <a href="javascript:;" target="_blank" aria-label="Наша страничка в Одноклассники">
-                                                <img
+                                                <!--<img
                                                         loading="lazy"
                                                         class="image"
                                                         src="img/soc-ok2.png"
                                                         width="32"
                                                         height="32"
                                                         alt="Изображение блока"
-                                                >
+                                                >-->
+                                                <svg class="icon icon-fill">
+                                                    <use href="img/social-ok.svg#social-ok"></use>
+                                                </svg>
                                             </a>
                                         </li>
                                         <li>
                                             <a href="javascript:;" target="_blank" aria-label="Наша страничка в Telegram">
-                                                <img
+                                                <!--<img
                                                         loading="lazy"
                                                         class="image"
                                                         src="img/soc-tg2.png"
                                                         width="32"
                                                         height="32"
                                                         alt="Изображение блока"
-                                                >
+                                                >-->
+                                                <svg class="icon icon-fill">
+                                                    <use href="img/social-tg.svg#social-tg"></use>
+                                                </svg>
                                             </a>
                                         </li>
                                         <li>
                                             <a href="javascript:;" target="_blank" aria-label="Наша страничка в Youtube">
-                                                <img
+                                                <!--<img
                                                         loading="lazy"
                                                         class="image"
                                                         src="img/soc-yt2.png"
                                                         width="32"
                                                         height="32"
                                                         alt="Изображение блока"
-                                                >
+                                                >-->
+                                                <svg class="icon icon-fill">
+                                                    <use href="img/social-yt.svg#social-yt"></use>
+                                                </svg>
                                             </a>
                                         </li>
                                     </ul>
