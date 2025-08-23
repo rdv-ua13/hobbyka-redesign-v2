@@ -7,13 +7,10 @@
             <a class="nav-breadcrumbs__item" href="javascript:;">Каталог</a>
         </div>
         <div class="swiper-slide">
-            <a class="nav-breadcrumbs__item" href="javascript:;">Детское игровое оборудование</a>
+            <a class="nav-breadcrumbs__item" href="javascript:;">Садовая и дачная мебель</a>
         </div>
         <div class="swiper-slide">
-            <a class="nav-breadcrumbs__item" href="javascript:;">Детские игровые комплексы</a>
-        </div>
-        <div class="swiper-slide">
-            <span class="nav-breadcrumbs__item">Игровой комплекс QUANTWOOD «Сеул»</span>
+            <span class="nav-breadcrumbs__item">Скамейка стальная «Афина УНИ»</span>
         </div>
     </div>
 </div>

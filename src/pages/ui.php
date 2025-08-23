@@ -76,7 +76,7 @@
     .gap-lg { margin-bottom: 60px !important; }
     .gap-xl { margin-bottom: 80px !important; }
 }
-@media (max-width: 991.98px) {
+@media (max-width: 991px) {
     .gap-xxxs { margin-bottom: 8px !important; }
     .gap-xxs { margin-bottom: 12px !important; }
     .gap-xs { margin-bottom: 16px !important; }

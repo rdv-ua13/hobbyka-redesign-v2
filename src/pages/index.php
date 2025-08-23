@@ -340,9 +340,17 @@
                                             <div class="card__price reduced discount">
                                                 <div class="card__price-title">Цена за штуку</div>
                                                 <div class="card__price-content">
-                                                    <div class="card__price-current">45 500 ₽</div>
+                                                    <div class="card__price-current">45 500
+                                                        <svg class="icon icon-fill icon-ruble">
+                                                            <use href="img/ruble_fw_bold.svg#ruble_fw_bold"></use>
+                                                        </svg>
+                                                    </div>
                                                     <div class="card__price-discount">
-                                                        <div class="card__price-originally">49 500 ₽</div>
+                                                        <div class="card__price-originally">49 500
+                                                            <svg class="icon icon-fill icon-ruble">
+                                                                <use href="img/ruble_fw_bold.svg#ruble_fw_bold"></use>
+                                                            </svg>
+                                                        </div>
                                                         <div class="card__price-discount-label">-30%</div>
                                                     </div>
                                                 </div>
@@ -351,33 +359,35 @@
                                                 <button class="btn-reset btn btn-primary cart-in" type="button">
                                                     <span class="text-content">В корзину</span>
                                                 </button>
-                                                <div class="cart-quantity disabled">
-                                                    <button class="btn-reset cart-quantity-btn cart-quantity-btn--remove" data-value="qty-remove">
-                                                        <svg class="icon icon-fill">
-                                                            <use href="img/sprite.svg#minus"></use>
-                                                        </svg>
-                                                    </button>
-                                                    <input
-                                                            id=""
-                                                            class="input-reset cart-quantity-input"
-                                                            type="text"
-                                                            placeholder="999"
-                                                            value="1"
-                                                            max="999"
-                                                            data-mult="1"
-                                                    >
-                                                    <button class="btn-reset cart-quantity-btn cart-quantity-btn--add" data-value="qty-add">
-                                                        <svg class="icon icon-fill">
-                                                            <use href="img/sprite.svg#plus"></use>
-                                                        </svg>
-                                                    </button>
-                                                </div>
-                                                <div class="cart-quantity-remove">
-                                                    <button class="btn-reset cart-quantity-remove__btn" data-cart-quantity-remove>
-                                                        <svg class="icon icon-fill">
-                                                            <use href="img/sprite.svg#trash"></use>
-                                                        </svg>
-                                                    </button>
+                                                <div class="cart-quantity-wrap">
+                                                    <div class="cart-quantity disabled">
+                                                        <button class="btn-reset cart-quantity-btn cart-quantity-btn--remove" data-value="qty-remove">
+                                                            <svg class="icon icon-fill">
+                                                                <use href="img/sprite.svg#minus"></use>
+                                                            </svg>
+                                                        </button>
+                                                        <input
+                                                                id=""
+                                                                class="input-reset cart-quantity-input"
+                                                                type="text"
+                                                                placeholder="999"
+                                                                value="1"
+                                                                max="999"
+                                                                data-mult="1"
+                                                        >
+                                                        <button class="btn-reset cart-quantity-btn cart-quantity-btn--add" data-value="qty-add">
+                                                            <svg class="icon icon-fill">
+                                                                <use href="img/sprite.svg#plus"></use>
+                                                            </svg>
+                                                        </button>
+                                                    </div>
+                                                    <div class="cart-quantity-remove">
+                                                        <button class="btn-reset cart-quantity-remove__btn" data-cart-quantity-remove>
+                                                            <svg class="icon icon-fill">
+                                                                <use href="img/sprite.svg#trash"></use>
+                                                            </svg>
+                                                        </button>
+                                                    </div>
                                                 </div>
                                             </div>
                                         </div>
@@ -427,41 +437,51 @@
                                             <div class="card__price reduced">
                                                 <div class="card__price-title">Цена за штуку</div>
                                                 <div class="card__price-content">
-                                                    <div class="card__price-current">45 500 ₽</div>
-                                                    <div class="card__price-originally">49 500 ₽</div>
+                                                    <div class="card__price-current">45 500
+                                                        <svg class="icon icon-fill icon-ruble">
+                                                            <use href="img/ruble_fw_bold.svg#ruble_fw_bold"></use>
+                                                        </svg>
+                                                    </div>
+                                                    <div class="card__price-originally">49 500
+                                                        <svg class="icon icon-fill icon-ruble">
+                                                            <use href="img/ruble_fw_normal.svg#ruble_fw_normal"></use>
+                                                        </svg>
+                                                    </div>
                                                 </div>
                                             </div>
                                             <div class="card__cart cart-buy">
                                                 <button class="btn-reset btn btn-primary cart-in" type="button">
                                                     <span class="text-content">В корзину</span>
                                                 </button>
-                                                <div class="cart-quantity disabled">
-                                                    <button class="btn-reset cart-quantity-btn cart-quantity-btn--remove" data-value="qty-remove">
-                                                        <svg class="icon icon-fill">
-                                                            <use href="img/sprite.svg#minus"></use>
-                                                        </svg>
-                                                    </button>
-                                                    <input
-                                                            id=""
-                                                            class="input-reset cart-quantity-input"
-                                                            type="text"
-                                                            placeholder="999"
-                                                            value="1"
-                                                            max="999"
-                                                            data-mult="1"
-                                                    >
-                                                    <button class="btn-reset cart-quantity-btn cart-quantity-btn--add" data-value="qty-add">
-                                                        <svg class="icon icon-fill">
-                                                            <use href="img/sprite.svg#plus"></use>
-                                                        </svg>
-                                                    </button>
-                                                </div>
-                                                <div class="cart-quantity-remove">
-                                                    <button class="btn-reset cart-quantity-remove__btn" data-cart-quantity-remove>
-                                                        <svg class="icon icon-fill">
-                                                            <use href="img/sprite.svg#trash"></use>
-                                                        </svg>
-                                                    </button>
+                                                <div class="cart-quantity-wrap">
+                                                    <div class="cart-quantity disabled">
+                                                        <button class="btn-reset cart-quantity-btn cart-quantity-btn--remove" data-value="qty-remove">
+                                                            <svg class="icon icon-fill">
+                                                                <use href="img/sprite.svg#minus"></use>
+                                                            </svg>
+                                                        </button>
+                                                        <input
+                                                                id=""
+                                                                class="input-reset cart-quantity-input"
+                                                                type="text"
+                                                                placeholder="999"
+                                                                value="1"
+                                                                max="999"
+                                                                data-mult="1"
+                                                        >
+                                                        <button class="btn-reset cart-quantity-btn cart-quantity-btn--add" data-value="qty-add">
+                                                            <svg class="icon icon-fill">
+                                                                <use href="img/sprite.svg#plus"></use>
+                                                            </svg>
+                                                        </button>
+                                                    </div>
+                                                    <div class="cart-quantity-remove">
+                                                        <button class="btn-reset cart-quantity-remove__btn" data-cart-quantity-remove>
+                                                            <svg class="icon icon-fill">
+                                                                <use href="img/sprite.svg#trash"></use>
+                                                            </svg>
+                                                        </button>
+                                                    </div>
                                                 </div>
                                             </div>
                                         </div>
@@ -508,44 +528,54 @@
                                                 <span class="card__compound-title">Сталь, дерево-композит</span>
                                                 <span class="card__compound-text">1500x760x750 мм, 1500x470x460 мм</span>
                                             </div>
-                                            <div class="card__price reduced">
+                                            <div class="card__price">
                                                 <div class="card__price-title">Цена за штуку</div>
                                                 <div class="card__price-content">
-                                                    <div class="card__price-current">45 500 ₽</div>
-                                                    <div class="card__price-originally">49 500 ₽</div>
+                                                    <div class="card__price-current">45 500
+                                                        <svg class="icon icon-fill icon-ruble">
+                                                            <use href="img/ruble_fw_bold.svg#ruble_fw_bold"></use>
+                                                        </svg>
+                                                    </div>
+                                                    <div class="card__price-originally">49 500
+                                                        <svg class="icon icon-fill icon-ruble">
+                                                            <use href="img/ruble_fw_normal.svg#ruble_fw_normal"></use>
+                                                        </svg>
+                                                    </div>
                                                 </div>
                                             </div>
                                             <div class="card__cart cart-buy">
                                                 <button class="btn-reset btn btn-primary cart-in" type="button">
                                                     <span class="text-content">В корзину</span>
                                                 </button>
-                                                <div class="cart-quantity disabled">
-                                                    <button class="btn-reset cart-quantity-btn cart-quantity-btn--remove" data-value="qty-remove">
-                                                        <svg class="icon icon-fill">
-                                                            <use href="img/sprite.svg#minus"></use>
-                                                        </svg>
-                                                    </button>
-                                                    <input
-                                                            id=""
-                                                            class="input-reset cart-quantity-input"
-                                                            type="text"
-                                                            placeholder="999"
-                                                            value="1"
-                                                            max="999"
-                                                            data-mult="1"
-                                                    >
-                                                    <button class="btn-reset cart-quantity-btn cart-quantity-btn--add" data-value="qty-add">
-                                                        <svg class="icon icon-fill">
-                                                            <use href="img/sprite.svg#plus"></use>
-                                                        </svg>
-                                                    </button>
-                                                </div>
-                                                <div class="cart-quantity-remove">
-                                                    <button class="btn-reset cart-quantity-remove__btn" data-cart-quantity-remove>
-                                                        <svg class="icon icon-fill">
-                                                            <use href="img/sprite.svg#trash"></use>
-                                                        </svg>
-                                                    </button>
+                                                <div class="cart-quantity-wrap">
+                                                    <div class="cart-quantity disabled">
+                                                        <button class="btn-reset cart-quantity-btn cart-quantity-btn--remove" data-value="qty-remove">
+                                                            <svg class="icon icon-fill">
+                                                                <use href="img/sprite.svg#minus"></use>
+                                                            </svg>
+                                                        </button>
+                                                        <input
+                                                                id=""
+                                                                class="input-reset cart-quantity-input"
+                                                                type="text"
+                                                                placeholder="999"
+                                                                value="1"
+                                                                max="999"
+                                                                data-mult="1"
+                                                        >
+                                                        <button class="btn-reset cart-quantity-btn cart-quantity-btn--add" data-value="qty-add">
+                                                            <svg class="icon icon-fill">
+                                                                <use href="img/sprite.svg#plus"></use>
+                                                            </svg>
+                                                        </button>
+                                                    </div>
+                                                    <div class="cart-quantity-remove">
+                                                        <button class="btn-reset cart-quantity-remove__btn" data-cart-quantity-remove>
+                                                            <svg class="icon icon-fill">
+                                                                <use href="img/sprite.svg#trash"></use>
+                                                            </svg>
+                                                        </button>
+                                                    </div>
                                                 </div>
                                             </div>
                                         </div>
@@ -591,44 +621,54 @@
                                                 <span class="card__compound-title">Сталь, дерево-композит</span>
                                                 <span class="card__compound-text">1500x760x750 мм, 1500x470x460 мм</span>
                                             </div>
-                                            <div class="card__price reduced">
+                                            <div class="card__price">
                                                 <div class="card__price-title">Цена за штуку</div>
                                                 <div class="card__price-content">
-                                                    <div class="card__price-current">45 500 ₽</div>
-                                                    <div class="card__price-originally">49 500 ₽</div>
+                                                    <div class="card__price-current">45 500
+                                                        <svg class="icon icon-fill icon-ruble">
+                                                            <use href="img/ruble_fw_bold.svg#ruble_fw_bold"></use>
+                                                        </svg>
+                                                    </div>
+                                                    <div class="card__price-originally">49 500
+                                                        <svg class="icon icon-fill icon-ruble">
+                                                            <use href="img/ruble_fw_normal.svg#ruble_fw_normal"></use>
+                                                        </svg>
+                                                    </div>
                                                 </div>
                                             </div>
                                             <div class="card__cart cart-buy">
                                                 <button class="btn-reset btn btn-primary cart-in" type="button">
                                                     <span class="text-content">В корзину</span>
                                                 </button>
-                                                <div class="cart-quantity disabled">
-                                                    <button class="btn-reset cart-quantity-btn cart-quantity-btn--remove" data-value="qty-remove">
-                                                        <svg class="icon icon-fill">
-                                                            <use href="img/sprite.svg#minus"></use>
-                                                        </svg>
-                                                    </button>
-                                                    <input
-                                                            id=""
-                                                            class="input-reset cart-quantity-input"
-                                                            type="text"
-                                                            placeholder="999"
-                                                            value="1"
-                                                            max="999"
-                                                            data-mult="1"
-                                                    >
-                                                    <button class="btn-reset cart-quantity-btn cart-quantity-btn--add" data-value="qty-add">
-                                                        <svg class="icon icon-fill">
-                                                            <use href="img/sprite.svg#plus"></use>
-                                                        </svg>
-                                                    </button>
-                                                </div>
-                                                <div class="cart-quantity-remove">
-                                                    <button class="btn-reset cart-quantity-remove__btn" data-cart-quantity-remove>
-                                                        <svg class="icon icon-fill">
-                                                            <use href="img/sprite.svg#trash"></use>
-                                                        </svg>
-                                                    </button>
+                                                <div class="cart-quantity-wrap">
+                                                    <div class="cart-quantity disabled">
+                                                        <button class="btn-reset cart-quantity-btn cart-quantity-btn--remove" data-value="qty-remove">
+                                                            <svg class="icon icon-fill">
+                                                                <use href="img/sprite.svg#minus"></use>
+                                                            </svg>
+                                                        </button>
+                                                        <input
+                                                                id=""
+                                                                class="input-reset cart-quantity-input"
+                                                                type="text"
+                                                                placeholder="999"
+                                                                value="1"
+                                                                max="999"
+                                                                data-mult="1"
+                                                        >
+                                                        <button class="btn-reset cart-quantity-btn cart-quantity-btn--add" data-value="qty-add">
+                                                            <svg class="icon icon-fill">
+                                                                <use href="img/sprite.svg#plus"></use>
+                                                            </svg>
+                                                        </button>
+                                                    </div>
+                                                    <div class="cart-quantity-remove">
+                                                        <button class="btn-reset cart-quantity-remove__btn" data-cart-quantity-remove>
+                                                            <svg class="icon icon-fill">
+                                                                <use href="img/sprite.svg#trash"></use>
+                                                            </svg>
+                                                        </button>
+                                                    </div>
                                                 </div>
                                             </div>
                                         </div>
@@ -674,44 +714,54 @@
                                                 <span class="card__compound-title">Сталь, дерево-композит</span>
                                                 <span class="card__compound-text">1500x760x750 мм, 1500x470x460 мм</span>
                                             </div>
-                                            <div class="card__price reduced">
+                                            <div class="card__price">
                                                 <div class="card__price-title">Цена за штуку</div>
                                                 <div class="card__price-content">
-                                                    <div class="card__price-current">45 500 ₽</div>
-                                                    <div class="card__price-originally">49 500 ₽</div>
+                                                    <div class="card__price-current">45 500
+                                                        <svg class="icon icon-fill icon-ruble">
+                                                            <use href="img/ruble_fw_bold.svg#ruble_fw_bold"></use>
+                                                        </svg>
+                                                    </div>
+                                                    <div class="card__price-originally">49 500
+                                                        <svg class="icon icon-fill icon-ruble">
+                                                            <use href="img/ruble_fw_normal.svg#ruble_fw_normal"></use>
+                                                        </svg>
+                                                    </div>
                                                 </div>
                                             </div>
                                             <div class="card__cart cart-buy">
                                                 <button class="btn-reset btn btn-primary cart-in" type="button">
                                                     <span class="text-content">В корзину</span>
                                                 </button>
-                                                <div class="cart-quantity disabled">
-                                                    <button class="btn-reset cart-quantity-btn cart-quantity-btn--remove" data-value="qty-remove">
-                                                        <svg class="icon icon-fill">
-                                                            <use href="img/sprite.svg#minus"></use>
-                                                        </svg>
-                                                    </button>
-                                                    <input
-                                                            id=""
-                                                            class="input-reset cart-quantity-input"
-                                                            type="text"
-                                                            placeholder="999"
-                                                            value="1"
-                                                            max="999"
-                                                            data-mult="1"
-                                                    >
-                                                    <button class="btn-reset cart-quantity-btn cart-quantity-btn--add" data-value="qty-add">
-                                                        <svg class="icon icon-fill">
-                                                            <use href="img/sprite.svg#plus"></use>
-                                                        </svg>
-                                                    </button>
-                                                </div>
-                                                <div class="cart-quantity-remove">
-                                                    <button class="btn-reset cart-quantity-remove__btn" data-cart-quantity-remove>
-                                                        <svg class="icon icon-fill">
-                                                            <use href="img/sprite.svg#trash"></use>
-                                                        </svg>
-                                                    </button>
+                                                <div class="cart-quantity-wrap">
+                                                    <div class="cart-quantity disabled">
+                                                        <button class="btn-reset cart-quantity-btn cart-quantity-btn--remove" data-value="qty-remove">
+                                                            <svg class="icon icon-fill">
+                                                                <use href="img/sprite.svg#minus"></use>
+                                                            </svg>
+                                                        </button>
+                                                        <input
+                                                                id=""
+                                                                class="input-reset cart-quantity-input"
+                                                                type="text"
+                                                                placeholder="999"
+                                                                value="1"
+                                                                max="999"
+                                                                data-mult="1"
+                                                        >
+                                                        <button class="btn-reset cart-quantity-btn cart-quantity-btn--add" data-value="qty-add">
+                                                            <svg class="icon icon-fill">
+                                                                <use href="img/sprite.svg#plus"></use>
+                                                            </svg>
+                                                        </button>
+                                                    </div>
+                                                    <div class="cart-quantity-remove">
+                                                        <button class="btn-reset cart-quantity-remove__btn" data-cart-quantity-remove>
+                                                            <svg class="icon icon-fill">
+                                                                <use href="img/sprite.svg#trash"></use>
+                                                            </svg>
+                                                        </button>
+                                                    </div>
                                                 </div>
                                             </div>
                                         </div>
@@ -757,44 +807,54 @@
                                                 <span class="card__compound-title">Сталь, дерево-композит</span>
                                                 <span class="card__compound-text">1500x760x750 мм, 1500x470x460 мм</span>
                                             </div>
-                                            <div class="card__price reduced">
+                                            <div class="card__price">
                                                 <div class="card__price-title">Цена за штуку</div>
                                                 <div class="card__price-content">
-                                                    <div class="card__price-current">45 500 ₽</div>
-                                                    <div class="card__price-originally">49 500 ₽</div>
+                                                    <div class="card__price-current">45 500
+                                                        <svg class="icon icon-fill icon-ruble">
+                                                            <use href="img/ruble_fw_bold.svg#ruble_fw_bold"></use>
+                                                        </svg>
+                                                    </div>
+                                                    <div class="card__price-originally">49 500
+                                                        <svg class="icon icon-fill icon-ruble">
+                                                            <use href="img/ruble_fw_normal.svg#ruble_fw_normal"></use>
+                                                        </svg>
+                                                    </div>
                                                 </div>
                                             </div>
                                             <div class="card__cart cart-buy">
                                                 <button class="btn-reset btn btn-primary cart-in" type="button">
                                                     <span class="text-content">В корзину</span>
                                                 </button>
-                                                <div class="cart-quantity disabled">
-                                                    <button class="btn-reset cart-quantity-btn cart-quantity-btn--remove" data-value="qty-remove">
-                                                        <svg class="icon icon-fill">
-                                                            <use href="img/sprite.svg#minus"></use>
-                                                        </svg>
-                                                    </button>
-                                                    <input
-                                                            id=""
-                                                            class="input-reset cart-quantity-input"
-                                                            type="text"
-                                                            placeholder="999"
-                                                            value="1"
-                                                            max="999"
-                                                            data-mult="1"
-                                                    >
-                                                    <button class="btn-reset cart-quantity-btn cart-quantity-btn--add" data-value="qty-add">
-                                                        <svg class="icon icon-fill">
-                                                            <use href="img/sprite.svg#plus"></use>
-                                                        </svg>
-                                                    </button>
-                                                </div>
-                                                <div class="cart-quantity-remove">
-                                                    <button class="btn-reset cart-quantity-remove__btn" data-cart-quantity-remove>
-                                                        <svg class="icon icon-fill">
-                                                            <use href="img/sprite.svg#trash"></use>
-                                                        </svg>
-                                                    </button>
+                                                <div class="cart-quantity-wrap">
+                                                    <div class="cart-quantity disabled">
+                                                        <button class="btn-reset cart-quantity-btn cart-quantity-btn--remove" data-value="qty-remove">
+                                                            <svg class="icon icon-fill">
+                                                                <use href="img/sprite.svg#minus"></use>
+                                                            </svg>
+                                                        </button>
+                                                        <input
+                                                                id=""
+                                                                class="input-reset cart-quantity-input"
+                                                                type="text"
+                                                                placeholder="999"
+                                                                value="1"
+                                                                max="999"
+                                                                data-mult="1"
+                                                        >
+                                                        <button class="btn-reset cart-quantity-btn cart-quantity-btn--add" data-value="qty-add">
+                                                            <svg class="icon icon-fill">
+                                                                <use href="img/sprite.svg#plus"></use>
+                                                            </svg>
+                                                        </button>
+                                                    </div>
+                                                    <div class="cart-quantity-remove">
+                                                        <button class="btn-reset cart-quantity-remove__btn" data-cart-quantity-remove>
+                                                            <svg class="icon icon-fill">
+                                                                <use href="img/sprite.svg#trash"></use>
+                                                            </svg>
+                                                        </button>
+                                                    </div>
                                                 </div>
                                             </div>
                                         </div>
@@ -936,9 +996,17 @@
                                             <div class="card__price reduced discount">
                                                 <div class="card__price-title">Цена за штуку</div>
                                                 <div class="card__price-content">
-                                                    <div class="card__price-current">45 500 ₽</div>
+                                                    <div class="card__price-current">45 500
+                                                        <svg class="icon icon-fill icon-ruble">
+                                                            <use href="img/ruble_fw_bold.svg#ruble_fw_bold"></use>
+                                                        </svg>
+                                                    </div>
                                                     <div class="card__price-discount">
-                                                        <div class="card__price-originally">49 500 ₽</div>
+                                                        <div class="card__price-originally">49 500
+                                                            <svg class="icon icon-fill icon-ruble">
+                                                                <use href="img/ruble_fw_bold.svg#ruble_fw_bold"></use>
+                                                            </svg>
+                                                        </div>
                                                         <div class="card__price-discount-label">-30%</div>
                                                     </div>
                                                 </div>
@@ -947,33 +1015,35 @@
                                                 <button class="btn-reset btn btn-primary cart-in" type="button">
                                                     <span class="text-content">В корзину</span>
                                                 </button>
-                                                <div class="cart-quantity disabled">
-                                                    <button class="btn-reset cart-quantity-btn cart-quantity-btn--remove" data-value="qty-remove">
-                                                        <svg class="icon icon-fill">
-                                                            <use href="img/sprite.svg#minus"></use>
-                                                        </svg>
-                                                    </button>
-                                                    <input
-                                                            id=""
-                                                            class="input-reset cart-quantity-input"
-                                                            type="text"
-                                                            placeholder="999"
-                                                            value="1"
-                                                            max="999"
-                                                            data-mult="1"
-                                                    >
-                                                    <button class="btn-reset cart-quantity-btn cart-quantity-btn--add" data-value="qty-add">
-                                                        <svg class="icon icon-fill">
-                                                            <use href="img/sprite.svg#plus"></use>
-                                                        </svg>
-                                                    </button>
-                                                </div>
-                                                <div class="cart-quantity-remove">
-                                                    <button class="btn-reset cart-quantity-remove__btn" data-cart-quantity-remove>
-                                                        <svg class="icon icon-fill">
-                                                            <use href="img/sprite.svg#trash"></use>
-                                                        </svg>
-                                                    </button>
+                                                <div class="cart-quantity-wrap">
+                                                    <div class="cart-quantity disabled">
+                                                        <button class="btn-reset cart-quantity-btn cart-quantity-btn--remove" data-value="qty-remove">
+                                                            <svg class="icon icon-fill">
+                                                                <use href="img/sprite.svg#minus"></use>
+                                                            </svg>
+                                                        </button>
+                                                        <input
+                                                                id=""
+                                                                class="input-reset cart-quantity-input"
+                                                                type="text"
+                                                                placeholder="999"
+                                                                value="1"
+                                                                max="999"
+                                                                data-mult="1"
+                                                        >
+                                                        <button class="btn-reset cart-quantity-btn cart-quantity-btn--add" data-value="qty-add">
+                                                            <svg class="icon icon-fill">
+                                                                <use href="img/sprite.svg#plus"></use>
+                                                            </svg>
+                                                        </button>
+                                                    </div>
+                                                    <div class="cart-quantity-remove">
+                                                        <button class="btn-reset cart-quantity-remove__btn" data-cart-quantity-remove>
+                                                            <svg class="icon icon-fill">
+                                                                <use href="img/sprite.svg#trash"></use>
+                                                            </svg>
+                                                        </button>
+                                                    </div>
                                                 </div>
                                             </div>
                                         </div>
@@ -1023,41 +1093,51 @@
                                             <div class="card__price reduced">
                                                 <div class="card__price-title">Цена за штуку</div>
                                                 <div class="card__price-content">
-                                                    <div class="card__price-current">45 500 ₽</div>
-                                                    <div class="card__price-originally">49 500 ₽</div>
+                                                    <div class="card__price-current">45 500
+                                                        <svg class="icon icon-fill icon-ruble">
+                                                            <use href="img/ruble_fw_bold.svg#ruble_fw_bold"></use>
+                                                        </svg>
+                                                    </div>
+                                                    <div class="card__price-originally">49 500
+                                                        <svg class="icon icon-fill icon-ruble">
+                                                            <use href="img/ruble_fw_normal.svg#ruble_fw_normal"></use>
+                                                        </svg>
+                                                    </div>
                                                 </div>
                                             </div>
                                             <div class="card__cart cart-buy">
                                                 <button class="btn-reset btn btn-primary cart-in" type="button">
                                                     <span class="text-content">В корзину</span>
                                                 </button>
-                                                <div class="cart-quantity disabled">
-                                                    <button class="btn-reset cart-quantity-btn cart-quantity-btn--remove" data-value="qty-remove">
-                                                        <svg class="icon icon-fill">
-                                                            <use href="img/sprite.svg#minus"></use>
-                                                        </svg>
-                                                    </button>
-                                                    <input
-                                                            id=""
-                                                            class="input-reset cart-quantity-input"
-                                                            type="text"
-                                                            placeholder="999"
-                                                            value="1"
-                                                            max="999"
-                                                            data-mult="1"
-                                                    >
-                                                    <button class="btn-reset cart-quantity-btn cart-quantity-btn--add" data-value="qty-add">
-                                                        <svg class="icon icon-fill">
-                                                            <use href="img/sprite.svg#plus"></use>
-                                                        </svg>
-                                                    </button>
-                                                </div>
-                                                <div class="cart-quantity-remove">
-                                                    <button class="btn-reset cart-quantity-remove__btn" data-cart-quantity-remove>
-                                                        <svg class="icon icon-fill">
-                                                            <use href="img/sprite.svg#trash"></use>
-                                                        </svg>
-                                                    </button>
+                                                <div class="cart-quantity-wrap">
+                                                    <div class="cart-quantity disabled">
+                                                        <button class="btn-reset cart-quantity-btn cart-quantity-btn--remove" data-value="qty-remove">
+                                                            <svg class="icon icon-fill">
+                                                                <use href="img/sprite.svg#minus"></use>
+                                                            </svg>
+                                                        </button>
+                                                        <input
+                                                                id=""
+                                                                class="input-reset cart-quantity-input"
+                                                                type="text"
+                                                                placeholder="999"
+                                                                value="1"
+                                                                max="999"
+                                                                data-mult="1"
+                                                        >
+                                                        <button class="btn-reset cart-quantity-btn cart-quantity-btn--add" data-value="qty-add">
+                                                            <svg class="icon icon-fill">
+                                                                <use href="img/sprite.svg#plus"></use>
+                                                            </svg>
+                                                        </button>
+                                                    </div>
+                                                    <div class="cart-quantity-remove">
+                                                        <button class="btn-reset cart-quantity-remove__btn" data-cart-quantity-remove>
+                                                            <svg class="icon icon-fill">
+                                                                <use href="img/sprite.svg#trash"></use>
+                                                            </svg>
+                                                        </button>
+                                                    </div>
                                                 </div>
                                             </div>
                                         </div>
@@ -1104,44 +1184,54 @@
                                                 <span class="card__compound-title">Сталь, дерево-композит</span>
                                                 <span class="card__compound-text">1500x760x750 мм, 1500x470x460 мм</span>
                                             </div>
-                                            <div class="card__price reduced">
+                                            <div class="card__price">
                                                 <div class="card__price-title">Цена за штуку</div>
                                                 <div class="card__price-content">
-                                                    <div class="card__price-current">45 500 ₽</div>
-                                                    <div class="card__price-originally">49 500 ₽</div>
+                                                    <div class="card__price-current">45 500
+                                                        <svg class="icon icon-fill icon-ruble">
+                                                            <use href="img/ruble_fw_bold.svg#ruble_fw_bold"></use>
+                                                        </svg>
+                                                    </div>
+                                                    <div class="card__price-originally">49 500
+                                                        <svg class="icon icon-fill icon-ruble">
+                                                            <use href="img/ruble_fw_normal.svg#ruble_fw_normal"></use>
+                                                        </svg>
+                                                    </div>
                                                 </div>
                                             </div>
                                             <div class="card__cart cart-buy">
                                                 <button class="btn-reset btn btn-primary cart-in" type="button">
                                                     <span class="text-content">В корзину</span>
                                                 </button>
-                                                <div class="cart-quantity disabled">
-                                                    <button class="btn-reset cart-quantity-btn cart-quantity-btn--remove" data-value="qty-remove">
-                                                        <svg class="icon icon-fill">
-                                                            <use href="img/sprite.svg#minus"></use>
-                                                        </svg>
-                                                    </button>
-                                                    <input
-                                                            id=""
-                                                            class="input-reset cart-quantity-input"
-                                                            type="text"
-                                                            placeholder="999"
-                                                            value="1"
-                                                            max="999"
-                                                            data-mult="1"
-                                                    >
-                                                    <button class="btn-reset cart-quantity-btn cart-quantity-btn--add" data-value="qty-add">
-                                                        <svg class="icon icon-fill">
-                                                            <use href="img/sprite.svg#plus"></use>
-                                                        </svg>
-                                                    </button>
-                                                </div>
-                                                <div class="cart-quantity-remove">
-                                                    <button class="btn-reset cart-quantity-remove__btn" data-cart-quantity-remove>
-                                                        <svg class="icon icon-fill">
-                                                            <use href="img/sprite.svg#trash"></use>
-                                                        </svg>
-                                                    </button>
+                                                <div class="cart-quantity-wrap">
+                                                    <div class="cart-quantity disabled">
+                                                        <button class="btn-reset cart-quantity-btn cart-quantity-btn--remove" data-value="qty-remove">
+                                                            <svg class="icon icon-fill">
+                                                                <use href="img/sprite.svg#minus"></use>
+                                                            </svg>
+                                                        </button>
+                                                        <input
+                                                                id=""
+                                                                class="input-reset cart-quantity-input"
+                                                                type="text"
+                                                                placeholder="999"
+                                                                value="1"
+                                                                max="999"
+                                                                data-mult="1"
+                                                        >
+                                                        <button class="btn-reset cart-quantity-btn cart-quantity-btn--add" data-value="qty-add">
+                                                            <svg class="icon icon-fill">
+                                                                <use href="img/sprite.svg#plus"></use>
+                                                            </svg>
+                                                        </button>
+                                                    </div>
+                                                    <div class="cart-quantity-remove">
+                                                        <button class="btn-reset cart-quantity-remove__btn" data-cart-quantity-remove>
+                                                            <svg class="icon icon-fill">
+                                                                <use href="img/sprite.svg#trash"></use>
+                                                            </svg>
+                                                        </button>
+                                                    </div>
                                                 </div>
                                             </div>
                                         </div>
@@ -1187,44 +1277,54 @@
                                                 <span class="card__compound-title">Сталь, дерево-композит</span>
                                                 <span class="card__compound-text">1500x760x750 мм, 1500x470x460 мм</span>
                                             </div>
-                                            <div class="card__price reduced">
+                                            <div class="card__price">
                                                 <div class="card__price-title">Цена за штуку</div>
                                                 <div class="card__price-content">
-                                                    <div class="card__price-current">45 500 ₽</div>
-                                                    <div class="card__price-originally">49 500 ₽</div>
+                                                    <div class="card__price-current">45 500
+                                                        <svg class="icon icon-fill icon-ruble">
+                                                            <use href="img/ruble_fw_bold.svg#ruble_fw_bold"></use>
+                                                        </svg>
+                                                    </div>
+                                                    <div class="card__price-originally">49 500
+                                                        <svg class="icon icon-fill icon-ruble">
+                                                            <use href="img/ruble_fw_normal.svg#ruble_fw_normal"></use>
+                                                        </svg>
+                                                    </div>
                                                 </div>
                                             </div>
                                             <div class="card__cart cart-buy">
                                                 <button class="btn-reset btn btn-primary cart-in" type="button">
                                                     <span class="text-content">В корзину</span>
                                                 </button>
-                                                <div class="cart-quantity disabled">
-                                                    <button class="btn-reset cart-quantity-btn cart-quantity-btn--remove" data-value="qty-remove">
-                                                        <svg class="icon icon-fill">
-                                                            <use href="img/sprite.svg#minus"></use>
-                                                        </svg>
-                                                    </button>
-                                                    <input
-                                                            id=""
-                                                            class="input-reset cart-quantity-input"
-                                                            type="text"
-                                                            placeholder="999"
-                                                            value="1"
-                                                            max="999"
-                                                            data-mult="1"
-                                                    >
-                                                    <button class="btn-reset cart-quantity-btn cart-quantity-btn--add" data-value="qty-add">
-                                                        <svg class="icon icon-fill">
-                                                            <use href="img/sprite.svg#plus"></use>
-                                                        </svg>
-                                                    </button>
-                                                </div>
-                                                <div class="cart-quantity-remove">
-                                                    <button class="btn-reset cart-quantity-remove__btn" data-cart-quantity-remove>
-                                                        <svg class="icon icon-fill">
-                                                            <use href="img/sprite.svg#trash"></use>
-                                                        </svg>
-                                                    </button>
+                                                <div class="cart-quantity-wrap">
+                                                    <div class="cart-quantity disabled">
+                                                        <button class="btn-reset cart-quantity-btn cart-quantity-btn--remove" data-value="qty-remove">
+                                                            <svg class="icon icon-fill">
+                                                                <use href="img/sprite.svg#minus"></use>
+                                                            </svg>
+                                                        </button>
+                                                        <input
+                                                                id=""
+                                                                class="input-reset cart-quantity-input"
+                                                                type="text"
+                                                                placeholder="999"
+                                                                value="1"
+                                                                max="999"
+                                                                data-mult="1"
+                                                        >
+                                                        <button class="btn-reset cart-quantity-btn cart-quantity-btn--add" data-value="qty-add">
+                                                            <svg class="icon icon-fill">
+                                                                <use href="img/sprite.svg#plus"></use>
+                                                            </svg>
+                                                        </button>
+                                                    </div>
+                                                    <div class="cart-quantity-remove">
+                                                        <button class="btn-reset cart-quantity-remove__btn" data-cart-quantity-remove>
+                                                            <svg class="icon icon-fill">
+                                                                <use href="img/sprite.svg#trash"></use>
+                                                            </svg>
+                                                        </button>
+                                                    </div>
                                                 </div>
                                             </div>
                                         </div>
@@ -1270,44 +1370,54 @@
                                                 <span class="card__compound-title">Сталь, дерево-композит</span>
                                                 <span class="card__compound-text">1500x760x750 мм, 1500x470x460 мм</span>
                                             </div>
-                                            <div class="card__price reduced">
+                                            <div class="card__price">
                                                 <div class="card__price-title">Цена за штуку</div>
                                                 <div class="card__price-content">
-                                                    <div class="card__price-current">45 500 ₽</div>
-                                                    <div class="card__price-originally">49 500 ₽</div>
+                                                    <div class="card__price-current">45 500
+                                                        <svg class="icon icon-fill icon-ruble">
+                                                            <use href="img/ruble_fw_bold.svg#ruble_fw_bold"></use>
+                                                        </svg>
+                                                    </div>
+                                                    <div class="card__price-originally">49 500
+                                                        <svg class="icon icon-fill icon-ruble">
+                                                            <use href="img/ruble_fw_normal.svg#ruble_fw_normal"></use>
+                                                        </svg>
+                                                    </div>
                                                 </div>
                                             </div>
                                             <div class="card__cart cart-buy">
                                                 <button class="btn-reset btn btn-primary cart-in" type="button">
                                                     <span class="text-content">В корзину</span>
                                                 </button>
-                                                <div class="cart-quantity disabled">
-                                                    <button class="btn-reset cart-quantity-btn cart-quantity-btn--remove" data-value="qty-remove">
-                                                        <svg class="icon icon-fill">
-                                                            <use href="img/sprite.svg#minus"></use>
-                                                        </svg>
-                                                    </button>
-                                                    <input
-                                                            id=""
-                                                            class="input-reset cart-quantity-input"
-                                                            type="text"
-                                                            placeholder="999"
-                                                            value="1"
-                                                            max="999"
-                                                            data-mult="1"
-                                                    >
-                                                    <button class="btn-reset cart-quantity-btn cart-quantity-btn--add" data-value="qty-add">
-                                                        <svg class="icon icon-fill">
-                                                            <use href="img/sprite.svg#plus"></use>
-                                                        </svg>
-                                                    </button>
-                                                </div>
-                                                <div class="cart-quantity-remove">
-                                                    <button class="btn-reset cart-quantity-remove__btn" data-cart-quantity-remove>
-                                                        <svg class="icon icon-fill">
-                                                            <use href="img/sprite.svg#trash"></use>
-                                                        </svg>
-                                                    </button>
+                                                <div class="cart-quantity-wrap">
+                                                    <div class="cart-quantity disabled">
+                                                        <button class="btn-reset cart-quantity-btn cart-quantity-btn--remove" data-value="qty-remove">
+                                                            <svg class="icon icon-fill">
+                                                                <use href="img/sprite.svg#minus"></use>
+                                                            </svg>
+                                                        </button>
+                                                        <input
+                                                                id=""
+                                                                class="input-reset cart-quantity-input"
+                                                                type="text"
+                                                                placeholder="999"
+                                                                value="1"
+                                                                max="999"
+                                                                data-mult="1"
+                                                        >
+                                                        <button class="btn-reset cart-quantity-btn cart-quantity-btn--add" data-value="qty-add">
+                                                            <svg class="icon icon-fill">
+                                                                <use href="img/sprite.svg#plus"></use>
+                                                            </svg>
+                                                        </button>
+                                                    </div>
+                                                    <div class="cart-quantity-remove">
+                                                        <button class="btn-reset cart-quantity-remove__btn" data-cart-quantity-remove>
+                                                            <svg class="icon icon-fill">
+                                                                <use href="img/sprite.svg#trash"></use>
+                                                            </svg>
+                                                        </button>
+                                                    </div>
                                                 </div>
                                             </div>
                                         </div>
@@ -1353,44 +1463,54 @@
                                                 <span class="card__compound-title">Сталь, дерево-композит</span>
                                                 <span class="card__compound-text">1500x760x750 мм, 1500x470x460 мм</span>
                                             </div>
-                                            <div class="card__price reduced">
+                                            <div class="card__price">
                                                 <div class="card__price-title">Цена за штуку</div>
                                                 <div class="card__price-content">
-                                                    <div class="card__price-current">45 500 ₽</div>
-                                                    <div class="card__price-originally">49 500 ₽</div>
+                                                    <div class="card__price-current">45 500
+                                                        <svg class="icon icon-fill icon-ruble">
+                                                            <use href="img/ruble_fw_bold.svg#ruble_fw_bold"></use>
+                                                        </svg>
+                                                    </div>
+                                                    <div class="card__price-originally">49 500
+                                                        <svg class="icon icon-fill icon-ruble">
+                                                            <use href="img/ruble_fw_normal.svg#ruble_fw_normal"></use>
+                                                        </svg>
+                                                    </div>
                                                 </div>
                                             </div>
                                             <div class="card__cart cart-buy">
                                                 <button class="btn-reset btn btn-primary cart-in" type="button">
                                                     <span class="text-content">В корзину</span>
                                                 </button>
-                                                <div class="cart-quantity disabled">
-                                                    <button class="btn-reset cart-quantity-btn cart-quantity-btn--remove" data-value="qty-remove">
-                                                        <svg class="icon icon-fill">
-                                                            <use href="img/sprite.svg#minus"></use>
-                                                        </svg>
-                                                    </button>
-                                                    <input
-                                                            id=""
-                                                            class="input-reset cart-quantity-input"
-                                                            type="text"
-                                                            placeholder="999"
-                                                            value="1"
-                                                            max="999"
-                                                            data-mult="1"
-                                                    >
-                                                    <button class="btn-reset cart-quantity-btn cart-quantity-btn--add" data-value="qty-add">
-                                                        <svg class="icon icon-fill">
-                                                            <use href="img/sprite.svg#plus"></use>
-                                                        </svg>
-                                                    </button>
-                                                </div>
-                                                <div class="cart-quantity-remove">
-                                                    <button class="btn-reset cart-quantity-remove__btn" data-cart-quantity-remove>
-                                                        <svg class="icon icon-fill">
-                                                            <use href="img/sprite.svg#trash"></use>
-                                                        </svg>
-                                                    </button>
+                                                <div class="cart-quantity-wrap">
+                                                    <div class="cart-quantity disabled">
+                                                        <button class="btn-reset cart-quantity-btn cart-quantity-btn--remove" data-value="qty-remove">
+                                                            <svg class="icon icon-fill">
+                                                                <use href="img/sprite.svg#minus"></use>
+                                                            </svg>
+                                                        </button>
+                                                        <input
+                                                                id=""
+                                                                class="input-reset cart-quantity-input"
+                                                                type="text"
+                                                                placeholder="999"
+                                                                value="1"
+                                                                max="999"
+                                                                data-mult="1"
+                                                        >
+                                                        <button class="btn-reset cart-quantity-btn cart-quantity-btn--add" data-value="qty-add">
+                                                            <svg class="icon icon-fill">
+                                                                <use href="img/sprite.svg#plus"></use>
+                                                            </svg>
+                                                        </button>
+                                                    </div>
+                                                    <div class="cart-quantity-remove">
+                                                        <button class="btn-reset cart-quantity-remove__btn" data-cart-quantity-remove>
+                                                            <svg class="icon icon-fill">
+                                                                <use href="img/sprite.svg#trash"></use>
+                                                            </svg>
+                                                        </button>
+                                                    </div>
                                                 </div>
                                             </div>
                                         </div>
@@ -1588,9 +1708,17 @@
                                             <div class="card__price reduced discount">
                                                 <div class="card__price-title">Цена за штуку</div>
                                                 <div class="card__price-content">
-                                                    <div class="card__price-current">45 500 ₽</div>
+                                                    <div class="card__price-current">45 500
+                                                        <svg class="icon icon-fill icon-ruble">
+                                                            <use href="img/ruble_fw_bold.svg#ruble_fw_bold"></use>
+                                                        </svg>
+                                                    </div>
                                                     <div class="card__price-discount">
-                                                        <div class="card__price-originally">49 500 ₽</div>
+                                                        <div class="card__price-originally">49 500
+                                                            <svg class="icon icon-fill icon-ruble">
+                                                                <use href="img/ruble_fw_bold.svg#ruble_fw_bold"></use>
+                                                            </svg>
+                                                        </div>
                                                         <div class="card__price-discount-label">-30%</div>
                                                     </div>
                                                 </div>
@@ -1599,33 +1727,35 @@
                                                 <button class="btn-reset btn btn-primary cart-in" type="button">
                                                     <span class="text-content">В корзину</span>
                                                 </button>
-                                                <div class="cart-quantity disabled">
-                                                    <button class="btn-reset cart-quantity-btn cart-quantity-btn--remove" data-value="qty-remove">
-                                                        <svg class="icon icon-fill">
-                                                            <use href="img/sprite.svg#minus"></use>
-                                                        </svg>
-                                                    </button>
-                                                    <input
-                                                            id=""
-                                                            class="input-reset cart-quantity-input"
-                                                            type="text"
-                                                            placeholder="999"
-                                                            value="1"
-                                                            max="999"
-                                                            data-mult="1"
-                                                    >
-                                                    <button class="btn-reset cart-quantity-btn cart-quantity-btn--add" data-value="qty-add">
-                                                        <svg class="icon icon-fill">
-                                                            <use href="img/sprite.svg#plus"></use>
-                                                        </svg>
-                                                    </button>
-                                                </div>
-                                                <div class="cart-quantity-remove">
-                                                    <button class="btn-reset cart-quantity-remove__btn" data-cart-quantity-remove>
-                                                        <svg class="icon icon-fill">
-                                                            <use href="img/sprite.svg#trash"></use>
-                                                        </svg>
-                                                    </button>
+                                                <div class="cart-quantity-wrap">
+                                                    <div class="cart-quantity disabled">
+                                                        <button class="btn-reset cart-quantity-btn cart-quantity-btn--remove" data-value="qty-remove">
+                                                            <svg class="icon icon-fill">
+                                                                <use href="img/sprite.svg#minus"></use>
+                                                            </svg>
+                                                        </button>
+                                                        <input
+                                                                id=""
+                                                                class="input-reset cart-quantity-input"
+                                                                type="text"
+                                                                placeholder="999"
+                                                                value="1"
+                                                                max="999"
+                                                                data-mult="1"
+                                                        >
+                                                        <button class="btn-reset cart-quantity-btn cart-quantity-btn--add" data-value="qty-add">
+                                                            <svg class="icon icon-fill">
+                                                                <use href="img/sprite.svg#plus"></use>
+                                                            </svg>
+                                                        </button>
+                                                    </div>
+                                                    <div class="cart-quantity-remove">
+                                                        <button class="btn-reset cart-quantity-remove__btn" data-cart-quantity-remove>
+                                                            <svg class="icon icon-fill">
+                                                                <use href="img/sprite.svg#trash"></use>
+                                                            </svg>
+                                                        </button>
+                                                    </div>
                                                 </div>
                                             </div>
                                         </div>
@@ -1675,41 +1805,51 @@
                                             <div class="card__price reduced">
                                                 <div class="card__price-title">Цена за штуку</div>
                                                 <div class="card__price-content">
-                                                    <div class="card__price-current">45 500 ₽</div>
-                                                    <div class="card__price-originally">49 500 ₽</div>
+                                                    <div class="card__price-current">45 500
+                                                        <svg class="icon icon-fill icon-ruble">
+                                                            <use href="img/ruble_fw_bold.svg#ruble_fw_bold"></use>
+                                                        </svg>
+                                                    </div>
+                                                    <div class="card__price-originally">49 500
+                                                        <svg class="icon icon-fill icon-ruble">
+                                                            <use href="img/ruble_fw_normal.svg#ruble_fw_normal"></use>
+                                                        </svg>
+                                                    </div>
                                                 </div>
                                             </div>
                                             <div class="card__cart cart-buy">
                                                 <button class="btn-reset btn btn-primary cart-in" type="button">
                                                     <span class="text-content">В корзину</span>
                                                 </button>
-                                                <div class="cart-quantity disabled">
-                                                    <button class="btn-reset cart-quantity-btn cart-quantity-btn--remove" data-value="qty-remove">
-                                                        <svg class="icon icon-fill">
-                                                            <use href="img/sprite.svg#minus"></use>
-                                                        </svg>
-                                                    </button>
-                                                    <input
-                                                            id=""
-                                                            class="input-reset cart-quantity-input"
-                                                            type="text"
-                                                            placeholder="999"
-                                                            value="1"
-                                                            max="999"
-                                                            data-mult="1"
-                                                    >
-                                                    <button class="btn-reset cart-quantity-btn cart-quantity-btn--add" data-value="qty-add">
-                                                        <svg class="icon icon-fill">
-                                                            <use href="img/sprite.svg#plus"></use>
-                                                        </svg>
-                                                    </button>
-                                                </div>
-                                                <div class="cart-quantity-remove">
-                                                    <button class="btn-reset cart-quantity-remove__btn" data-cart-quantity-remove>
-                                                        <svg class="icon icon-fill">
-                                                            <use href="img/sprite.svg#trash"></use>
-                                                        </svg>
-                                                    </button>
+                                                <div class="cart-quantity-wrap">
+                                                    <div class="cart-quantity disabled">
+                                                        <button class="btn-reset cart-quantity-btn cart-quantity-btn--remove" data-value="qty-remove">
+                                                            <svg class="icon icon-fill">
+                                                                <use href="img/sprite.svg#minus"></use>
+                                                            </svg>
+                                                        </button>
+                                                        <input
+                                                                id=""
+                                                                class="input-reset cart-quantity-input"
+                                                                type="text"
+                                                                placeholder="999"
+                                                                value="1"
+                                                                max="999"
+                                                                data-mult="1"
+                                                        >
+                                                        <button class="btn-reset cart-quantity-btn cart-quantity-btn--add" data-value="qty-add">
+                                                            <svg class="icon icon-fill">
+                                                                <use href="img/sprite.svg#plus"></use>
+                                                            </svg>
+                                                        </button>
+                                                    </div>
+                                                    <div class="cart-quantity-remove">
+                                                        <button class="btn-reset cart-quantity-remove__btn" data-cart-quantity-remove>
+                                                            <svg class="icon icon-fill">
+                                                                <use href="img/sprite.svg#trash"></use>
+                                                            </svg>
+                                                        </button>
+                                                    </div>
                                                 </div>
                                             </div>
                                         </div>
@@ -1756,44 +1896,54 @@
                                                 <span class="card__compound-title">Сталь, дерево-композит</span>
                                                 <span class="card__compound-text">1500x760x750 мм, 1500x470x460 мм</span>
                                             </div>
-                                            <div class="card__price reduced">
+                                            <div class="card__price">
                                                 <div class="card__price-title">Цена за штуку</div>
                                                 <div class="card__price-content">
-                                                    <div class="card__price-current">45 500 ₽</div>
-                                                    <div class="card__price-originally">49 500 ₽</div>
+                                                    <div class="card__price-current">45 500
+                                                        <svg class="icon icon-fill icon-ruble">
+                                                            <use href="img/ruble_fw_bold.svg#ruble_fw_bold"></use>
+                                                        </svg>
+                                                    </div>
+                                                    <div class="card__price-originally">49 500
+                                                        <svg class="icon icon-fill icon-ruble">
+                                                            <use href="img/ruble_fw_normal.svg#ruble_fw_normal"></use>
+                                                        </svg>
+                                                    </div>
                                                 </div>
                                             </div>
                                             <div class="card__cart cart-buy">
                                                 <button class="btn-reset btn btn-primary cart-in" type="button">
                                                     <span class="text-content">В корзину</span>
                                                 </button>
-                                                <div class="cart-quantity disabled">
-                                                    <button class="btn-reset cart-quantity-btn cart-quantity-btn--remove" data-value="qty-remove">
-                                                        <svg class="icon icon-fill">
-                                                            <use href="img/sprite.svg#minus"></use>
-                                                        </svg>
-                                                    </button>
-                                                    <input
-                                                            id=""
-                                                            class="input-reset cart-quantity-input"
-                                                            type="text"
-                                                            placeholder="999"
-                                                            value="1"
-                                                            max="999"
-                                                            data-mult="1"
-                                                    >
-                                                    <button class="btn-reset cart-quantity-btn cart-quantity-btn--add" data-value="qty-add">
-                                                        <svg class="icon icon-fill">
-                                                            <use href="img/sprite.svg#plus"></use>
-                                                        </svg>
-                                                    </button>
-                                                </div>
-                                                <div class="cart-quantity-remove">
-                                                    <button class="btn-reset cart-quantity-remove__btn" data-cart-quantity-remove>
-                                                        <svg class="icon icon-fill">
-                                                            <use href="img/sprite.svg#trash"></use>
-                                                        </svg>
-                                                    </button>
+                                                <div class="cart-quantity-wrap">
+                                                    <div class="cart-quantity disabled">
+                                                        <button class="btn-reset cart-quantity-btn cart-quantity-btn--remove" data-value="qty-remove">
+                                                            <svg class="icon icon-fill">
+                                                                <use href="img/sprite.svg#minus"></use>
+                                                            </svg>
+                                                        </button>
+                                                        <input
+                                                                id=""
+                                                                class="input-reset cart-quantity-input"
+                                                                type="text"
+                                                                placeholder="999"
+                                                                value="1"
+                                                                max="999"
+                                                                data-mult="1"
+                                                        >
+                                                        <button class="btn-reset cart-quantity-btn cart-quantity-btn--add" data-value="qty-add">
+                                                            <svg class="icon icon-fill">
+                                                                <use href="img/sprite.svg#plus"></use>
+                                                            </svg>
+                                                        </button>
+                                                    </div>
+                                                    <div class="cart-quantity-remove">
+                                                        <button class="btn-reset cart-quantity-remove__btn" data-cart-quantity-remove>
+                                                            <svg class="icon icon-fill">
+                                                                <use href="img/sprite.svg#trash"></use>
+                                                            </svg>
+                                                        </button>
+                                                    </div>
                                                 </div>
                                             </div>
                                         </div>
@@ -1839,44 +1989,54 @@
                                                 <span class="card__compound-title">Сталь, дерево-композит</span>
                                                 <span class="card__compound-text">1500x760x750 мм, 1500x470x460 мм</span>
                                             </div>
-                                            <div class="card__price reduced">
+                                            <div class="card__price">
                                                 <div class="card__price-title">Цена за штуку</div>
                                                 <div class="card__price-content">
-                                                    <div class="card__price-current">45 500 ₽</div>
-                                                    <div class="card__price-originally">49 500 ₽</div>
+                                                    <div class="card__price-current">45 500
+                                                        <svg class="icon icon-fill icon-ruble">
+                                                            <use href="img/ruble_fw_bold.svg#ruble_fw_bold"></use>
+                                                        </svg>
+                                                    </div>
+                                                    <div class="card__price-originally">49 500
+                                                        <svg class="icon icon-fill icon-ruble">
+                                                            <use href="img/ruble_fw_normal.svg#ruble_fw_normal"></use>
+                                                        </svg>
+                                                    </div>
                                                 </div>
                                             </div>
                                             <div class="card__cart cart-buy">
                                                 <button class="btn-reset btn btn-primary cart-in" type="button">
                                                     <span class="text-content">В корзину</span>
                                                 </button>
-                                                <div class="cart-quantity disabled">
-                                                    <button class="btn-reset cart-quantity-btn cart-quantity-btn--remove" data-value="qty-remove">
-                                                        <svg class="icon icon-fill">
-                                                            <use href="img/sprite.svg#minus"></use>
-                                                        </svg>
-                                                    </button>
-                                                    <input
-                                                            id=""
-                                                            class="input-reset cart-quantity-input"
-                                                            type="text"
-                                                            placeholder="999"
-                                                            value="1"
-                                                            max="999"
-                                                            data-mult="1"
-                                                    >
-                                                    <button class="btn-reset cart-quantity-btn cart-quantity-btn--add" data-value="qty-add">
-                                                        <svg class="icon icon-fill">
-                                                            <use href="img/sprite.svg#plus"></use>
-                                                        </svg>
-                                                    </button>
-                                                </div>
-                                                <div class="cart-quantity-remove">
-                                                    <button class="btn-reset cart-quantity-remove__btn" data-cart-quantity-remove>
-                                                        <svg class="icon icon-fill">
-                                                            <use href="img/sprite.svg#trash"></use>
-                                                        </svg>
-                                                    </button>
+                                                <div class="cart-quantity-wrap">
+                                                    <div class="cart-quantity disabled">
+                                                        <button class="btn-reset cart-quantity-btn cart-quantity-btn--remove" data-value="qty-remove">
+                                                            <svg class="icon icon-fill">
+                                                                <use href="img/sprite.svg#minus"></use>
+                                                            </svg>
+                                                        </button>
+                                                        <input
+                                                                id=""
+                                                                class="input-reset cart-quantity-input"
+                                                                type="text"
+                                                                placeholder="999"
+                                                                value="1"
+                                                                max="999"
+                                                                data-mult="1"
+                                                        >
+                                                        <button class="btn-reset cart-quantity-btn cart-quantity-btn--add" data-value="qty-add">
+                                                            <svg class="icon icon-fill">
+                                                                <use href="img/sprite.svg#plus"></use>
+                                                            </svg>
+                                                        </button>
+                                                    </div>
+                                                    <div class="cart-quantity-remove">
+                                                        <button class="btn-reset cart-quantity-remove__btn" data-cart-quantity-remove>
+                                                            <svg class="icon icon-fill">
+                                                                <use href="img/sprite.svg#trash"></use>
+                                                            </svg>
+                                                        </button>
+                                                    </div>
                                                 </div>
                                             </div>
                                         </div>
@@ -1922,44 +2082,54 @@
                                                 <span class="card__compound-title">Сталь, дерево-композит</span>
                                                 <span class="card__compound-text">1500x760x750 мм, 1500x470x460 мм</span>
                                             </div>
-                                            <div class="card__price reduced">
+                                            <div class="card__price">
                                                 <div class="card__price-title">Цена за штуку</div>
                                                 <div class="card__price-content">
-                                                    <div class="card__price-current">45 500 ₽</div>
-                                                    <div class="card__price-originally">49 500 ₽</div>
+                                                    <div class="card__price-current">45 500
+                                                        <svg class="icon icon-fill icon-ruble">
+                                                            <use href="img/ruble_fw_bold.svg#ruble_fw_bold"></use>
+                                                        </svg>
+                                                    </div>
+                                                    <div class="card__price-originally">49 500
+                                                        <svg class="icon icon-fill icon-ruble">
+                                                            <use href="img/ruble_fw_normal.svg#ruble_fw_normal"></use>
+                                                        </svg>
+                                                    </div>
                                                 </div>
                                             </div>
                                             <div class="card__cart cart-buy">
                                                 <button class="btn-reset btn btn-primary cart-in" type="button">
                                                     <span class="text-content">В корзину</span>
                                                 </button>
-                                                <div class="cart-quantity disabled">
-                                                    <button class="btn-reset cart-quantity-btn cart-quantity-btn--remove" data-value="qty-remove">
-                                                        <svg class="icon icon-fill">
-                                                            <use href="img/sprite.svg#minus"></use>
-                                                        </svg>
-                                                    </button>
-                                                    <input
-                                                            id=""
-                                                            class="input-reset cart-quantity-input"
-                                                            type="text"
-                                                            placeholder="999"
-                                                            value="1"
-                                                            max="999"
-                                                            data-mult="1"
-                                                    >
-                                                    <button class="btn-reset cart-quantity-btn cart-quantity-btn--add" data-value="qty-add">
-                                                        <svg class="icon icon-fill">
-                                                            <use href="img/sprite.svg#plus"></use>
-                                                        </svg>
-                                                    </button>
-                                                </div>
-                                                <div class="cart-quantity-remove">
-                                                    <button class="btn-reset cart-quantity-remove__btn" data-cart-quantity-remove>
-                                                        <svg class="icon icon-fill">
-                                                            <use href="img/sprite.svg#trash"></use>
-                                                        </svg>
-                                                    </button>
+                                                <div class="cart-quantity-wrap">
+                                                    <div class="cart-quantity disabled">
+                                                        <button class="btn-reset cart-quantity-btn cart-quantity-btn--remove" data-value="qty-remove">
+                                                            <svg class="icon icon-fill">
+                                                                <use href="img/sprite.svg#minus"></use>
+                                                            </svg>
+                                                        </button>
+                                                        <input
+                                                                id=""
+                                                                class="input-reset cart-quantity-input"
+                                                                type="text"
+                                                                placeholder="999"
+                                                                value="1"
+                                                                max="999"
+                                                                data-mult="1"
+                                                        >
+                                                        <button class="btn-reset cart-quantity-btn cart-quantity-btn--add" data-value="qty-add">
+                                                            <svg class="icon icon-fill">
+                                                                <use href="img/sprite.svg#plus"></use>
+                                                            </svg>
+                                                        </button>
+                                                    </div>
+                                                    <div class="cart-quantity-remove">
+                                                        <button class="btn-reset cart-quantity-remove__btn" data-cart-quantity-remove>
+                                                            <svg class="icon icon-fill">
+                                                                <use href="img/sprite.svg#trash"></use>
+                                                            </svg>
+                                                        </button>
+                                                    </div>
                                                 </div>
                                             </div>
                                         </div>
@@ -2005,44 +2175,54 @@
                                                 <span class="card__compound-title">Сталь, дерево-композит</span>
                                                 <span class="card__compound-text">1500x760x750 мм, 1500x470x460 мм</span>
                                             </div>
-                                            <div class="card__price reduced">
+                                            <div class="card__price">
                                                 <div class="card__price-title">Цена за штуку</div>
                                                 <div class="card__price-content">
-                                                    <div class="card__price-current">45 500 ₽</div>
-                                                    <div class="card__price-originally">49 500 ₽</div>
+                                                    <div class="card__price-current">45 500
+                                                        <svg class="icon icon-fill icon-ruble">
+                                                            <use href="img/ruble_fw_bold.svg#ruble_fw_bold"></use>
+                                                        </svg>
+                                                    </div>
+                                                    <div class="card__price-originally">49 500
+                                                        <svg class="icon icon-fill icon-ruble">
+                                                            <use href="img/ruble_fw_normal.svg#ruble_fw_normal"></use>
+                                                        </svg>
+                                                    </div>
                                                 </div>
                                             </div>
                                             <div class="card__cart cart-buy">
                                                 <button class="btn-reset btn btn-primary cart-in" type="button">
                                                     <span class="text-content">В корзину</span>
                                                 </button>
-                                                <div class="cart-quantity disabled">
-                                                    <button class="btn-reset cart-quantity-btn cart-quantity-btn--remove" data-value="qty-remove">
-                                                        <svg class="icon icon-fill">
-                                                            <use href="img/sprite.svg#minus"></use>
-                                                        </svg>
-                                                    </button>
-                                                    <input
-                                                            id=""
-                                                            class="input-reset cart-quantity-input"
-                                                            type="text"
-                                                            placeholder="999"
-                                                            value="1"
-                                                            max="999"
-                                                            data-mult="1"
-                                                    >
-                                                    <button class="btn-reset cart-quantity-btn cart-quantity-btn--add" data-value="qty-add">
-                                                        <svg class="icon icon-fill">
-                                                            <use href="img/sprite.svg#plus"></use>
-                                                        </svg>
-                                                    </button>
-                                                </div>
-                                                <div class="cart-quantity-remove">
-                                                    <button class="btn-reset cart-quantity-remove__btn" data-cart-quantity-remove>
-                                                        <svg class="icon icon-fill">
-                                                            <use href="img/sprite.svg#trash"></use>
-                                                        </svg>
-                                                    </button>
+                                                <div class="cart-quantity-wrap">
+                                                    <div class="cart-quantity disabled">
+                                                        <button class="btn-reset cart-quantity-btn cart-quantity-btn--remove" data-value="qty-remove">
+                                                            <svg class="icon icon-fill">
+                                                                <use href="img/sprite.svg#minus"></use>
+                                                            </svg>
+                                                        </button>
+                                                        <input
+                                                                id=""
+                                                                class="input-reset cart-quantity-input"
+                                                                type="text"
+                                                                placeholder="999"
+                                                                value="1"
+                                                                max="999"
+                                                                data-mult="1"
+                                                        >
+                                                        <button class="btn-reset cart-quantity-btn cart-quantity-btn--add" data-value="qty-add">
+                                                            <svg class="icon icon-fill">
+                                                                <use href="img/sprite.svg#plus"></use>
+                                                            </svg>
+                                                        </button>
+                                                    </div>
+                                                    <div class="cart-quantity-remove">
+                                                        <button class="btn-reset cart-quantity-remove__btn" data-cart-quantity-remove>
+                                                            <svg class="icon icon-fill">
+                                                                <use href="img/sprite.svg#trash"></use>
+                                                            </svg>
+                                                        </button>
+                                                    </div>
                                                 </div>
                                             </div>
                                         </div>
@@ -2252,110 +2432,106 @@
 
 <div class="block">
     <div class="container">
-        <div class="index-contacts">
-            <div class="accordion-container accordion-index-contacts index-contacts__item index-contacts__item--msk">
-                <div class="ac">
-                    <div class="ac-header">
-                        <button class="btn-reset ac-trigger" type="button">
-                            <span class="ac-title">Центральный офис в Москве</span>
-                        </button>
-                    </div>
-                    <div class="ac-panel">
-                        <div class="ac-content">
-                            <ul class="list-reset index-contacts__list">
-                                <li>
-                                    <span class="fw-semibold">111558, г. Москва, ул. Молостовых, дом 14А</span>
-                                    <span class="index-contacts__content index-contacts__text-menu">Пн-Пт - с 9:00 до 18:00</span>
-                                </li>
-                                <li>
-                                    <span class="index-contacts__text-menu">Телефон отдела продаж: </span>
-                                    <span class="index-contacts__content">
+        <div class="index-contacts accordion-container">
+            <div class="ac index-contacts__item index-contacts__item--msk">
+                <div class="ac-header">
+                    <button class="btn-reset ac-trigger" type="button">
+                        <span class="ac-title">Центральный офис в Москве</span>
+                    </button>
+                </div>
+                <div class="ac-panel">
+                    <div class="ac-content">
+                        <ul class="list-reset index-contacts__list">
+                            <li>
+                                <span class="fw-semibold">111558, г. Москва, ул. Молостовых, дом 14А</span>
+                                <span class="index-contacts__content index-contacts__text-menu">Пн-Пт - с 9:00 до 18:00</span>
+                            </li>
+                            <li>
+                                <span class="index-contacts__text-menu">Телефон отдела продаж: </span>
+                                <span class="index-contacts__content">
                                         <a href="javascript:;" class="fw-semibold">+7 495 646-70-94</a>
                                         <a href="javascript:;" class="fw-semibold">+7 495 248-03-18</a>
                                     </span>
-                                    <span class="index-contacts__content index-contacts__text-caption">8:00 - 17:00</span>
-                                </li>
-                                <li>
-                                    <span class="index-contacts__content">
-                                        <a href="javascript:;" class="fw-semibold">zakaz@hobbyka.ru</a>
-                                    </span>
-                                </li>
-                            </ul>
-                        </div>
+                                <span class="index-contacts__content index-contacts__text-caption">8:00 - 17:00</span>
+                            </li>
+                            <li>
+                                <span class="index-contacts__content">
+                                    <a href="javascript:;" class="fw-semibold">zakaz@hobbyka.ru</a>
+                                </span>
+                            </li>
+                        </ul>
                     </div>
                 </div>
             </div>
-            <div class="accordion-container accordion-index-contacts index-contacts__item index-contacts__item--spb">
-                <div class="ac">
-                    <div class="ac-header">
-                        <button class="btn-reset ac-trigger" type="button">
-                            <span class="ac-title">Офис Санкт-Петербург</span>
-                        </button>
-                    </div>
-                    <div class="ac-panel">
-                        <div class="ac-content">
-                            <ul class="list-reset index-contacts__list">
-                                <li>
-                                    <span class="fw-semibold">111558, г. Санкт-Петербург, ул. Молостовых, дом 14А</span>
-                                    <span class="index-contacts__content index-contacts__text-menu">Пн-Пт - с 9:00 до 18:00</span>
-                                </li>
-                                <li>
-                                    <span class="index-contacts__text-menu">Телефон отдела продаж: </span>
-                                    <span class="index-contacts__content">
+
+            <div class="ac index-contacts__item index-contacts__item--spb">
+                <div class="ac-header">
+                    <button class="btn-reset ac-trigger" type="button">
+                        <span class="ac-title">Офис Санкт-Петербург</span>
+                    </button>
+                </div>
+                <div class="ac-panel">
+                    <div class="ac-content">
+                        <ul class="list-reset index-contacts__list">
+                            <li>
+                                <span class="fw-semibold">111558, г. Санкт-Петербург, ул. Молостовых, дом 14А</span>
+                                <span class="index-contacts__content index-contacts__text-menu">Пн-Пт - с 9:00 до 18:00</span>
+                            </li>
+                            <li>
+                                <span class="index-contacts__text-menu">Телефон отдела продаж: </span>
+                                <span class="index-contacts__content">
                                         <a href="javascript:;" class="fw-semibold">+7 812 649-03-73</a>
                                     </span>
-                                    <span class="index-contacts__content index-contacts__text-caption">8:00 - 17:00</span>
-                                </li>
-                                <li>
-                                    <span class="index-contacts__content">
-                                        <a href="javascript:;" class="fw-semibold">zakaz@hobbyka.ru</a>
-                                    </span>
-                                </li>
-                            </ul>
-                        </div>
+                                <span class="index-contacts__content index-contacts__text-caption">8:00 - 17:00</span>
+                            </li>
+                            <li>
+                                <span class="index-contacts__content">
+                                    <a href="javascript:;" class="fw-semibold">zakaz@hobbyka.ru</a>
+                                </span>
+                            </li>
+                        </ul>
                     </div>
                 </div>
             </div>
-            <div class="accordion-container accordion-index-contacts index-contacts__item index-contacts__item--offices">
-                <div class="ac">
-                    <div class="ac-header">
-                        <button class="btn-reset ac-trigger" type="button">
-                            <span class="ac-title">Официальные представительства</span>
-                        </button>
-                    </div>
-                    <div class="ac-panel">
-                        <div class="ac-content">
-                            <ul class="list-reset index-contacts__list">
-                                <li>
-                                    <span class="h5 color-secondary">Крым</span>
-                                    <span class="index-contacts__content">
+
+            <div class="ac index-contacts__item index-contacts__item--offices">
+                <div class="ac-header">
+                    <button class="btn-reset ac-trigger" type="button">
+                        <span class="ac-title">Официальные представительства</span>
+                    </button>
+                </div>
+                <div class="ac-panel">
+                    <div class="ac-content">
+                        <ul class="list-reset index-contacts__list">
+                            <li>
+                                <span class="h5 color-secondary">Крым</span>
+                                <span class="index-contacts__content">
                                         <a href="javascript:;" class="link link-tdu fw-semibold">+7 978 742-85-95</a>
                                         <a href="javascript:;" class="link link-tdu fw-semibold">zakaz@hobbyka.ru</a>
                                     </span>
-                                </li>
-                                <li>
-                                    <span class="h5 color-secondary">Ростов-на-Дону</span>
-                                    <span class="index-contacts__content">
+                            </li>
+                            <li>
+                                <span class="h5 color-secondary">Ростов-на-Дону</span>
+                                <span class="index-contacts__content">
                                         <a href="javascript:;" class="link link-tdu fw-semibold">+7 863 209 78 58</a>
                                         <a href="javascript:;" class="link link-tdu fw-semibold">zakaz@hobbyka.ru</a>
                                     </span>
-                                </li>
-                                <li>
-                                    <span class="h5 color-secondary">Нижний Новгород</span>
-                                    <span class="index-contacts__content">
+                            </li>
+                            <li>
+                                <span class="h5 color-secondary">Нижний Новгород</span>
+                                <span class="index-contacts__content">
                                         <a href="javascript:;" class="link link-tdu fw-semibold">+7 920 030-00-03</a>
                                         <a href="javascript:;" class="link link-tdu fw-semibold">zakaz@hobbyka.ru</a>
                                     </span>
-                                </li>
-                                <li>
-                                    <span class="h5 color-secondary">Воронеж</span>
-                                    <span class="index-contacts__content">
+                            </li>
+                            <li>
+                                <span class="h5 color-secondary">Воронеж</span>
+                                <span class="index-contacts__content">
                                         <a href="javascript:;" class="link link-tdu fw-semibold">+7 473 251-48-47</a>
                                         <a href="javascript:;" class="link link-tdu fw-semibold">zakaz@hobbyka.ru</a>
                                     </span>
-                                </li>
-                            </ul>
-                        </div>
+                            </li>
+                        </ul>
                     </div>
                 </div>
             </div>

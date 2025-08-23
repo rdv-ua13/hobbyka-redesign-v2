@@ -35,7 +35,6 @@ application.prototype.init = function () {
     /*this.initCatalogContentSort();*/
     /*this.initContactsMap();*/
     /*this.initBasicTabs();*/
-    /*this.initAccordion();*/
     this.initContactsAccordion();
     this.initFancyboxBehavior();
     /*this.initPasswordSwitcher();*/
@@ -1087,26 +1086,10 @@ application.prototype.initBasicTabs = function () {
     }
 };
 
-// Initialization accordion
-application.prototype.initAccordion = function () {
-    if ($(".accordion").length) {
-        let accordions = Array.from(document.querySelectorAll('.accordion'));
-        let accordion = new Accordion(accordions, {
-            duration: 200,
-            /*showMultiple: true,*/
-            onlyChildNodes: false,
-        });
-    }
-};
-
 // Initialization contacts accordion
 application.prototype.initContactsAccordion = function () {
-    $(document).on('click', function (e) {
-        console.log(e.target);
-    })
-    if ($(".accordion-index-contacts").length) {
+    if ($(".index-contacts").length) {
         let accordion = null;
-        const accordions = Array.from(document.querySelectorAll('.accordion-index-contacts'));
 
         if (window.matchMedia('(max-width: 991px)').matches) {
             initAccordionResponsive();
@@ -1114,25 +1097,18 @@ application.prototype.initContactsAccordion = function () {
         $(window).on("resize", initAccordionResponsive);
 
         function initAccordionResponsive() {
-            $(accordions).each(function (i) {
-                if (window.matchMedia('(min-width: 992px)').matches) {
-                    if(accordion != null) {
-                        if(accordion[i] != null) {
-                            accordion[i].destroy();
-                            accordion[i] = null;
-                        }
-                    }
-                    return;
-                } else if (window.matchMedia('(max-width: 991px)').matches) {
-                    accordion = new Accordion(accordions, {
-                        duration: 200,
-                        showMultiple: true,
-                        onlyChildNodes: false,
-                    });
-                    accordion[i].closeAll();
-                    console.log(accordion);
+            if (window.matchMedia('(min-width: 992px)').matches) {
+                if(accordion != null) {
+                    accordion.destroy();
+                    accordion = null;
                 }
-            });
+                return;
+            } else if (window.matchMedia('(max-width: 991px)').matches) {
+                accordion = new Accordion([".index-contacts"],{
+                    openOnInit: [0],
+                    duration: 200,
+                });
+            }
         }
     }
 };
