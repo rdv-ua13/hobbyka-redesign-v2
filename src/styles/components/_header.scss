@@ -2,6 +2,7 @@
 	z-index: 1000;
 	min-width: 320px;
 	width: 100%;
+	transition: var(--transition);
 
 	&-container {
 		display: flex;
@@ -9,6 +10,8 @@
 	}
 
 	&-top {
+		transition: var(--transition);
+
 		&-nav {
 			&__list {
 				display: flex;
@@ -592,6 +595,8 @@
 }
 @media (min-width: 1200px) {
 	.header {
+		margin-bottom: -244px;
+
 		.container {
 			max-width: var(--header-container-width);
 			padding-right: var(--header-container-offset);
@@ -734,14 +739,11 @@
 
 		&.scrolled {
 			position: fixed;
-			top: 0;
+			top: -64px;
 
 			.header-top {
-				display: none;
+				opacity: 0;
 			}
-		}
-		&:not(.scrolled) {
-			margin-bottom: -180px;
 		}
 	}
 
