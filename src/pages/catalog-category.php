@@ -1,27 +1,95 @@
 <?php include($_SERVER["DOCUMENT_ROOT"] . "/build/components/header.php"); ?>
 
-<div class="nav-breadcrumbs-wrapper">
+<div class="block-top block-bottom-sm nav-breadcrumbs-wrapper">
     <div class="container">
 		<?php include($_SERVER["DOCUMENT_ROOT"] . "/build/components/breadcrumbs.php"); ?>
     </div>
 </div>
 
+<div class="block-top-mobile block-bottom">
+    <div class="container">
+        <div class="cp-heading">
+            <h1 class="h1 cp-heading__title">Каталог</h1>
+            <div class="cp-heading__placeholder">— 133 товара</div>
+        </div>
+    </div>
+</div>
+
+<div class="block">
+    <div class="container">
+        <div class="catalog-important">
+            <a href="javascript:;" class="catalog-important-item catalog-important-item--type catalog-important-item--type-one" style="background-color: var(--surface-orange);">
+                <span class="catalog-important-item__decor">
+                    <svg class="icon icon-fill icon-one">
+                        <use href="img/sprite.svg#hbk-pattern-flower"></use>
+                    </svg>
+                    <svg class="icon icon-fill icon-two">
+                        <use href="img/sprite.svg#hbk-pattern-flower"></use>
+                    </svg>
+                </span>
+                <span class="catalog-important-item__title">Нам 10 лет!</span>
+            </a>
+            <a href="javascript:;" class="catalog-important-item" style="background-image:url('img/news-img-6.png');">
+                <span class="catalog-important-item__decor">
+                    <svg class="icon icon-fill">
+                        <use href="img/sprite.svg#hbk-pattern-flower"></use>
+                    </svg>
+                    <svg class="icon icon-fill">
+                        <use href="img/sprite.svg#hbk-pattern-flower2"></use>
+                    </svg>
+                </span>
+                <span class="catalog-important-item__title">2025 год скамеек: скидки на весь модельный ряд</span>
+            </a>
+            <a href="javascript:;" class="catalog-important-item catalog-important-item--extra catalog-important-item--type catalog-important-item--type-two" style="background-color: var(--surface-gray2);">
+                <span class="catalog-important-item__decor">
+                    <svg class="icon icon-fill icon-one">
+                        <use href="img/sprite.svg#hbk-pattern-flower"></use>
+                    </svg>
+                    <svg class="icon icon-fill icon-two">
+                        <use href="img/sprite.svg#hbk-pattern-flower"></use>
+                    </svg>
+                </span>
+                <span class="catalog-important-item__title">-50% на все</span>
+            </a>
+            <a href="javascript:;" class="catalog-important-item catalog-important-item--type catalog-important-item--type-sale" style="background-color: var(--surface-red);">
+                <span class="catalog-important-item__decor">
+                    <svg class="icon icon-fill icon-one">
+                        <use href="img/sprite.svg#procent-circle"></use>
+                    </svg>
+                    <svg class="icon icon-fill icon-two">
+                        <use href="img/sprite.svg#procent-circle"></use>
+                    </svg>
+                </span>
+                <span class="catalog-important-item__title">-50% на все</span>
+            </a>
+        </div>
+    </div>
+</div>
+
+<div class="block-top-mobile block-bottom">
+    <div class="container">
+        <div class="gap-sm mobile-only">
+            <div class="h3">Категории товраов</div>
+        </div>
+
+        <div class="catalog-category">
+            <a class="card card-category" href="javascript:;">
+                <div class="card__view">
+                    <img loading="lazy" class="image" src="img/category-3.png" width="60" height="60" alt="Изображение блока">
+                </div>
+                <div class="card__descr">
+                    <div class="card__title">Распродажа</div>
+                    <div class="card__caption">
+                        <span>15 товаров</span>
+                    </div>
+                </div>
+            </a>
+        </div>
+    </div>
+</div>
 
 <div class="container">
     <div class="catalog-category">
-        <div class="cp-heading">
-            <h1 class="h1 cp-heading__title">Геотекстиль</h1>
-            <div class="cp-heading__placeholder">— 178 товаров</div>
-            <div class="cp-heading__back">
-                <a class="cp-heading__back-link link" href="javascript:;">
-                    <svg class="icon icon-fill">
-                        <use href="img/sprite.svg#chevron-left"></use>
-                    </svg>
-                    <span>Каталог</span>
-                </a>
-            </div>
-        </div>
-
         <div class="gap-xl cp">
             <div class="cp-sidebar" data-filter>
                 <div class="cp-sidebar__item cp-sidebar__top cp-sidebar__top-back cp-sidebar-category">
