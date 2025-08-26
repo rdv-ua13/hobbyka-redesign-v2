@@ -2742,6 +2742,9 @@ input.disabled {
 	}
 
 	&-category {
+		justify-content: center;
+		gap: 8px;
+		overflow: hidden;
 		padding: 6px 12px;
 		border: 1px solid transparent;
 		border-radius: 16px;
@@ -2757,14 +2760,13 @@ input.disabled {
 			}
 		}
 		.card__descr {
+			z-index: 1;
 			display: flex;
-			flex: 1;
 			flex-direction: column;
 			justify-content: flex-end;
 			align-items: center;
 		}
 		.card__title {
-			/*todo - not photo card*/
 			display: -webkit-box;
 			-webkit-line-clamp: 3;
 			-webkit-box-orient: vertical;
@@ -2779,6 +2781,32 @@ input.disabled {
 			color: var(--text-caption);
 			line-height: 1.4;
 			text-align: center;
+		}
+
+		&-photo-block {
+			justify-content: flex-start;
+			align-items: flex-start;
+			padding: 12px;
+			border-radius: 8px;
+			background-repeat: no-repeat;
+			background-position: center;
+			background-size: auto 100%;
+
+			&::before {
+				content: '';
+				z-index: 0;
+				position: absolute;
+				inset: 0;
+				background: linear-gradient(180deg, rgba(0, 0, 0, 0.64) 0%, rgba(0, 0, 0, 0.00) 100%);
+			}
+			.card__view {
+				display: none;
+			}
+			.card__title {
+				-webkit-line-clamp: 5;
+				color: var(--white-color);
+				text-align: left;
+			}
 		}
 
 		&:hover {
@@ -2914,6 +2942,8 @@ input.disabled {
 		}
 
 		&-category {
+			gap: 20px;
+
 			.card__view {
 				order: 0;
 			}

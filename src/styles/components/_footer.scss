@@ -93,8 +93,8 @@
 	min-width: 320px;
 	margin-top: 24px;
 	overflow: hidden;
-	border-top-left-radius: 32px;
-	border-top-right-radius: 32px;
+	border-top-left-radius: 16px;
+	border-top-right-radius: 16px;
 	background-color: var(--surface-gray2);
 	color: var(--white-color);
 
@@ -232,6 +232,8 @@
 @media (min-width: 992px) {
 	.footer {
 		margin-top: 60px;
+		border-top-left-radius: 32px;
+		border-top-right-radius: 32px;
 
 		&__row {
 			gap: 64px;
