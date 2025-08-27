@@ -60,9 +60,9 @@
             <img src="img/logo.svg#logo" width="350" height="100" alt="Логотип компании">
         </div>
         <span style="display: inline-flex; align-items:center; font-size: 24px;">
-            <span style="color: forestgreen; font-weight: 600;">1 + ui</span>
+            <span style="color: forestgreen; font-weight: 600;">4 + ui</span>
             &nbsp;/&nbsp;
-            <span style="font-size: 24px;">n + ui (всего страниц в макете)</span>
+            <span style="font-size: 24px;">6 + ui (всего страниц в макете)</span>
         </span>
     </div>
 
@@ -71,9 +71,9 @@
             <li><a class="ready" href="index.php" target="_blank">Главная</a></li>
 
 			<li><a class="ready" href="catalog-category.php" target="_blank">Каталог - категория</a></li>
+			<li><a class="ready" href="category.php" target="_blank">Категория каталога</a></li>
 
-			<?/*<li><a class="ready" href="catalog-lvl-2.php" target="_blank">Каталог (Ур. 2)</a></li>
-			<li><a class="ready" href="card-detail.php" target="_blank">Карточка-детальная</a></li>*/?>
+			<li><a class="ready" href="cart.php" target="_blank">Корзина</a></li>
 
             <br>
             <li><a class="ready" href="ui.php" target="_blank">ui</a></li>

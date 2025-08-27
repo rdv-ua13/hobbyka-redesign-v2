@@ -75,7 +75,7 @@
                                 <li><a class="link" href="javascript:;">Умный город</a></li>
                             </ul>
                         </div>
-                        <div class="footer__column">
+                        <div class="footer__column desktop-only">
                             <div class="footer__title">Клиентам</div>
                             <ul class="list-reset footer__list">
                                 <li><a class="link" href="javascript:;">Оплата</a></li>
@@ -91,24 +91,19 @@
                             <div class="footer__title">Связаться с нами</div>
 
                             <div class="footer-contacts">
-                                <div class="footer-contacts__tel">
-                                    <a class="footer-contacts__number" href="tel:+74956467094">+7 495 646-70-94</a>
-                                    <a class="footer-contacts__number" href="tel:+74952480318">+7 495 248-03-18</a>
-                                    <a class="footer-contacts__email" href="mailto:zakaz@hobbyka.ru">zakaz@hobbyka.ru</a>
+                                <div class="footer-contacts__links">
+                                    <a class="footer-contacts__item footer-contacts__number" href="tel:+74956467094">+7 495 646-70-94</a>
+                                    <a class="footer-contacts__item footer-contacts__number" href="tel:+74952480318">+7 495 248-03-18</a>
+                                    <a class="link link-tdu link-dashed footer-contacts__call" href="javascript:;">заказать звонок</a>
+                                </div>
+                                <div class="footer-contacts__links">
+                                    <a class="footer-contacts__item footer-contacts__email" href="mailto:zakaz@hobbyka.ru">zakaz@hobbyka.ru</a>
                                 </div>
                                 <div class="social">
                                     <div class="social__title">Напишите в соцсетях</div>
                                     <ul class="list-reset social__list">
                                         <li>
                                             <a href="javascript:;" target="_blank" aria-label="Наша страничка в Вконтакте">
-                                                <!--<img
-                                                        loading="lazy"
-                                                        class="image"
-                                                        src="img/soc-vk2.png"
-                                                        width="32"
-                                                        height="32"
-                                                        alt="Изображение блока"
-                                                >-->
                                                 <svg class="icon icon-fill">
                                                     <use href="img/social-vk.svg#social-vk"></use>
                                                 </svg>
@@ -116,14 +111,6 @@
                                         </li>
                                         <li>
                                             <a href="javascript:;" target="_blank" aria-label="Наша страничка в Одноклассники">
-                                                <!--<img
-                                                        loading="lazy"
-                                                        class="image"
-                                                        src="img/soc-ok2.png"
-                                                        width="32"
-                                                        height="32"
-                                                        alt="Изображение блока"
-                                                >-->
                                                 <svg class="icon icon-fill">
                                                     <use href="img/social-ok.svg#social-ok"></use>
                                                 </svg>
@@ -131,14 +118,6 @@
                                         </li>
                                         <li>
                                             <a href="javascript:;" target="_blank" aria-label="Наша страничка в Telegram">
-                                                <!--<img
-                                                        loading="lazy"
-                                                        class="image"
-                                                        src="img/soc-tg2.png"
-                                                        width="32"
-                                                        height="32"
-                                                        alt="Изображение блока"
-                                                >-->
                                                 <svg class="icon icon-fill">
                                                     <use href="img/social-tg.svg#social-tg"></use>
                                                 </svg>
@@ -146,14 +125,6 @@
                                         </li>
                                         <li>
                                             <a href="javascript:;" target="_blank" aria-label="Наша страничка в Youtube">
-                                                <!--<img
-                                                        loading="lazy"
-                                                        class="image"
-                                                        src="img/soc-yt2.png"
-                                                        width="32"
-                                                        height="32"
-                                                        alt="Изображение блока"
-                                                >-->
                                                 <svg class="icon icon-fill">
                                                     <use href="img/social-yt.svg#social-yt"></use>
                                                 </svg>
