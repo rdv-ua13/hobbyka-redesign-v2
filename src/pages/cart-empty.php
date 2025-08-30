@@ -1,6 +1,6 @@
 <?php include($_SERVER["DOCUMENT_ROOT"] . "/build/components/header.php"); ?>
 
-<div class="cart cart-empty-page">
+<div class="cart">
 	<div class="block">
 		<div class="container">
 			<div class="cp-heading">

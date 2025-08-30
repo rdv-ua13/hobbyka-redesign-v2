@@ -42,24 +42,26 @@
 	}
 
 	&-social {
-		.social__list {
-			gap: 8px;
+		.social {
+			&__list {
+				gap: 8px;
 
-			li {
-				line-height: 1;
-			}
-		}
-		a {
-			border-radius: 3px;
-			background-color: var(--text-secondary);
-
-			.icon {
-				min-width: 15px;
-				width: 15px;
-				min-height: 15px;
-				height: 15px;
-				fill: #F5F5F5;
-				stroke: #F5F5F5;
+				li {
+					line-height: 1;
+				}
+				a {
+					.image,
+					.icon {
+						min-width: 24px;
+						width: 24px;
+						min-height: 24px;
+						height: 24px;
+					}
+					.icon {
+						fill: #F5F5F5;
+						stroke: #F5F5F5;
+					}
+				}
 			}
 		}
 	}
@@ -647,15 +649,6 @@
 					min-height: 20px;
 					height: 20px;
 				}
-			}
-		}
-
-		&-social {
-			a {
-				min-width: 24px;
-				width: 24px;
-				min-height: 24px;
-				height: 24px;
 			}
 		}
 

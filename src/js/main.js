@@ -42,6 +42,7 @@ application.prototype.init = function () {
     /*this.setCardProductMore();*/
     /*this.initSmoothScrollTo();*/
     this.initCartQuantity();
+    this.initCheckall();
 };
 
 // Initialization device check
@@ -341,29 +342,45 @@ application.prototype.initSliders = function () {
         });
     }
 
-    if ($('.index-slider').length) {
-        const slider = $('.index-slider');
-        let indexSlider = null;
+    if ($('.banner-slider').length) {
+        const slider = $('.banner-slider');
+        let bannerSlider = null;
+        let bannerSliderSettings = null;
 
         slider.each(function (i) {
-            slider.eq(i).closest('.index-slider-wrap').addClass('index-slider-wrap-' + i);
+            slider.eq(i).closest('.banner-slider-wrap').addClass('banner-slider-wrap-' + i);
 
-            const indexSliderSettings = {
-                slidesPerView: 1,
-                autoHeight: true,
-                effect: 'fade',
-                watchOverflow: true,
-                navigation: {
-                    nextEl: '.index-slider-wrap-' + i + ' .swiper-button-next',
-                    prevEl: '.index-slider-wrap-' + i + ' .swiper-button-prev',
-                },
-                pagination: {
-                    el: '.index-slider-wrap-' + i + ' .swiper-pagination',
-                    clickable: true,
-                },
+            if($(this).is('.nav-none')) {
+                bannerSliderSettings = {
+                    slidesPerView: 1,
+                    autoHeight: true,
+                    effect: 'fade',
+                    watchOverflow: true,
+                    navigation: false,
+                    pagination: {
+                        el: '.banner-slider-wrap-' + i + ' .swiper-pagination',
+                        clickable: true,
+                    },
+                }
+            }
+            else {
+                bannerSliderSettings = {
+                    slidesPerView: 1,
+                    autoHeight: true,
+                    effect: 'fade',
+                    watchOverflow: true,
+                    navigation: {
+                        nextEl: '.banner-slider-wrap-' + i + ' .swiper-button-next',
+                        prevEl: '.banner-slider-wrap-' + i + ' .swiper-button-prev',
+                    },
+                    pagination: {
+                        el: '.banner-slider-wrap-' + i + ' .swiper-pagination',
+                        clickable: true,
+                    },
+                }
             }
 
-            indexSlider = new Swiper('.index-slider-wrap-' + i + ' .index-slider', indexSliderSettings);
+            bannerSlider = new Swiper('.banner-slider-wrap-' + i + ' .banner-slider', bannerSliderSettings);
         });
     }
 
@@ -1290,5 +1307,127 @@ application.prototype.initCartQuantity = function () {
 
             $button.closest('.cart-quantity').find('input.cart-quantity-input').val(newVal).trigger('change');
         });
+    }
+};
+
+// Initialization check all group
+application.prototype.initCheckall = function () {
+    if ($('.js-checkall-for').length) {
+        initOnloadCheckall();
+        initOnclickCheckallFor();
+        initOnclickCheckallGroup();
+
+        function initOnloadCheckall() {
+            $('.js-checkall-for').each(function () {
+                const checkallFor = $(this);
+                const checkallForData = checkallFor.data('checkall-for');
+                let checkallForState = false;
+                let checkallGroupState = [];
+                let checkallGroupCheckedState = [];
+
+                checkallForHandling();
+                compareGroupState(checkallGroupState);
+
+                function checkallForHandling() {
+                    $(".checkall-group[data-checkall-group='" + checkallForData + "']").each(function (e) {
+                        let checkallGroupElem = $(this);
+
+                        if(checkallGroupElem.is(':checked')) {
+                            checkallForState = true;
+                            checkallGroupState.push(true);
+                        } else if(!checkallGroupElem.is(':checked')) {
+                            checkallGroupState.push(false);
+                        }
+                    });
+
+                    if(checkallForState === false) {
+                        checkallFor.prop('checked', false);
+                    } else if(checkallForState === true) {
+                        checkallFor.prop('checked', true);
+                    }
+                }
+
+                function compareGroupState(arr) {
+                    $.each(arr, function(i) {
+                        if(arr[i] === true) {
+                            checkallGroupCheckedState.push('checked');
+                        } else if(arr[i] === false) {
+                            checkallGroupCheckedState.push('notChecked');
+                        }
+                    });
+
+                    const allChecked = checkallGroupCheckedState.every(elem => elem === 'checked');
+
+                    if(allChecked) checkallFor.removeClass('custom-checkbox__input--checkline');
+                }
+            });
+        }
+
+        function initOnclickCheckallFor() {
+            $('.js-checkall-for').on('click', function (e) {
+                const checkallFor = $(this);
+                const checkallForData = checkallFor.data('checkall-for');
+
+                if(checkallFor.is(':checked')) {
+                    checkallFor.prop('checked', true);
+                    checkallFor.removeClass('custom-checkbox__input--checkline');
+                    $(".checkall-group[data-checkall-group='" + checkallForData + "']").prop("checked", true);
+                } else if(!checkallFor.is(':checked')) {
+                    checkallFor.prop('checked', false);
+                    $(".checkall-group[data-checkall-group='" + checkallForData + "']").prop("checked", false);
+                }
+            });
+        }
+
+        function initOnclickCheckallGroup() {
+            $('.checkall-group').on('click', function (e) {
+                const checkallGroup = $(this);
+                const checkallGroupData = checkallGroup.data('checkall-group');
+
+                let checkallGroupState = [];
+                let checkallGroupCheckedState = [];
+
+                checkallGroupHandling();
+                compareGroupState(checkallGroupState);
+
+                function checkallGroupHandling() {
+                    $(".checkall-group[data-checkall-group='" + checkallGroupData + "']").each(function (e) {
+                        let checkallGroupElem = $(this);
+
+                        if(checkallGroupElem.is(':checked')) {
+                            checkallGroupState.push(true);
+                        } else if(!checkallGroupElem.is(':checked')) {
+                            checkallGroupState.push(false);
+                        }
+                    });
+                }
+
+                function compareGroupState(arr) {
+                    $.each(arr, function(i) {
+                        if(arr[i] === true) {
+                            checkallGroupCheckedState.push('checked');
+                        } else if(arr[i] === false) {
+                            checkallGroupCheckedState.push('notChecked');
+                        }
+                    });
+
+                    const allChecked = checkallGroupCheckedState.every(elem => elem === 'checked');
+                    const allNotChecked = checkallGroupCheckedState.every(elem => elem === 'notChecked');
+
+                    if(allChecked) {
+                        $(".js-checkall-for[data-checkall-for='" + checkallGroupData + "']").prop('checked', true);
+                        $(".js-checkall-for[data-checkall-for='" + checkallGroupData + "']").removeClass('custom-checkbox__input--checkline');
+                    } else if(allNotChecked) {
+                        $(".js-checkall-for[data-checkall-for='" + checkallGroupData + "']").prop('checked', false);
+                    } else if(!allChecked && !allNotChecked) {
+                        $(".js-checkall-for[data-checkall-for='" + checkallGroupData + "']").prop('checked', true);
+
+                        if(!$(".js-checkall-for[data-checkall-for='" + checkallGroupData + "']").hasClass('custom-checkbox__input--checkline')) {
+                            $(".js-checkall-for[data-checkall-for='" + checkallGroupData + "']").addClass('custom-checkbox__input--checkline');
+                        }
+                    }
+                }
+            });
+        }
     }
 };

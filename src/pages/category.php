@@ -50,7 +50,7 @@
 					>
 				</a>
 				<div class="card__descr">
-					<div class="card__stock product-stock in-stock">
+					<div class="card__stock stock in-stock">
 						<svg class="icon icon-fill">
 							<use href="img/sprite.svg#checkbox-rec"></use>
 						</svg>
@@ -145,7 +145,7 @@
                     >
                 </a>
                 <div class="card__descr">
-                    <div class="card__stock product-stock in-stock">
+                    <div class="card__stock stock in-stock">
                         <svg class="icon icon-fill">
                             <use href="img/sprite.svg#checkbox-rec"></use>
                         </svg>
@@ -237,7 +237,7 @@
                     >
                 </a>
                 <div class="card__descr">
-                    <div class="card__stock product-stock in-stock">
+                    <div class="card__stock stock in-stock">
                         <svg class="icon icon-fill">
                             <use href="img/sprite.svg#checkbox-rec"></use>
                         </svg>
@@ -328,7 +328,7 @@
                     >
                 </a>
                 <div class="card__descr">
-                    <div class="card__stock product-stock in-stock">
+                    <div class="card__stock stock in-stock">
                         <svg class="icon icon-fill">
                             <use href="img/sprite.svg#checkbox-rec"></use>
                         </svg>
@@ -419,7 +419,7 @@
                     >
                 </a>
                 <div class="card__descr">
-                    <div class="card__stock product-stock in-stock">
+                    <div class="card__stock stock in-stock">
                         <svg class="icon icon-fill">
                             <use href="img/sprite.svg#checkbox-rec"></use>
                         </svg>
@@ -510,7 +510,7 @@
                     >
                 </a>
                 <div class="card__descr">
-                    <div class="card__stock product-stock in-stock">
+                    <div class="card__stock stock in-stock">
                         <svg class="icon icon-fill">
                             <use href="img/sprite.svg#checkbox-rec"></use>
                         </svg>

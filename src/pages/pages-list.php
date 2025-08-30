@@ -79,6 +79,9 @@
             <li><a class="ready" href="cart.php" target="_blank">Корзина</a></li>
 
             <br>
+            <li><a class="ready" href="cp-about.php" target="_blank">О компании</a></li>
+
+            <br>
             <li><a class="ready" href="ui.php" target="_blank">ui</a></li>
         </ul>
     </div>
