@@ -1,7 +1,7 @@
 <?php include($_SERVER["DOCUMENT_ROOT"] . "/build/components/header.php"); ?>
 
 <div class="cart">
-	<div class="block">
+	<div class="block-top block-bottom-md desktop-only"> <?/* todo: скрыт на мобиле до уточнения */?>
 		<div class="container">
 			<div class="cp-heading">
 				<h1 class="h1 cp-heading__title">Корзина</h1>
@@ -18,19 +18,19 @@
 		</div>
 	</div>
 
-	<div class="block-bottom">
+	<div class="">
 		<div class="container">
             <div class="cp">
                 <div class="cp-content">
-                    <div class="cart-empty">
-                        <a class="cart-empty__view" href="javascript:;">
+                    <div class="result-empty">
+                        <div class="result-empty__view">
                             <svg class="icon icon-stroke">
                                 <use href="img/stroke_cart-empty.svg#stroke_cart-empty"></use>
                             </svg>
-                        </a>
-                        <div class="cart-empty__descr">
+                        </div>
+                        <div class="result-empty__descr">
                             <div class="h3">Тут пока ничего нет</div>
-                            <div class="cart-empty__subtitle">Добавьте товары, чтобы оформить заказ</div>
+                            <div class="result-empty__subtitle">Добавьте товары, чтобы оформить заказ</div>
                         </div>
                     </div>
                 </div>

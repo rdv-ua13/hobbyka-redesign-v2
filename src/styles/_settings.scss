@@ -1035,9 +1035,17 @@ input.disabled {
 			padding-top: 12px;
 			padding-bottom: 12px;
 		}
+		&-md {
+			padding-top: 16px;
+			padding-bottom: 16px;
+		}
 		&-lg {
 			padding-top: 32px;
 			padding-bottom: 32px;
+		}
+		&-xl {
+			padding-top: 60px;
+			padding-bottom: 60px;
 		}
 
 		&-desktop,
@@ -1048,8 +1056,14 @@ input.disabled {
 			&-sm {
 				padding-top: 12px;
 			}
+			&-md {
+				padding-top: 16px;
+			}
 			&-lg {
 				padding-top: 32px;
+			}
+			&-xl {
+				padding-top: 60px;
 			}
 		}
 		&-desktop,
@@ -1060,8 +1074,14 @@ input.disabled {
 			&-sm {
 				padding-bottom: 12px;
 			}
+			&-md {
+				padding-bottom: 16px;
+			}
 			&-lg {
 				padding-bottom: 32px;
+			}
+			&-xl {
+				padding-bottom: 60px;
 			}
 		}
 

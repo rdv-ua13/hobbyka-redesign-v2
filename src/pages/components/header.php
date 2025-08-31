@@ -18,7 +18,7 @@
     <link rel="preload" href="fonts/Inter-SemiBold.ttf" as="font" type="font/ttf" crossorigin>
     <link rel="preload" href="fonts/Inter-Bold.ttf" as="font" type="font/ttf" crossorigin>
 
-    <link rel="stylesheet" href="css/main.css" type="text/css">
+    <link rel="stylesheet" href="css/main.css?v=<?=time();?>" type="text/css">
 
     <?/* Подключение библиотек (отдельно)*/?>
     <script defer src="js/jquery.js"></script>                  <!-- jquery -->
@@ -40,7 +40,7 @@
 	<?/* Подключение библиотек (объединённо)
     <script defer src="js/libs.min.js"></script> */?>
 
-    <script defer src="js/main.js"></script>
+    <script defer src="js/main.js?v=<?=time();?>"></script>
 </head>
 
 <? if (strpos($_SERVER["REQUEST_URI"], "index.php")) : ?>

@@ -71,8 +71,6 @@
                                 </div>
                             </div>
                         </div>
-
-
                     </div>
 
                     <div class="content-page__row">

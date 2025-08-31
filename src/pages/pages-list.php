@@ -60,9 +60,9 @@
             <img src="img/logo.svg#logo" width="350" height="100" alt="Логотип компании">
         </div>
         <span style="display: inline-flex; align-items:center; font-size: 24px;">
-            <span style="color: forestgreen; font-weight: 600;">5 + ui</span>
+            <span style="color: forestgreen; font-weight: 600;">7 + ui</span>
             &nbsp;/&nbsp;
-            <span style="font-size: 24px;">8 + ui (всего страниц в макете)</span>
+            <span style="font-size: 24px;">11 + ui (всего страниц в макете)</span>
         </span>
     </div>
 
@@ -75,8 +75,17 @@
 			<li><a class="ready" href="category.php" target="_blank">Категория каталога</a></li>
 
             <br>
+			<!--<li><a class="ready" href="product-details.php" target="_blank">Детальная товара</a></li>-->
+
+            <br>
             <li><a class="ready" href="cart-empty.php" target="_blank">Корзина (пусто)</a></li>
             <li><a class="ready" href="cart.php" target="_blank">Корзина</a></li>
+            <!--<li><a class="ready" href="cart.php" target="_blank">КП</a></li>-->
+
+            <br>
+            <li><a class="ready" href="search-result-false.php" target="_blank">Результаты поиска (пусто)</a></li>
+            <!--<li><a class="ready" href="search-result.php" target="_blank">Результаты поиска</a></li>
+            <li><a class="ready" href="search-result2.php" target="_blank">Результаты поиска 2</a></li>-->
 
             <br>
             <li><a class="ready" href="cp-about.php" target="_blank">О компании</a></li>
