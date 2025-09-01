@@ -24,7 +24,10 @@
     <div class="container">
         <div class="basic-hca">
             <div class="basic-hca__heading">
-                <div class="h3">Популярные категории</div>
+                <div class="h3">
+                    <span class="desktop-only">Популярные категории</span>
+                    <span class="mobile-only">Категории</span>
+                </div>
             </div>
 
             <div class="basic-hca__content">
