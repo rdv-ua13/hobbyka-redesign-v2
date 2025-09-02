@@ -20,7 +20,6 @@
 
     <div class="block-bottom">
         <div class="container">
-
             <div class="cp">
                 <div class="cp-content">
                     <div class="cart-list">
@@ -385,7 +384,6 @@
                     </div>
                 </div>
             </div>
-
         </div>
     </div>
 
@@ -986,5 +984,6 @@
             </div>
         </div>
     </div>
+
 </div>
 <?php include($_SERVER["DOCUMENT_ROOT"] . "/build/components/footer.php"); ?>

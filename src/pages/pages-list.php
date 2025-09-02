@@ -80,7 +80,7 @@
             <br>
             <li><a class="ready" href="cart-empty.php" target="_blank">Корзина (пусто)</a></li>
             <li><a class="ready" href="cart.php" target="_blank">Корзина</a></li>
-            <!--<li><a class="ready" href="cart.php" target="_blank">КП</a></li>-->
+            <li><a class="ready" href="cart-offer.php" target="_blank">КП</a></li>
 
             <br>
             <li><a class="ready" href="search-result-false.php" target="_blank">Результаты поиска (пусто)</a></li>
