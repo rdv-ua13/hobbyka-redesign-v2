@@ -23,34 +23,34 @@
             <div class="cp">
                 <div class="cp-content">
                     <div class="cart-list">
-                        <div class="cart-toolbar">
+                        <div class="cart-toolbar js-checkall-wrap">
                             <div class="cart-toolbar-item">
                                 <div class="custom-checkbox">
                                     <input id="custom-checkbox-001" class="custom-checkbox__input custom-checkbox__input--checkline js-checkall-for" type="checkbox" name="" data-checkall-for="cartCheckall">
                                     <label for="custom-checkbox-001" class="custom-checkbox__label-for">Выбрать все</label>
                                 </div>
                             </div>
-                            <div class="cart-toolbar-item">
+                            <div class="cart-toolbar-item cart-toolbar-action">
                                 <button class="btn-reset cart-toolbar-btn" type="button">
                                     <svg class="icon icon-stroke">
                                         <use href="img/sprite.svg#stroke_share"></use>
                                     </svg>
-                                    <span class="text-content">Поделиться</span>
+                                    <span class="text-content desktop-only">Поделиться</span>
                                 </button>
                                 <button class="btn-reset cart-toolbar-btn cart-toolbar-btn--del" type="button">
                                     <svg class="icon icon-fill">
                                         <use href="img/colored_trash.svg#colored_trash"></use>
                                     </svg>
-                                    <span class="text-content">Удалить выбранные</span>
+                                    <span class="text-content desktop-only">Удалить выбранные</span>
                                 </button>
                             </div>
                         </div>
 
-                        <div class="card card-product" data-removable>
+                        <div class="card card-product js-cart-card" data-removable>
                             <span class="card__check">
                                 <span class="custom-checkbox">
                                     <input
-                                            class="custom-checkbox__input checkall-group"
+                                            class="custom-checkbox__input js-checkall-group"
                                             type="checkbox"
                                             name=""
                                             data-checkall-group="cartCheckall"
@@ -62,43 +62,46 @@
                                         loading="lazy"
                                         class="image"
                                         src="img/category-5.png"
-                                        width="70"
-                                        height="70"
+                                        width="46"
+                                        height="46"
                                         alt="Изображение блока"
                                 >
                             </a>
-                            <div class="card__descr">
-                                <div class="card__caption">
-                                    <div class="tag-list">
-                                        <span class="tag">9566603</span>
-                                        <span class="tag tag-mod tag--yellow">Хит сезона</span>
-                                        <span class="stock in-stock">
+                            <div class="card__cart-descr">
+                                <div class="card__descr">
+                                    <div class="card__caption">
+                                        <div class="tag-list">
+                                            <span class="tag">9566603</span>
+                                            <span class="tag tag-mod tag--yellow">Хит сезона</span>
+                                            <span class="stock in-stock">
                                             <svg class="icon icon-fill">
                                                 <use href="img/sprite.svg#checkbox-rec"></use>
                                             </svg>
                                             <span>Товар в наличии</span>
                                         </span>
+                                        </div>
+                                    </div>
+                                    <a class="card__title" href="javascript:;">Комплект садовой мебели «Краун»</a>
+                                    <div class="card__info">
+                                        <div class="card__compound">
+                                            <span class="card__compound-text">1500x760x750 мм, 1500x470x460 мм</span>
+                                        </div>
                                     </div>
                                 </div>
-                                <a class="card__title" href="javascript:;">Комплект садовой мебели «Краун»</a>
-                                <div class="card__info">
-                                    <div class="card__compound">
-                                        <span class="card__compound-text">1500x760x750 мм, 1500x470x460 мм</span>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="card__price reduced">
-                                <div class="card__price-content">
-                                    <div class="card__price-current">2 956,80
-                                        <svg class="icon icon-fill icon-ruble">
-                                            <use href="img/ruble_fw_bold.svg#ruble_fw_bold"></use>
-                                        </svg>
-                                    </div>
-                                    <div class="card__price-originally">1 478,40
-                                        <svg class="icon icon-fill icon-ruble">
-                                            <use href="img/ruble_fw_normal.svg#ruble_fw_normal"></use>
-                                        </svg>
-                                        за шт.
+                                <div class="card__price reduced">
+                                    <div class="card__price-content">
+                                        <div class="card__price-current">2 956,80
+                                            <svg class="icon icon-fill icon-ruble">
+                                                <use href="img/ruble_fw_bold.svg#ruble_fw_bold"></use>
+                                            </svg>
+                                        </div>
+                                        <div class="card__price-current-addititonal">1 шт</div>
+                                        <div class="card__price-originally">1 478,40
+                                            <svg class="icon icon-fill icon-ruble">
+                                                <use href="img/ruble_fw_normal.svg#ruble_fw_normal"></use>
+                                            </svg>
+                                            за шт.
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -136,11 +139,11 @@
                             </div>
                         </div>
 
-                        <div class="card card-product" data-removable>
+                        <div class="card card-product js-cart-card" data-removable>
                             <span class="card__check">
                                 <span class="custom-checkbox">
                                     <input
-                                            class="custom-checkbox__input checkall-group"
+                                            class="custom-checkbox__input js-checkall-group"
                                             type="checkbox"
                                             name=""
                                             data-checkall-group="cartCheckall"
@@ -152,43 +155,46 @@
                                         loading="lazy"
                                         class="image"
                                         src="img/category-5.png"
-                                        width="70"
-                                        height="70"
+                                        width="46"
+                                        height="46"
                                         alt="Изображение блока"
                                 >
                             </a>
-                            <div class="card__descr">
-                                <div class="card__caption">
-                                    <div class="tag-list">
-                                        <span class="tag">9566603</span>
-                                        <span class="tag tag-mod tag--yellow">Хит сезона</span>
-                                        <span class="stock in-stock">
+                            <div class="card__cart-descr">
+                                <div class="card__descr">
+                                    <div class="card__caption">
+                                        <div class="tag-list">
+                                            <span class="tag">9566603</span>
+                                            <span class="tag tag-mod tag--yellow">Хит сезона</span>
+                                            <span class="stock in-stock">
                                             <svg class="icon icon-fill">
                                                 <use href="img/sprite.svg#checkbox-rec"></use>
                                             </svg>
                                             <span>Товар в наличии</span>
                                         </span>
+                                        </div>
+                                    </div>
+                                    <a class="card__title" href="javascript:;">Комплект садовой мебели «Краун»</a>
+                                    <div class="card__info">
+                                        <div class="card__compound">
+                                            <span class="card__compound-text">1500x760x750 мм, 1500x470x460 мм</span>
+                                        </div>
                                     </div>
                                 </div>
-                                <a class="card__title" href="javascript:;">Комплект садовой мебели «Краун»</a>
-                                <div class="card__info">
-                                    <div class="card__compound">
-                                        <span class="card__compound-text">1500x760x750 мм, 1500x470x460 мм</span>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="card__price reduced">
-                                <div class="card__price-content">
-                                    <div class="card__price-current">2 956,80
-                                        <svg class="icon icon-fill icon-ruble">
-                                            <use href="img/ruble_fw_bold.svg#ruble_fw_bold"></use>
-                                        </svg>
-                                    </div>
-                                    <div class="card__price-originally">1 478,40
-                                        <svg class="icon icon-fill icon-ruble">
-                                            <use href="img/ruble_fw_normal.svg#ruble_fw_normal"></use>
-                                        </svg>
-                                        за шт.
+                                <div class="card__price reduced">
+                                    <div class="card__price-content">
+                                        <div class="card__price-current">2 956,80
+                                            <svg class="icon icon-fill icon-ruble">
+                                                <use href="img/ruble_fw_bold.svg#ruble_fw_bold"></use>
+                                            </svg>
+                                        </div>
+                                        <div class="card__price-current-addititonal">1 шт</div>
+                                        <div class="card__price-originally">1 478,40
+                                            <svg class="icon icon-fill icon-ruble">
+                                                <use href="img/ruble_fw_normal.svg#ruble_fw_normal"></use>
+                                            </svg>
+                                            за шт.
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -226,11 +232,11 @@
                             </div>
                         </div>
 
-                        <div class="card card-product" data-removable>
+                        <div class="card card-product js-cart-card" data-removable>
                             <span class="card__check">
                                 <span class="custom-checkbox">
                                     <input
-                                            class="custom-checkbox__input checkall-group"
+                                            class="custom-checkbox__input js-checkall-group"
                                             type="checkbox"
                                             name=""
                                             data-checkall-group="cartCheckall"
@@ -242,43 +248,46 @@
                                         loading="lazy"
                                         class="image"
                                         src="img/category-5.png"
-                                        width="70"
-                                        height="70"
+                                        width="46"
+                                        height="46"
                                         alt="Изображение блока"
                                 >
                             </a>
-                            <div class="card__descr">
-                                <div class="card__caption">
-                                    <div class="tag-list">
-                                        <span class="tag">9566603</span>
-                                        <span class="tag tag-mod tag--yellow">Хит сезона</span>
-                                        <span class="stock in-stock">
+                            <div class="card__cart-descr">
+                                <div class="card__descr">
+                                    <div class="card__caption">
+                                        <div class="tag-list">
+                                            <span class="tag">9566603</span>
+                                            <span class="tag tag-mod tag--yellow">Хит сезона</span>
+                                            <span class="stock in-stock">
                                             <svg class="icon icon-fill">
                                                 <use href="img/sprite.svg#checkbox-rec"></use>
                                             </svg>
                                             <span>Товар в наличии</span>
                                         </span>
+                                        </div>
+                                    </div>
+                                    <a class="card__title" href="javascript:;">Комплект садовой мебели «Краун»</a>
+                                    <div class="card__info">
+                                        <div class="card__compound">
+                                            <span class="card__compound-text">1500x760x750 мм, 1500x470x460 мм</span>
+                                        </div>
                                     </div>
                                 </div>
-                                <a class="card__title" href="javascript:;">Комплект садовой мебели «Краун»</a>
-                                <div class="card__info">
-                                    <div class="card__compound">
-                                        <span class="card__compound-text">1500x760x750 мм, 1500x470x460 мм</span>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="card__price reduced">
-                                <div class="card__price-content">
-                                    <div class="card__price-current">2 956,80
-                                        <svg class="icon icon-fill icon-ruble">
-                                            <use href="img/ruble_fw_bold.svg#ruble_fw_bold"></use>
-                                        </svg>
-                                    </div>
-                                    <div class="card__price-originally">1 478,40
-                                        <svg class="icon icon-fill icon-ruble">
-                                            <use href="img/ruble_fw_normal.svg#ruble_fw_normal"></use>
-                                        </svg>
-                                        за шт.
+                                <div class="card__price reduced">
+                                    <div class="card__price-content">
+                                        <div class="card__price-current">2 956,80
+                                            <svg class="icon icon-fill icon-ruble">
+                                                <use href="img/ruble_fw_bold.svg#ruble_fw_bold"></use>
+                                            </svg>
+                                        </div>
+                                        <div class="card__price-current-addititonal">1 шт</div>
+                                        <div class="card__price-originally">1 478,40
+                                            <svg class="icon icon-fill icon-ruble">
+                                                <use href="img/ruble_fw_normal.svg#ruble_fw_normal"></use>
+                                            </svg>
+                                            за шт.
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -373,7 +382,7 @@
                         </div>
                         <div class="cp-sidebar__item-row">
                             <div class="btn-g">
-                                <button class="btn-reset btn btn-lg btn-primary w-100" type="button">
+                                <button class="btn-reset btn btn-lg btn-primary w-100 desktop-only" type="button">
                                     <span class="text-content">Перейти к оформлению</span>
                                 </button>
                                 <button class="btn-reset btn btn-lg btn-extra w-100" type="button">

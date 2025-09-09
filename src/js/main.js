@@ -1329,7 +1329,7 @@ application.prototype.initCheckall = function () {
                 compareGroupState(checkallGroupState);
 
                 function checkallForHandling() {
-                    $(".checkall-group[data-checkall-group='" + checkallForData + "']").each(function (e) {
+                    $(".js-checkall-group[data-checkall-group='" + checkallForData + "']").each(function (e) {
                         let checkallGroupElem = $(this);
 
                         if(checkallGroupElem.is(':checked')) {
@@ -1371,16 +1371,23 @@ application.prototype.initCheckall = function () {
                 if(checkallFor.is(':checked')) {
                     checkallFor.prop('checked', true);
                     checkallFor.removeClass('custom-checkbox__input--checkline');
-                    $(".checkall-group[data-checkall-group='" + checkallForData + "']").prop("checked", true);
-                } else if(!checkallFor.is(':checked')) {
+                    $(".js-checkall-group[data-checkall-group='" + checkallForData + "']").prop("checked", true);
+
+                    $('.js-checkall-wrap').addClass('hasChecked');
+                    $('.js-cart-card').addClass('active');
+                }
+                else if(!checkallFor.is(':checked')) {
                     checkallFor.prop('checked', false);
-                    $(".checkall-group[data-checkall-group='" + checkallForData + "']").prop("checked", false);
+                    $(".js-checkall-group[data-checkall-group='" + checkallForData + "']").prop("checked", false);
+
+                    $('.js-checkall-wrap').removeClass('hasChecked');
+                    $('.js-cart-card').removeClass('active');
                 }
             });
         }
 
         function initOnclickCheckallGroup() {
-            $('.checkall-group').on('click', function (e) {
+            $('.js-checkall-group').on('click', function (e) {
                 const checkallGroup = $(this);
                 const checkallGroupData = checkallGroup.data('checkall-group');
 
@@ -1391,13 +1398,16 @@ application.prototype.initCheckall = function () {
                 compareGroupState(checkallGroupState);
 
                 function checkallGroupHandling() {
-                    $(".checkall-group[data-checkall-group='" + checkallGroupData + "']").each(function (e) {
+                    $(".js-checkall-group[data-checkall-group='" + checkallGroupData + "']").each(function (e) {
                         let checkallGroupElem = $(this);
 
                         if(checkallGroupElem.is(':checked')) {
                             checkallGroupState.push(true);
-                        } else if(!checkallGroupElem.is(':checked')) {
+                            checkallGroupElem.closest('.js-cart-card').addClass('active');
+                        }
+                        else if(!checkallGroupElem.is(':checked')) {
                             checkallGroupState.push(false);
+                            checkallGroupElem.closest('.js-cart-card').removeClass('active');
                         }
                     });
                 }
@@ -1406,7 +1416,8 @@ application.prototype.initCheckall = function () {
                     $.each(arr, function(i) {
                         if(arr[i] === true) {
                             checkallGroupCheckedState.push('checked');
-                        } else if(arr[i] === false) {
+                        }
+                        else if(arr[i] === false) {
                             checkallGroupCheckedState.push('notChecked');
                         }
                     });
@@ -1417,14 +1428,22 @@ application.prototype.initCheckall = function () {
                     if(allChecked) {
                         $(".js-checkall-for[data-checkall-for='" + checkallGroupData + "']").prop('checked', true);
                         $(".js-checkall-for[data-checkall-for='" + checkallGroupData + "']").removeClass('custom-checkbox__input--checkline');
-                    } else if(allNotChecked) {
+
+                        $('.js-checkall-wrap').addClass('hasChecked');
+                    }
+                    else if(allNotChecked) {
                         $(".js-checkall-for[data-checkall-for='" + checkallGroupData + "']").prop('checked', false);
-                    } else if(!allChecked && !allNotChecked) {
+
+                        $('.js-checkall-wrap').removeClass('hasChecked');
+                    }
+                    else if(!allChecked && !allNotChecked) {
                         $(".js-checkall-for[data-checkall-for='" + checkallGroupData + "']").prop('checked', true);
 
                         if(!$(".js-checkall-for[data-checkall-for='" + checkallGroupData + "']").hasClass('custom-checkbox__input--checkline')) {
                             $(".js-checkall-for[data-checkall-for='" + checkallGroupData + "']").addClass('custom-checkbox__input--checkline');
                         }
+
+                        $('.js-checkall-wrap').addClass('hasChecked');
                     }
                 }
             });
