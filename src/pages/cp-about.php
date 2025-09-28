@@ -9,8 +9,8 @@
                         loading="lazy"
                         class="image"
                         src="img/cp-preview.png"
-                        width="1280"
-                        height="506"
+                        width="375"
+                        height="184"
                         alt="Изображение блока"
                     >
                 </div>
