@@ -2264,6 +2264,81 @@
 
 <div class="block">
     <div class="container">
+        <div class="index-feedback-forms">
+            <div class="index-feedback-forms__info">
+                <div class="index-feedback-forms__info-title h3">Формы обратной связи</div>
+                <div class="index-feedback-forms__info-subtitle">Заполните данные организации и мы с вами свяжемся для обсуждения деталей проекта</div>
+                <ul class="list-reset index-feedback-forms__info-list">
+                    <li>
+                        <div class="custom-radio">
+                            <input id="custom-radio-010" class="custom-radio__input" type="radio" name="indexFeedbackForms">
+                            <label for="custom-radio-010" class="custom-radio__label-for">Заявка</label>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="custom-radio">
+                            <input id="custom-radio-011" class="custom-radio__input" type="radio" name="indexFeedbackForms">
+                            <label for="custom-radio-011" class="custom-radio__label-for">Госзаказчики, тендеры</label>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="custom-radio">
+                            <input id="custom-radio-012" class="custom-radio__input" type="radio" name="indexFeedbackForms">
+                            <label for="custom-radio-012" class="custom-radio__label-for">Запрос коммерческого предложения</label>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="custom-radio">
+                            <input id="custom-radio-013" class="custom-radio__input" type="radio" name="indexFeedbackForms">
+                            <label for="custom-radio-013" class="custom-radio__label-for">Форма отправки реквизитов</label>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="custom-radio">
+                            <input id="custom-radio-014" class="custom-radio__input" type="radio" name="indexFeedbackForms">
+                            <label for="custom-radio-014" class="custom-radio__label-for">Заявка на изготовление по чертежу или эскизу</label>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="custom-radio">
+                            <input id="custom-radio-015" class="custom-radio__input" type="radio" name="indexFeedbackForms">
+                            <label for="custom-radio-015" class="custom-radio__label-for">Рекламация</label>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="custom-radio">
+                            <input id="custom-radio-016" class="custom-radio__input" type="radio" name="indexFeedbackForms">
+                            <label for="custom-radio-016" class="custom-radio__label-for">Заявка на монтаж МАФ</label>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="custom-radio">
+                            <input id="custom-radio-017" class="custom-radio__input" type="radio" name="indexFeedbackForms">
+                            <label for="custom-radio-017" class="custom-radio__label-for">Запрос дилерского предложения</label>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="custom-radio">
+                            <input id="custom-radio-018" class="custom-radio__input" type="radio" name="indexFeedbackForms">
+                            <label for="custom-radio-018" class="custom-radio__label-for">Получение рассылки</label>
+                        </div>
+                    </li>
+                </ul>
+                <div class="index-feedback-forms__info-act">
+                    <button class="btn-reset btn btn-secondary btn-lg" type="button">
+                        <span class="text-content">заполнить форму</span>
+                    </button>
+                </div>
+            </div>
+            <div class="index-feedback-forms__banner" style="background-image:url('img/news-img-1.png');">
+                <span class="index-feedback-forms__banner-title">Блок для привлечения внимания</span>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="block">
+    <div class="container">
         <div class="index-advantages">
             <div class="index-advantages__item">
                 <div class="index-advantages__decor">

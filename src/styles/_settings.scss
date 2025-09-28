@@ -1205,7 +1205,7 @@ input.disabled {
 		min-height: 20px;
 		height: 20px;
 		margin: 0;
-		border: 1px solid var(--surface-gray3);
+		border: 1px solid var(--text-secondary);
 		background-color: var(--white-color);
 		appearance: none;
 		cursor: pointer;
@@ -1223,35 +1223,26 @@ input.disabled {
 			opacity: 0;
 			transition: var(--transition);
 		}
-		&:not(:checked, .checked) {
-			&:hover {
-				border-color: var(--surface-brand);
-			}
-		}
-		.disabled,
+		&.disabled,
 		&:disabled {
-			border-color: var(--surface-gray5);
-			background-color: var(--surface-gray5);
+			border-color: var(--surface-gray5)!important;
+			background-color: var(--surface-gray5)!important;
 
+			&::before {
+				opacity: 0!important;
+			}
 			& ~ .custom-checkbox__label-for,
 			& ~ .custom-radio__label-for {
-				color: var(--text-caption);
-			}
-
-			&:hover {
-				border-color: var(--surface-gray5);
+				color: var(--text-caption)!important;
 			}
 		}
-	}
-	&:not(:last-child) {
-		margin: 0 12px 0 0;
 	}
 	&__label-for {
 		color: var(--text-primary);
-		font-family: var(--font-family-base2);
-		font-weight: 500;
-		font-size: 11px;
-		line-height: 1.5;
+		font-family: var(--font-family-base);
+		font-weight: 400;
+		font-size: 13px;
+		line-height: 1.4;
 		cursor: pointer;
 		transition: var(--transition);
 
@@ -1281,17 +1272,6 @@ input.disabled {
 
 			&::before {
 				opacity: 1;
-			}
-			&:hover {
-				border-color: var(--surface-brand);
-				background-color: var(--surface-brand);
-			}
-
-			&:disabled,
-			&.disabled {
-				&::before {
-					background-image: url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjAiIGhlaWdodD0iMjAiIHZpZXdCb3g9IjAgMCAyMCAyMCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHJlY3Qgd2lkdGg9IjIwIiBoZWlnaHQ9IjIwIiByeD0iNiIgZmlsbD0iIzFFMUUxRSIvPgo8cGF0aCBkPSJNNSAxMEw4LjE1Nzg5IDEzTDE1IDYiIHN0cm9rZT0id2hpdGUiIHN0cm9rZS13aWR0aD0iMiIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIi8+Cjwvc3ZnPgo=);
-				}
 			}
 		}
 
@@ -1344,10 +1324,10 @@ input.disabled {
 		border-radius: 50%;
 
 		&::before {
-			min-width: 8px;
-			width: 8px;
-			min-height: 8px;
-			height: 8px;
+			min-width: 10px;
+			width: 10px;
+			min-height: 10px;
+			height: 10px;
 			border-radius: 50%;
 			background-image: none;
 			background-color: var(--surface-brand);
@@ -1359,10 +1339,6 @@ input.disabled {
 
 			&::before {
 				opacity: 1;
-			}
-			&:hover {
-				border-color: var(--surface-brand);
-				background-color: transparent;
 			}
 		}
 	}

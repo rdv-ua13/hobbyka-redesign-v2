@@ -19,12 +19,12 @@
 
 	<div class="block-bottom">
 		<div class="container">
-			<div class="cp">
-				<div class="cp-content">
+			<div class="cp-offer">
+                <div class="cp-offer__item cp-offer__item--grid-col-left cp-offer__item--grid-row-2 cp-offer__item--order-4-mobile">
                     <div class="cart-board">
                         <div class="cart-board__item">
                             <form action="" method="" class="recipient-data">
-                                <div class="h4">Данные получателя</div>
+                                <div class="cart-board__heading">Данные получателя</div>
                                 <div class="recipient-data__row">
                                     <div class="recipient-data__item">
                                         <div class="titled-input">
@@ -106,7 +106,7 @@
                                             <div class="input-wrapper">
                                                 <input
                                                         class="input-reset input input-secondary"
-                                                        type="email"
+                                                        type="text"
                                                         name=""
                                                         value=""
                                                         placeholder="23.09.2002"
@@ -117,7 +117,7 @@
                                 </div>
                             </form>
                             <form action="" method="" class="recipient-data">
-                                <div class="h6">Реквизиты организации</div>
+                                <div class="cart-board__heading">Реквизиты организации</div>
                                 <div class="recipient-data__row">
                                     <div class="recipient-data__item">
                                         <div class="titled-input">
@@ -164,16 +164,102 @@
                                             </div>
                                         </div>
                                     </div>
+                                    <div class="recipient-data__item mobile-only">
+                                        <div class="titled-input">
+                                            <div class="input-title">Комментай</div>
+                                            <div class="input-wrapper">
+                                                <input
+                                                        class="input-reset input input-secondary"
+                                                        type="text"
+                                                        name=""
+                                                        value=""
+                                                        placeholder="0000000000"
+                                                        required
+                                                >
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="recipient-data__item mobile-only">
+                                        <div class="titled-input">
+                                            <div class="input-title">ФАйл</div>
+                                            <div class="input-wrapper">
+                                                <input
+                                                        class="input-reset input input-secondary"
+                                                        type="text"
+                                                        name=""
+                                                        value=""
+                                                        placeholder="0000000000"
+                                                        required
+                                                >
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="recipient-data__item mobile-only">
+                                        <div class="titled-input">
+                                            <div class="input-title">Оформляя заказ, Вы принимаете условия оферты и даете согласие на обработку персональных данных в соответствии с Положением о персональных данных. С подробными условиями доставки можно ознакомиться на странице Доставка</div>
+                                            <div class="input-wrapper">
+                                                <button class="btn-reset btn btn-lg btn-primary" type="button">
+                                                    <span class="text-content">Оформить коммерческое предложение</span>
+                                                </button>
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
                             </form>
                         </div>
+                    </div>
+                </div>
+                <div class="cp-offer__item cp-offer__item--grid-col-right cp-offer__item--order-1-mobile">
+                    <div class="cp-sidebar__item">
+                        <div class="cp-sidebar__item-row">
+                            <div class="h5">Тип коммерческого предложения</div>
+                        </div>
+                        <div class="cp-sidebar__item-row">
+                            <div class="custom-radio">
+                                <input id="custom-radio-001" class="custom-radio__input" type="radio" name="commercialOfferType">
+                                <label for="custom-radio-001" class="custom-radio__label-for">От Хоббики</label>
+                            </div>
+                            <div class="custom-radio">
+                                <input id="custom-radio-002" class="custom-radio__input" type="radio" name="commercialOfferType">
+                                <label for="custom-radio-002" class="custom-radio__label-for">От Дилера</label>
+                            </div>
+                            <div class="custom-radio">
+                                <input id="custom-radio-003" class="custom-radio__input" type="radio" name="commercialOfferType">
+                                <label for="custom-radio-003" class="custom-radio__label-for">От Хоббики с моими контактами</label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="cp-offer__item cp-offer__item--grid-col-right cp-offer__item--order-3-mobile">
+                    <div class="cp-sidebar__item">
+                        <div class="cp-sidebar__item-row">
+                            <div class="h5">Дополнительные услуги</div>
+                        </div>
+                        <div class="cp-sidebar__item-row">
+                            <div class="custom-radio">
+                                <input id="custom-radio-001" class="custom-radio__input" type="radio" name="commercialOfferService">
+                                <label for="custom-radio-001" class="custom-radio__label-for">Доставка</label>
+                            </div>
+                            <div class="custom-radio">
+                                <input id="custom-radio-002" class="custom-radio__input" type="radio" name="commercialOfferService">
+                                <label for="custom-radio-002" class="custom-radio__label-for">Сборка</label>
+                            </div>
+                            <div class="custom-radio">
+                                <input id="custom-radio-003" class="custom-radio__input" type="radio" name="commercialOfferService">
+                                <label for="custom-radio-003" class="custom-radio__label-for">Установка</label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="cp-offer__item cp-offer__item--grid-row-2 cp-offer__item--order-2-mobile">
+                    <div class="cart-board">
                         <div class="cart-board__item">
                             <div class="cart-list">
                                 <div class="cart-toolbar">
                                     <div class="cart-toolbar-item">
-                                        <div class="h4">Состав коммерческого предложения</div>
+                                        <div class="cart-board__heading">Состав коммерческого предложения</div>
                                     </div>
-                                    <div class="cart-toolbar-item">
+                                    <div class="cart-toolbar-item desktop-only">
                                         <button class="btn-reset cart-toolbar-btn" type="button">
                                             <svg class="icon icon-stroke">
                                                 <use href="img/colored_download.svg#colored_download"></use>
@@ -365,65 +451,28 @@
                                 </div>
                             </div>
                         </div>
-                        <button class="btn-reset btn btn-lg btn-primary" type="button">
+                        <button class="btn-reset btn btn-lg btn-primary desktop-only" type="button">
                             <span class="text-content">Оформить коммерческое предложение</span>
                         </button>
                     </div>
-				</div>
-				<div class="cp-sidebar">
-                    <div class="cp-sidebar__item-g">
-                        <div class="cp-sidebar__item">
-                            <div class="cp-sidebar__item-row">
-                                <div class="h5">Тип коммерческого предложения</div>
-                            </div>
-                            <div class="cp-sidebar__item-row">
-                                <div class="custom-radio">
-                                    <input id="custom-radio-001" class="custom-radio__input" type="radio" name="commercialOfferType">
-                                    <label for="custom-radio-001" class="custom-radio__label-for">От Хоббики</label>
-                                </div>
-                                <div class="custom-radio">
-                                    <input id="custom-radio-002" class="custom-radio__input" type="radio" name="commercialOfferType">
-                                    <label for="custom-radio-002" class="custom-radio__label-for">От Дилера</label>
-                                </div>
-                                <div class="custom-radio">
-                                    <input id="custom-radio-003" class="custom-radio__input" type="radio" name="commercialOfferType">
-                                    <label for="custom-radio-003" class="custom-radio__label-for">От Хоббики с моими контактами</label>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="cp-sidebar__item">
-                            <div class="cp-sidebar__item-row">
-                                <div class="h5">Дополнительные услуги</div>
-                            </div>
-                            <div class="cp-sidebar__item-row">
-                                <div class="custom-radio">
-                                    <input id="custom-radio-001" class="custom-radio__input" type="radio" name="commercialOfferService">
-                                    <label for="custom-radio-001" class="custom-radio__label-for">Доставка</label>
-                                </div>
-                                <div class="custom-radio">
-                                    <input id="custom-radio-002" class="custom-radio__input" type="radio" name="commercialOfferService">
-                                    <label for="custom-radio-002" class="custom-radio__label-for">Сборка</label>
-                                </div>
-                                <div class="custom-radio">
-                                    <input id="custom-radio-003" class="custom-radio__input" type="radio" name="commercialOfferService">
-                                    <label for="custom-radio-003" class="custom-radio__label-for">Установка</label>
-                                </div>
-                            </div>
-                        </div>
+                </div>
+                <div class="cp-offer__item cp-offer__item--order-5-mobile cp-offer__item--banners">
+                    <div class="gap-xs mobile-only">
+                        <div class="h5">Подробнее о коммерческом предложении</div>
                     </div>
                     <div class="cp-sidebar__item-g">
                         <div class="cp-sidebar__item cp-sidebar__item--banner">
                             <a class="cp-sidebar__banner" href="javascript:;" style="background-image: url('img/commercial-offer-img1.png');">
-                                <span class="cp-sidebar__banner-title h4">Как мы работаем с КП</span>
+                                <span class="cp-sidebar__banner-title">Как мы работаем с КП</span>
                             </a>
                         </div>
                         <div class="cp-sidebar__item cp-sidebar__item--banner">
                             <a class="cp-sidebar__banner" href="javascript:;" style="background-image: url('img/commercial-offer-img2.png');">
-                                <span class="cp-sidebar__banner-title h4">Про сроки изготовления и доставки</span>
+                                <span class="cp-sidebar__banner-title">Про сроки изготовления и доставки</span>
                             </a>
                         </div>
                     </div>
-				</div>
+                </div>
 			</div>
 		</div>
 	</div>
