@@ -4,7 +4,7 @@
 	<div class="block">
 		<div class="container">
 			<div class="content-page">
-                <div class="gap-md content-page__preview">
+                <div class="content-page__preview">
                     <img
                         loading="lazy"
                         class="image"
@@ -15,58 +15,730 @@
                     >
                 </div>
                 <div class="content-page__container">
-                    <div class="content-page__row content-page__breadcrumbs">
-                        <a class="content-page__breadcrumbs-item active" href="javascript:;">О нас</a>
-                        <a class="content-page__breadcrumbs-item" href="javascript:;">Производство</a>
-                        <a class="content-page__breadcrumbs-item" href="javascript:;">Наши преимущества</a>
-                        <a class="content-page__breadcrumbs-item" href="javascript:;">Наши работы</a>
-                        <a class="content-page__breadcrumbs-item" href="javascript:;">Отзывы</a>
+                    <div class="content-page__row">
+                        <div class="slider-out">
+                            <div class="content-page__row content-page__nav swiper" data-cp-nav>
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide">
+                                        <a class="content-page__nav-item active" href="javascript:;">О нас</a>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <a class="content-page__nav-item" href="javascript:;">Производство</a>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <a class="content-page__nav-item" href="javascript:;">Наши работы</a>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <a class="content-page__nav-item" href="javascript:;">Отзывы</a>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <a class="content-page__nav-item" href="javascript:;">Сертификаты</a>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <a class="content-page__nav-item" href="javascript:;">Партнеры</a>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <a class="content-page__nav-item" href="javascript:;">Пресса о нас</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
 
                     <div class="content-page__row">
-                        <div class="gap-sm">
-                            <div class="h4">История компании</div>
-                        </div>
+                        <div class="basic-tabs content-page__history">
+                            <div class="gap-sm">
+                                <h1 class="h4">История компании</h1>
+                            </div>
 
-                        <div class="content-page__history-years">
-                            <img
-                                loading="lazy"
-                                class="image"
-                                src="img/history-years.png"
-                                width="1152"
-                                height="104"
-                                alt="Изображение блока"
-                            >
-                        </div>
-                        <div class="content-page__history">
-                            <div class="content-page__history-descr">
-                                <div class="content-page__history-header">
-                                    <div class="h3">2000-2005 г.</div>
-                                    <svg class="icon icon-fill content-page__history-hbk">
-                                        <use href="img/sprite.svg#hbk-pattern"></use>
-                                    </svg>
-                                </div>
-
-                                <div class="img-descr content-page__history-img-descr">
-                                    <div class="img-descr__view">
-                                        <div class="img-descr__view-pic">
-                                            <img
-                                                    loading="lazy"
-                                                    class="image"
-                                                    src="img/image-placeholder.png"
-                                                    width="600"
-                                                    height="400"
-                                                    alt="Изображение блока"
-                                            >
+                            <div class="basic-tabs__header slider-out basic-slider-wrap">
+                                <div class="basic-tabs-container basic-slider swiper" data-tab="cpHistory" data-history-slider>
+                                    <div class="basic-tabs-slider-list swiper-wrapper">
+                                        <div class="basic-tabs-item swiper-slide">
+                                            <span class="basic-tabs-trigger active" data-target="0">
+                                                <span class="basic-tabs-point"></span>
+                                                <span class="basic-tabs-point-title h5">2000</span>
+                                            </span>
+                                        </div>
+                                        <div class="basic-tabs-item swiper-slide">
+                                            <span class="basic-tabs-trigger" data-target="1">
+                                                <span class="basic-tabs-point"></span>
+                                                <span class="basic-tabs-point-title h5">2005</span>
+                                            </span>
+                                        </div>
+                                        <div class="basic-tabs-item swiper-slide">
+                                            <span class="basic-tabs-trigger" data-target="2">
+                                                <span class="basic-tabs-point"></span>
+                                                <span class="basic-tabs-point-title h5">2008</span>
+                                            </span>
+                                        </div>
+                                        <div class="basic-tabs-item swiper-slide">
+                                            <span class="basic-tabs-trigger" data-target="3">
+                                                <span class="basic-tabs-point"></span>
+                                                <span class="basic-tabs-point-title h5">2011</span>
+                                            </span>
+                                        </div>
+                                        <div class="basic-tabs-item swiper-slide">
+                                            <span class="basic-tabs-trigger" data-target="4">
+                                                <span class="basic-tabs-point"></span>
+                                                <span class="basic-tabs-point-title h5">2012</span>
+                                            </span>
+                                        </div>
+                                        <div class="basic-tabs-item swiper-slide">
+                                            <span class="basic-tabs-trigger" data-target="5">
+                                                <span class="basic-tabs-point"></span>
+                                                <span class="basic-tabs-point-title h5">2013</span>
+                                            </span>
+                                        </div>
+                                        <div class="basic-tabs-item swiper-slide">
+                                            <span class="basic-tabs-trigger" data-target="6">
+                                                <span class="basic-tabs-point"></span>
+                                                <span class="basic-tabs-point-title h5">2014</span>
+                                            </span>
+                                        </div>
+                                        <div class="basic-tabs-item swiper-slide">
+                                            <span class="basic-tabs-trigger" data-target="7">
+                                                <span class="basic-tabs-point"></span>
+                                                <span class="basic-tabs-point-title h5">2015</span>
+                                            </span>
+                                        </div>
+                                        <div class="basic-tabs-item swiper-slide">
+                                            <span class="basic-tabs-trigger" data-target="8">
+                                                <span class="basic-tabs-point"></span>
+                                                <span class="basic-tabs-point-title h5">2016</span>
+                                            </span>
+                                        </div>
+                                        <div class="basic-tabs-item swiper-slide">
+                                            <span class="basic-tabs-trigger" data-target="9">
+                                                <span class="basic-tabs-point"></span>
+                                                <span class="basic-tabs-point-title h5">2017</span>
+                                            </span>
+                                        </div>
+                                        <div class="basic-tabs-item swiper-slide">
+                                            <span class="basic-tabs-trigger" data-target="10">
+                                                <span class="basic-tabs-point"></span>
+                                                <span class="basic-tabs-point-title h5">2018</span>
+                                            </span>
+                                        </div>
+                                        <div class="basic-tabs-item swiper-slide">
+                                            <span class="basic-tabs-trigger" data-target="11">
+                                                <span class="basic-tabs-point"></span>
+                                                <span class="basic-tabs-point-title h5">2019</span>
+                                            </span>
+                                        </div>
+                                        <div class="basic-tabs-item swiper-slide">
+                                            <span class="basic-tabs-trigger" data-target="12">
+                                                <span class="basic-tabs-point"></span>
+                                                <span class="basic-tabs-point-title h5">2020</span>
+                                            </span>
+                                        </div>
+                                        <div class="basic-tabs-item swiper-slide">
+                                            <span class="basic-tabs-trigger" data-target="13">
+                                                <span class="basic-tabs-point"></span>
+                                                <span class="basic-tabs-point-title h5">2021</span>
+                                            </span>
+                                        </div>
+                                        <div class="basic-tabs-item swiper-slide">
+                                            <span class="basic-tabs-trigger" data-target="14">
+                                                <span class="basic-tabs-point"></span>
+                                                <span class="basic-tabs-point-title h5">2022</span>
+                                            </span>
+                                        </div>
+                                        <div class="basic-tabs-item swiper-slide">
+                                            <span class="basic-tabs-trigger" data-target="15">
+                                                <span class="basic-tabs-point"></span>
+                                                <span class="basic-tabs-point-title h5">2023</span>
+                                            </span>
+                                        </div>
+                                        <div class="basic-tabs-item swiper-slide">
+                                            <span class="basic-tabs-trigger" data-target="16">
+                                                <span class="basic-tabs-point"></span>
+                                                <span class="basic-tabs-point-title h5">2024</span>
+                                            </span>
+                                        </div>
+                                        <div class="basic-tabs-item swiper-slide">
+                                            <span class="basic-tabs-trigger" data-target="17">
+                                                <span class="basic-tabs-point"></span>
+                                                <span class="basic-tabs-point-title h5">2025</span>
+                                            </span>
                                         </div>
                                     </div>
-                                    <div class="img-descr__descr">
-                                        <div class="img-descr__descr-text">
-                                            <p>История компании начинается с 2000 года, когда была создана компания-импортер Европейских товаров и малых архитектурных форм (МАФ) для благоустройства городов и парков. Через некоторое время мы стали не только импортировать товары из Европы, но и производить некоторые детали на своем, в то время ещё маленьком производстве. Вплоть до 2008 года мы совмещали импорт оборудования и собственное производство выполняя заказы по благоустройству территорий.</p>
-                                            <p>В 2008 году мы полностью отказались от импорта и направили все ресурсы на расширение производственных мощностей, а также на создание команды профессионалов в области производства и продажи садово-паркового оборудования и малых архитектурных форм.</p>
-                                            <p>Сегодня мы занимаем лидирующие позиции среди производителей садово-парковой мебели и оборудования для благоустройства городов и парков на территории России.</p>
-                                            <p>На протяжении всего времени существования фабрики Хоббика мы экспериментируем с материалами, используемыми в производстве, внедряем новые технологии в производственные процессы, разрабатываем новые модели продукции с учетом современных требований к качеству, дизайну и безопасности эксплуатации малых архитектурных форм и садово-паркового оборудования. В 2014 году мы ввели в серийное производство сразу два новых материала, новинку на российском рынке - алюминий и композитные материалы. Теперь мы предлагаем нашим партнерам скамейки с алюминиевыми опорами, как с деревянными сиденьем и спинкой, так и из композитных материалов.  Мы не стоим на месте и продолжаем расти и развиваться. Так, например, 2015 год ознаменовал собой открытие собственного производства урн из металла. А в 2016 году мы открыли столярный цех по производству мебели и МАФ из дерева, в том числе из термодерева.</p>
+                                </div>
+                            </div>
+                            <div class="basic-tabs-content" data-tab-content="cpHistory">
+                                <div class="basic-tabs-content__panel active" data-id="0">
+
+                                    <div class="content-page__history-info">
+                                        <div class="content-page__history-header">
+                                            <div class="h3">2000-2005 г.</div>
+                                            <svg class="icon icon-fill content-page__history-hbk">
+                                                <use href="img/sprite.svg#hbk-pattern"></use>
+                                            </svg>
                                         </div>
+
+                                        <div class="img-descr content-page__history-img-descr">
+                                            <div class="img-descr__view">
+                                                <img
+                                                        loading="lazy"
+                                                        class="image"
+                                                        src="img/cp-history-img.png"
+                                                        width="343"
+                                                        height="215"
+                                                        alt="Изображение блока"
+                                                >
+                                            </div>
+                                            <div class="img-descr__descr">
+                                                <div class="img-descr__descr-text">
+                                                    <p>История компании начинается с 2000 года, когда была создана компания-импортер Европейских товаров и малых архитектурных форм (МАФ) для благоустройства городов и парков. Через некоторое время мы стали не только импортировать товары из Европы, но и производить некоторые детали на своем, в то время ещё маленьком производстве. Вплоть до 2008 года мы совмещали импорт оборудования и собственное производство выполняя заказы по благоустройству территорий.</p>
+                                                    <p>В 2008 году мы полностью отказались от импорта и направили все ресурсы на расширение производственных мощностей, а также на создание команды профессионалов в области производства и продажи садово-паркового оборудования и малых архитектурных форм.</p>
+                                                    <p>Сегодня мы занимаем лидирующие позиции среди производителей садово-парковой мебели и оборудования для благоустройства городов и парков на территории России.</p>
+                                                    <p>На протяжении всего времени существования фабрики Хоббика мы экспериментируем с материалами, используемыми в производстве, внедряем новые технологии в производственные процессы, разрабатываем новые модели продукции с учетом современных требований к качеству, дизайну и безопасности эксплуатации малых архитектурных форм и садово-паркового оборудования. В 2014 году мы ввели в серийное производство сразу два новых материала, новинку на российском рынке - алюминий и композитные материалы. Теперь мы предлагаем нашим партнерам скамейки с алюминиевыми опорами, как с деревянными сиденьем и спинкой, так и из композитных материалов.  Мы не стоим на месте и продолжаем расти и развиваться. Так, например, 2015 год ознаменовал собой открытие собственного производства урн из металла. А в 2016 году мы открыли столярный цех по производству мебели и МАФ из дерева, в том числе из термодерева.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <div class="basic-tabs-content__panel" data-id="1">
+
+                                    <div class="content-page__history-info">
+                                        <div class="content-page__history-header">
+                                            <div class="h3">2005-2008 г.</div>
+                                            <svg class="icon icon-fill content-page__history-hbk">
+                                                <use href="img/sprite.svg#hbk-pattern"></use>
+                                            </svg>
+                                        </div>
+
+                                        <div class="img-descr content-page__history-img-descr">
+                                            <div class="img-descr__view">
+                                                <img
+                                                        loading="lazy"
+                                                        class="image"
+                                                        src="img/image-placeholder.png"
+                                                        width="343"
+                                                        height="215"
+                                                        alt="Изображение блока"
+                                                >
+                                            </div>
+                                            <div class="img-descr__descr">
+                                                <div class="img-descr__descr-text">
+                                                    <p>Текстовый контент</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <div class="basic-tabs-content__panel" data-id="2">
+                                    <div class="basic-tabs-content__content">
+
+                                        <div class="content-page__history-info">
+                                            <div class="content-page__history-header">
+                                                <div class="h3">2008-2011 г.</div>
+                                                <svg class="icon icon-fill content-page__history-hbk">
+                                                    <use href="img/sprite.svg#hbk-pattern"></use>
+                                                </svg>
+                                            </div>
+
+                                            <div class="img-descr content-page__history-img-descr">
+                                                <div class="img-descr__view">
+                                                    <img
+                                                            loading="lazy"
+                                                            class="image"
+                                                            src="img/image-placeholder.png"
+                                                            width="343"
+                                                            height="215"
+                                                            alt="Изображение блока"
+                                                    >
+                                                </div>
+                                                <div class="img-descr__descr">
+                                                    <div class="img-descr__descr-text">
+                                                        <p>Текстовый контент</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                                <div class="basic-tabs-content__panel" data-id="3">
+                                    <div class="basic-tabs-content__content">
+
+                                        <div class="content-page__history-info">
+                                            <div class="content-page__history-header">
+                                                <div class="h3">2011-2012 г.</div>
+                                                <svg class="icon icon-fill content-page__history-hbk">
+                                                    <use href="img/sprite.svg#hbk-pattern"></use>
+                                                </svg>
+                                            </div>
+
+                                            <div class="img-descr content-page__history-img-descr">
+                                                <div class="img-descr__view">
+                                                    <img
+                                                            loading="lazy"
+                                                            class="image"
+                                                            src="img/image-placeholder.png"
+                                                            width="343"
+                                                            height="215"
+                                                            alt="Изображение блока"
+                                                    >
+                                                </div>
+                                                <div class="img-descr__descr">
+                                                    <div class="img-descr__descr-text">
+                                                        <p>Текстовый контент</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                                <div class="basic-tabs-content__panel" data-id="4">
+                                    <div class="basic-tabs-content__content">
+
+                                        <div class="content-page__history-info">
+                                            <div class="content-page__history-header">
+                                                <div class="h3">2012-2013 г.</div>
+                                                <svg class="icon icon-fill content-page__history-hbk">
+                                                    <use href="img/sprite.svg#hbk-pattern"></use>
+                                                </svg>
+                                            </div>
+
+                                            <div class="img-descr content-page__history-img-descr">
+                                                <div class="img-descr__view">
+                                                    <img
+                                                            loading="lazy"
+                                                            class="image"
+                                                            src="img/image-placeholder.png"
+                                                            width="343"
+                                                            height="215"
+                                                            alt="Изображение блока"
+                                                    >
+                                                </div>
+                                                <div class="img-descr__descr">
+                                                    <div class="img-descr__descr-text">
+                                                        <p>Текстовый контент</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                                <div class="basic-tabs-content__panel" data-id="5">
+                                    <div class="basic-tabs-content__content">
+
+                                        <div class="content-page__history-info">
+                                            <div class="content-page__history-header">
+                                                <div class="h3">2013-2014 г.</div>
+                                                <svg class="icon icon-fill content-page__history-hbk">
+                                                    <use href="img/sprite.svg#hbk-pattern"></use>
+                                                </svg>
+                                            </div>
+
+                                            <div class="img-descr content-page__history-img-descr">
+                                                <div class="img-descr__view">
+                                                    <img
+                                                            loading="lazy"
+                                                            class="image"
+                                                            src="img/image-placeholder.png"
+                                                            width="343"
+                                                            height="215"
+                                                            alt="Изображение блока"
+                                                    >
+                                                </div>
+                                                <div class="img-descr__descr">
+                                                    <div class="img-descr__descr-text">
+                                                        <p>Текстовый контент</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                                <div class="basic-tabs-content__panel" data-id="6">
+                                    <div class="basic-tabs-content__content">
+
+                                        <div class="content-page__history-info">
+                                            <div class="content-page__history-header">
+                                                <div class="h3">2014-2015 г.</div>
+                                                <svg class="icon icon-fill content-page__history-hbk">
+                                                    <use href="img/sprite.svg#hbk-pattern"></use>
+                                                </svg>
+                                            </div>
+
+                                            <div class="img-descr content-page__history-img-descr">
+                                                <div class="img-descr__view">
+                                                    <img
+                                                            loading="lazy"
+                                                            class="image"
+                                                            src="img/image-placeholder.png"
+                                                            width="343"
+                                                            height="215"
+                                                            alt="Изображение блока"
+                                                    >
+                                                </div>
+                                                <div class="img-descr__descr">
+                                                    <div class="img-descr__descr-text">
+                                                        <p>Текстовый контент</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                                <div class="basic-tabs-content__panel" data-id="7">
+                                    <div class="basic-tabs-content__content">
+
+                                        <div class="content-page__history-info">
+                                            <div class="content-page__history-header">
+                                                <div class="h3">2015-2016 г.</div>
+                                                <svg class="icon icon-fill content-page__history-hbk">
+                                                    <use href="img/sprite.svg#hbk-pattern"></use>
+                                                </svg>
+                                            </div>
+
+                                            <div class="img-descr content-page__history-img-descr">
+                                                <div class="img-descr__view">
+                                                    <img
+                                                            loading="lazy"
+                                                            class="image"
+                                                            src="img/image-placeholder.png"
+                                                            width="343"
+                                                            height="215"
+                                                            alt="Изображение блока"
+                                                    >
+                                                </div>
+                                                <div class="img-descr__descr">
+                                                    <div class="img-descr__descr-text">
+                                                        <p>Текстовый контент</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                                <div class="basic-tabs-content__panel" data-id="8">
+                                    <div class="basic-tabs-content__content">
+
+                                        <div class="content-page__history-info">
+                                            <div class="content-page__history-header">
+                                                <div class="h3">2016-2017 г.</div>
+                                                <svg class="icon icon-fill content-page__history-hbk">
+                                                    <use href="img/sprite.svg#hbk-pattern"></use>
+                                                </svg>
+                                            </div>
+
+                                            <div class="img-descr content-page__history-img-descr">
+                                                <div class="img-descr__view">
+                                                    <img
+                                                            loading="lazy"
+                                                            class="image"
+                                                            src="img/image-placeholder.png"
+                                                            width="343"
+                                                            height="215"
+                                                            alt="Изображение блока"
+                                                    >
+                                                </div>
+                                                <div class="img-descr__descr">
+                                                    <div class="img-descr__descr-text">
+                                                        <p>Текстовый контент</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                                <div class="basic-tabs-content__panel" data-id="9">
+                                    <div class="basic-tabs-content__content">
+
+                                        <div class="content-page__history-info">
+                                            <div class="content-page__history-header">
+                                                <div class="h3">2017-2018 г.</div>
+                                                <svg class="icon icon-fill content-page__history-hbk">
+                                                    <use href="img/sprite.svg#hbk-pattern"></use>
+                                                </svg>
+                                            </div>
+
+                                            <div class="img-descr content-page__history-img-descr">
+                                                <div class="img-descr__view">
+                                                    <img
+                                                            loading="lazy"
+                                                            class="image"
+                                                            src="img/image-placeholder.png"
+                                                            width="343"
+                                                            height="215"
+                                                            alt="Изображение блока"
+                                                    >
+                                                </div>
+                                                <div class="img-descr__descr">
+                                                    <div class="img-descr__descr-text">
+                                                        <p>Текстовый контент</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                                <div class="basic-tabs-content__panel" data-id="10">
+                                    <div class="basic-tabs-content__content">
+
+                                        <div class="content-page__history-info">
+                                            <div class="content-page__history-header">
+                                                <div class="h3">2018-2019 г.</div>
+                                                <svg class="icon icon-fill content-page__history-hbk">
+                                                    <use href="img/sprite.svg#hbk-pattern"></use>
+                                                </svg>
+                                            </div>
+
+                                            <div class="img-descr content-page__history-img-descr">
+                                                <div class="img-descr__view">
+                                                    <img
+                                                            loading="lazy"
+                                                            class="image"
+                                                            src="img/image-placeholder.png"
+                                                            width="343"
+                                                            height="215"
+                                                            alt="Изображение блока"
+                                                    >
+                                                </div>
+                                                <div class="img-descr__descr">
+                                                    <div class="img-descr__descr-text">
+                                                        <p>Текстовый контент</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                                <div class="basic-tabs-content__panel" data-id="11">
+                                    <div class="basic-tabs-content__content">
+
+                                        <div class="content-page__history-info">
+                                            <div class="content-page__history-header">
+                                                <div class="h3">2018-2020 г.</div>
+                                                <svg class="icon icon-fill content-page__history-hbk">
+                                                    <use href="img/sprite.svg#hbk-pattern"></use>
+                                                </svg>
+                                            </div>
+
+                                            <div class="img-descr content-page__history-img-descr">
+                                                <div class="img-descr__view">
+                                                    <img
+                                                            loading="lazy"
+                                                            class="image"
+                                                            src="img/image-placeholder.png"
+                                                            width="343"
+                                                            height="215"
+                                                            alt="Изображение блока"
+                                                    >
+                                                </div>
+                                                <div class="img-descr__descr">
+                                                    <div class="img-descr__descr-text">
+                                                        <p>Текстовый контент</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                                <div class="basic-tabs-content__panel" data-id="12">
+                                    <div class="basic-tabs-content__content">
+
+                                        <div class="content-page__history-info">
+                                            <div class="content-page__history-header">
+                                                <div class="h3">2020-2021 г.</div>
+                                                <svg class="icon icon-fill content-page__history-hbk">
+                                                    <use href="img/sprite.svg#hbk-pattern"></use>
+                                                </svg>
+                                            </div>
+
+                                            <div class="img-descr content-page__history-img-descr">
+                                                <div class="img-descr__view">
+                                                    <img
+                                                            loading="lazy"
+                                                            class="image"
+                                                            src="img/image-placeholder.png"
+                                                            width="343"
+                                                            height="215"
+                                                            alt="Изображение блока"
+                                                    >
+                                                </div>
+                                                <div class="img-descr__descr">
+                                                    <div class="img-descr__descr-text">
+                                                        <p>Текстовый контент</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                                <div class="basic-tabs-content__panel" data-id="13">
+                                    <div class="basic-tabs-content__content">
+
+                                        <div class="content-page__history-info">
+                                            <div class="content-page__history-header">
+                                                <div class="h3">2021-2022 г.</div>
+                                                <svg class="icon icon-fill content-page__history-hbk">
+                                                    <use href="img/sprite.svg#hbk-pattern"></use>
+                                                </svg>
+                                            </div>
+
+                                            <div class="img-descr content-page__history-img-descr">
+                                                <div class="img-descr__view">
+                                                    <img
+                                                            loading="lazy"
+                                                            class="image"
+                                                            src="img/image-placeholder.png"
+                                                            width="343"
+                                                            height="215"
+                                                            alt="Изображение блока"
+                                                    >
+                                                </div>
+                                                <div class="img-descr__descr">
+                                                    <div class="img-descr__descr-text">
+                                                        <p>Текстовый контент</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                                <div class="basic-tabs-content__panel" data-id="14">
+                                    <div class="basic-tabs-content__content">
+
+                                        <div class="content-page__history-info">
+                                            <div class="content-page__history-header">
+                                                <div class="h3">2022-2023 г.</div>
+                                                <svg class="icon icon-fill content-page__history-hbk">
+                                                    <use href="img/sprite.svg#hbk-pattern"></use>
+                                                </svg>
+                                            </div>
+
+                                            <div class="img-descr content-page__history-img-descr">
+                                                <div class="img-descr__view">
+                                                    <img
+                                                            loading="lazy"
+                                                            class="image"
+                                                            src="img/image-placeholder.png"
+                                                            width="343"
+                                                            height="215"
+                                                            alt="Изображение блока"
+                                                    >
+                                                </div>
+                                                <div class="img-descr__descr">
+                                                    <div class="img-descr__descr-text">
+                                                        <p>Текстовый контент</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                                <div class="basic-tabs-content__panel" data-id="15">
+                                    <div class="basic-tabs-content__content">
+
+                                        <div class="content-page__history-info">
+                                            <div class="content-page__history-header">
+                                                <div class="h3">2023-2024 г.</div>
+                                                <svg class="icon icon-fill content-page__history-hbk">
+                                                    <use href="img/sprite.svg#hbk-pattern"></use>
+                                                </svg>
+                                            </div>
+
+                                            <div class="img-descr content-page__history-img-descr">
+                                                <div class="img-descr__view">
+                                                    <img
+                                                            loading="lazy"
+                                                            class="image"
+                                                            src="img/image-placeholder.png"
+                                                            width="343"
+                                                            height="215"
+                                                            alt="Изображение блока"
+                                                    >
+                                                </div>
+                                                <div class="img-descr__descr">
+                                                    <div class="img-descr__descr-text">
+                                                        <p>Текстовый контент</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                                <div class="basic-tabs-content__panel" data-id="16">
+                                    <div class="basic-tabs-content__content">
+
+                                        <div class="content-page__history-info">
+                                            <div class="content-page__history-header">
+                                                <div class="h3">2024-2025 г.</div>
+                                                <svg class="icon icon-fill content-page__history-hbk">
+                                                    <use href="img/sprite.svg#hbk-pattern"></use>
+                                                </svg>
+                                            </div>
+
+                                            <div class="img-descr content-page__history-img-descr">
+                                                <div class="img-descr__view">
+                                                    <img
+                                                            loading="lazy"
+                                                            class="image"
+                                                            src="img/image-placeholder.png"
+                                                            width="343"
+                                                            height="215"
+                                                            alt="Изображение блока"
+                                                    >
+                                                </div>
+                                                <div class="img-descr__descr">
+                                                    <div class="img-descr__descr-text">
+                                                        <p>Текстовый контент</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                                <div class="basic-tabs-content__panel" data-id="17">
+                                    <div class="basic-tabs-content__content">
+
+                                        <div class="content-page__history-info">
+                                            <div class="content-page__history-header">
+                                                <div class="h3">2025 г.</div>
+                                                <svg class="icon icon-fill content-page__history-hbk">
+                                                    <use href="img/sprite.svg#hbk-pattern"></use>
+                                                </svg>
+                                            </div>
+
+                                            <div class="img-descr content-page__history-img-descr">
+                                                <div class="img-descr__view">
+                                                    <img
+                                                            loading="lazy"
+                                                            class="image"
+                                                            src="img/image-placeholder.png"
+                                                            width="343"
+                                                            height="215"
+                                                            alt="Изображение блока"
+                                                    >
+                                                </div>
+                                                <div class="img-descr__descr">
+                                                    <div class="img-descr__descr-text">
+                                                        <p>Текстовый контент</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
                                     </div>
                                 </div>
                             </div>
@@ -366,16 +1038,14 @@
                     <div class="content-page__row">
                         <div class="img-descr">
                             <div class="img-descr__view">
-                                <div class="img-descr__view-pic">
-                                    <img
-                                            loading="lazy"
-                                            class="image"
-                                            src="img/image-placeholder.png"
-                                            width="600"
-                                            height="400"
-                                            alt="Изображение блока"
-                                    >
-                                </div>
+                                <img
+                                        loading="lazy"
+                                        class="image"
+                                        src="img/cp-features-img.png"
+                                        width="343"
+                                        height="215"
+                                        alt="Изображение блока"
+                                >
                             </div>
                             <div class="img-descr__descr">
                                 <div class="gap-xs">
@@ -390,6 +1060,76 @@
                                 <button class="btn-reset btn" type="button">
                                     <span class="text-content">В каталог</span>
                                 </button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="content-page__row">
+                        <div class="gap-sm">
+                            <div class="img-descr img-descr-heading-out img-descr--reverse">
+                                <div class="img-descr__view">
+                                    <img
+                                            loading="lazy"
+                                            class="image"
+                                            src="img/cp-choose-img.png"
+                                            width="343"
+                                            height="215"
+                                            alt="Изображение блока"
+                                    >
+                                </div>
+                                <div class="img-descr__descr">
+                                    <div class="gap-xs">
+                                        <div class="img-descr__heading">
+                                            <svg class="icon icon-fill img-descr__logo">
+                                                <use href="img/sprite.svg#hbk-pattern"></use>
+                                            </svg>
+                                            <div class="h3">Нас выбирают потому что</div>
+                                        </div>
+                                    </div>
+                                    <div class="img-descr__descr-text">
+                                        <ul class="list-reset list-brand">
+                                            <li>Полный спектр предоставляемых услуг от доставки до установки  и монтажа МАФ</li>
+                                            <li>Гибкие условия сотрудничества</li>
+                                            <li>Гарантийное и постгарантийное обслуживание МАФ</li>
+                                            <li>Представительства в регионах РФ</li>
+                                            <li>Прямое участие в тендерах и госзакупках</li>
+                                            <li>Поставки продукции по всей России и за рубеж</li>
+                                            <li>Товар сертифицирован, высокое качество продукции</li>
+                                            <li>Профессиональный коллектив Хоббики </li>
+                                            <li>Импортозамещение и использование инновационных решений  в производстве продукции</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="about-pop-question accordion-arr accordion-container">
+                            <div class="ac">
+                                <div class="ac-header">
+                                    <button class="btn-reset ac-trigger" type="button">
+                                        <span class="ac-title h5">Наши конкурентные преимущества</span>
+                                        <span class="ac-trigger-pointer">
+                                            <svg class="icon icon-fill">
+                                                <use href="img/sprite.svg#chevron-down"></use>
+                                            </svg>
+                                        </span>
+                                    </button>
+                                </div>
+                                <div class="ac-panel">
+                                    <div class="ac-content">
+                                        <ul class="list-reset list-brand">
+                                            <li>Собственное литейное предприятие (с 2011 г)</li>
+                                            <li>Собственное деревообрабатывающее предприятие (с 2014 г)</li>
+                                            <li>Собственное конструкторское бюро и модельный цех</li>
+                                            <li>Полный цикл производства от идеи к проекту - от сырья к продукту</li>
+                                            <li>Использование широкого спектра материалов в производстве</li>
+                                            <li>Огромный ассортимент, способный удовлетворить каждого</li>
+                                            <li>Собственный сервисный центр и абонентское обслуживание МАФ (с 2014 г.)</li>
+                                            <li>Собственный столярный цех по производству мебели и МАФ из дерева, в т.ч. из термодерева (с 2016 г.)</li>
+                                            <li>Собственный жестяной цех по производству изделий из оцинкованной стали (с 2018 г.)</li>
+                                        </ul>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>

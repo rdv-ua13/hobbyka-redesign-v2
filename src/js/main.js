@@ -34,7 +34,8 @@ application.prototype.init = function () {
     /*this.initCatalogSidebarApplyFilter();*/
     /*this.initCatalogContentSort();*/
     /*this.initContactsMap();*/
-    /*this.initBasicTabs();*/
+    this.initBasicTabs();
+    this.initAccordion();
     this.initContactsAccordion();
     this.initFancyboxBehavior();
     /*this.initPasswordSwitcher();*/
@@ -317,8 +318,8 @@ application.prototype.initBasicTabSlider = function () {
 application.prototype.initSliders = function () {
     if ($('.nav-breadcrumbs').length) {
         let sliderNavBreadcrumbs = new Swiper('.nav-breadcrumbs', {
-            spaceBetween: 0,
             slidesPerView: 'auto',
+            spaceBetween: 0,
         });
     }
 
@@ -419,6 +420,20 @@ application.prototype.initSliders = function () {
         }
 
 
+    }
+
+    if ($('[data-cp-nav]').length) {
+        let sliderCpNav = new Swiper('[data-cp-nav]', {
+            slidesPerView: 'auto',
+            spaceBetween: 0,
+        });
+    }
+
+    if ($('[data-history-slider]').length) {
+        let sliderHistory = new Swiper('[data-history-slider]', {
+            slidesPerView: 'auto',
+            spaceBetween: 24,
+        });
     }
 
 
@@ -1099,6 +1114,16 @@ application.prototype.initBasicTabs = function () {
             currentSelected = $(this).find(".basic-tabs-trigger").data("target");
             $(".basic-tabs-content[data-tab-content='" + currentTabBlockId + "']").find('.basic-tabs-content__panel').removeClass('active');
             $(".basic-tabs-content[data-tab-content='" + currentTabBlockId + "']").find(".basic-tabs-content__panel[data-id='" + currentSelected + "']").addClass('active');
+        });
+    }
+};
+
+// Initialization accordion
+application.prototype.initAccordion = function () {
+    if ($(".accordion-arr").length) {
+        let accordion = new Accordion([".accordion-arr"],{
+            duration: 200,
+            showMultiple: true,
         });
     }
 };
