@@ -222,8 +222,8 @@ svg {
 	user-select: none;
 	transition: var(--transition);
 
-	fill: var(--black-color);
-	stroke: var(--black-color);
+	fill: var(--text-primary);
+	stroke: var(--text-primary);
 
 	&-xs {
 		min-width: 12px!important;
@@ -267,6 +267,9 @@ svg {
 p {
 	margin-top: 0;
 
+	&:not(:last-child) {
+		margin-bottom: 16px;
+	}
 	&:last-child {
 		margin-bottom: 0;
 	}
@@ -274,14 +277,7 @@ p {
 @media (min-width: 992px) {
 	p {
 		&:not(:last-child) {
-			margin-bottom: 24px;
-		}
-	}
-}
-@media (max-width: 991px) {
-	p {
-		&:not(:last-child) {
-			margin-bottom: 16px;
+			margin-bottom: 20px;
 		}
 	}
 }
@@ -2035,15 +2031,6 @@ input.disabled {
 		.basic-slider {
 			padding-right: var(--container-offset);
 			padding-left: var(--container-offset);
-		}
-
-		&-container {
-			&--mobile {
-				.basic-slider {
-					padding-right: unset;
-					padding-left: unset;
-				}
-			}
 		}
 	}
 }

@@ -1,6 +1,6 @@
 <?php include($_SERVER["DOCUMENT_ROOT"] . "/build/" . "components/header.php"); ?>
 
-<div class="gap-lg">
+<div class="gap-sm">
 	<div class="block">
 		<div class="container">
 			<div class="content-page">

@@ -64,9 +64,9 @@
             <img src="img/logo.svg#logo" width="350" height="100" alt="Логотип компании">
         </div>
         <span style="display: inline-flex; align-items:center; font-size: 24px;">
-            <span style="color: forestgreen; font-weight: 600;">16 + ui</span>
+            <span style="color: forestgreen; font-weight: 600;">n + ui</span>
             &nbsp;/&nbsp;
-            <span style="font-size: 24px;">22 + forms + ui (всего страниц в макете)</span>
+            <span style="font-size: 24px;">26 + forms + ui (всего страниц в макете)</span>
         </span>
     </div>
 
@@ -88,17 +88,18 @@
 
             <br>
             <li><a class="ready" href="search-result-false.php" target="_blank">Результаты поиска (пусто)</a></li>
-            <li><a class="ready" href="search-result.php" target="_blank">Результаты поиска</a></li>
-            <li><a class="ready" href="search-result2.php" target="_blank">Результаты поиска 2</a></li>
+            <li><a class="dev" href="search-result.php" target="_blank">Результаты поиска</a></li>
+            <li><a class="dev" href="search-result2.php" target="_blank">Результаты поиска 2</a></li>
 
             <br>
             <li><a class="ready" href="cp-about.php" target="_blank">О компании</a></li>
             <li><a class="ready" href="cp-production.php" target="_blank">Производство</a></li>
-            <li><a class="dev" href="cp-works.php" target="_blank">Наши работы</a></li>
-            <li><a class="dev" href="cp-reviews.php" target="_blank">Отзывы</a></li>
-            <li><a class="dev" href="cp-certificates.php" target="_blank">Сертификаты</a></li>
+            <li><a class="ready" href="cp-works.php" target="_blank">Наши работы</a></li>
+            <li><a class="ready" href="cp-works-details.php" target="_blank">Наши работы (детальная)</a></li>
+            <li><a class="ready" href="cp-reviews.php" target="_blank">Отзывы</a></li>
+            <li><a class="ready" href="cp-certificates.php" target="_blank">Сертификаты</a></li>
             <li><a class="dev" href="cp-partners.php" target="_blank">Партнеры</a></li>
-            <li><a class="dev" href="cp-press.php" target="_blank">Пресса о нас</a></li>
+            <!--<li><a class="dev" href="cp-press.php" target="_blank">Пресса о нас</a></li>-->
 
             <br>
             <li><a class="ready" href="ui.php" target="_blank">ui</a></li>
