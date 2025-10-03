@@ -92,6 +92,10 @@
             <li><a class="dev" href="search-result2.php" target="_blank">Результаты поиска 2 (доработка блок "Теги")</a></li>
 
             <br>
+            <li><a class="ready" href="cp-dealers.php" target="_blank">Дилерам</a></li>
+            <li><a class="dev" href="cp-news.php" target="_blank">Новости</a></li>
+
+            <br>
             <li><a class="ready" href="cp-about.php" target="_blank">О компании</a></li>
             <li><a class="ready" href="cp-production.php" target="_blank">Производство</a></li>
             <li><a class="ready" href="cp-works.php" target="_blank">Наши работы</a></li>

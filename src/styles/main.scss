@@ -2037,6 +2037,33 @@
 	}
 }
 
+.notice-msg {
+	position: relative;
+	padding: 8px 10px 8px 12px;
+	border-radius: 8px;
+	background-color: rgba(255, 243, 202, 0.46);
+	line-height: 1.4;
+
+	&::before {
+		content: '';
+		z-index: 1;
+		position: absolute;
+		top: 0;
+		bottom: 0;
+		left: 0;
+		min-width: 4px;
+		width: 4px;
+		border-radius: 20px;
+		background-color: var(--surface-brand);
+	}
+}
+@media (min-width: 992px) {
+	.notice-msg {
+		padding-left: 28px;
+		font-weight: 500;
+	}
+}
+
 //catalog
 .catalog-important {
 	display: flex;
