@@ -21,10 +21,10 @@
     <li class="pagination__item">
         <a class="pagination__link" href="javascript:;"><span>15</span></a>
     </li>
-    <li class="pagination__item">
+    <li class="pagination__item desktop-only">
         <a class="pagination__link" href="javascript:;"><span>16</span></a>
     </li>
-    <li class="pagination__item">
+    <li class="pagination__item desktop-only">
         <a class="pagination__link" href="javascript:;"><span>17</span></a>
     </li>
     <li class="pagination__item">

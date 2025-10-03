@@ -84,10 +84,8 @@
                             </div>
                         </div>
 
-                        <div class="desktop-only">
-                            <div class="pagination-wrapper">
-								<?php include($_SERVER["DOCUMENT_ROOT"] . "/build/components/pagination.php"); ?>
-                            </div>
+                        <div class="pagination-wrapper">
+							<?php include($_SERVER["DOCUMENT_ROOT"] . "/build/components/pagination.php"); ?>
                         </div>
 					</div>
 

@@ -2016,6 +2016,24 @@
 	}
 }
 
+.article-list {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(343px, 1fr));
+	gap: 20px;
+
+	.card-article {
+		min-width: 100%;
+		width: 100%;
+	}
+}
+@media (min-width: 992px) {
+	.article-list {
+		display: flex;
+		flex-direction: column;
+		gap: 40px;
+	}
+}
+
 //catalog
 .catalog-important {
 	display: flex;

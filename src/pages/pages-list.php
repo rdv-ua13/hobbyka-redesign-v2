@@ -64,7 +64,7 @@
             <img src="img/logo.svg#logo" width="350" height="100" alt="Логотип компании">
         </div>
         <span style="display: inline-flex; align-items:center; font-size: 24px;">
-            <span style="color: forestgreen; font-weight: 600;">n + ui</span>
+            <span style="color: forestgreen; font-weight: 600;">16 + ui</span>
             &nbsp;/&nbsp;
             <span style="font-size: 24px;">26 + forms + ui (всего страниц в макете)</span>
         </span>
@@ -76,20 +76,20 @@
 
             <br>
 			<li><a class="ready" href="catalog-category.php" target="_blank">Каталог - категория</a></li>
-			<li><a class="dev" href="category.php" target="_blank">Категория каталога</a></li>
+			<li><a class="dev" href="category.php" target="_blank">Категория каталога (доработка блок "Теги")</a></li>
 
             <br>
 			<!--<li><a class="ready" href="product-details.php" target="_blank">Детальная товара</a></li>-->
 
             <br>
             <li><a class="ready" href="cart-empty.php" target="_blank">Корзина (пусто)</a></li>
-            <li><a class="dev" href="cart.php" target="_blank">Корзина</a></li>
-            <li><a class="dev" href="cart-offer.php" target="_blank">КП</a></li>
+            <li><a class="dev" href="cart.php" target="_blank">Корзина (доработка шапки - моб)</a></li>
+            <li><a class="dev" href="cart-offer.php" target="_blank">КП (доработка шапки - моб)</a></li>
 
             <br>
             <li><a class="ready" href="search-result-false.php" target="_blank">Результаты поиска (пусто)</a></li>
-            <li><a class="dev" href="search-result.php" target="_blank">Результаты поиска</a></li>
-            <li><a class="dev" href="search-result2.php" target="_blank">Результаты поиска 2</a></li>
+            <li><a class="dev" href="search-result.php" target="_blank">Результаты поиска (доработка блок "Теги")</a></li>
+            <li><a class="dev" href="search-result2.php" target="_blank">Результаты поиска 2 (доработка блок "Теги")</a></li>
 
             <br>
             <li><a class="ready" href="cp-about.php" target="_blank">О компании</a></li>
@@ -98,8 +98,9 @@
             <li><a class="ready" href="cp-works-details.php" target="_blank">Наши работы (детальная)</a></li>
             <li><a class="ready" href="cp-reviews.php" target="_blank">Отзывы</a></li>
             <li><a class="ready" href="cp-certificates.php" target="_blank">Сертификаты</a></li>
-            <li><a class="dev" href="cp-partners.php" target="_blank">Партнеры</a></li>
-            <!--<li><a class="dev" href="cp-press.php" target="_blank">Пресса о нас</a></li>-->
+            <li><a class="ready" href="cp-partners.php" target="_blank">Партнеры</a></li>
+            <li><a class="ready" href="cp-press.php" target="_blank">Пресса о нас</a></li>
+            <li><a class="dev" href="cp-press-details.php" target="_blank">Пресса о нас (детальная)</a></li>
 
             <br>
             <li><a class="ready" href="ui.php" target="_blank">ui</a></li>

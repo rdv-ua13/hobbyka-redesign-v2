@@ -579,7 +579,7 @@
 	</div>
 </div>
 
-<div class="block desktop-only">
+<div class="block">
 	<div class="container">
         <div class="pagination-wrapper">
 			<?php include($_SERVER["DOCUMENT_ROOT"] . "/build/components/pagination.php"); ?>
