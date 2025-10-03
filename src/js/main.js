@@ -423,9 +423,11 @@ application.prototype.initSliders = function () {
     }
 
     if ($('[data-cp-nav]').length) {
+        let initialSlide = $('[data-cp-nav]').data('cp-nav-initial');
         let sliderCpNav = new Swiper('[data-cp-nav]', {
             slidesPerView: 'auto',
             spaceBetween: 0,
+            initialSlide: initialSlide,
         });
     }
 

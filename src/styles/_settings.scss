@@ -2685,7 +2685,8 @@ input.disabled {
 			border-radius: 8px;
 			background-repeat: no-repeat;
 			background-position: center;
-			background-size: auto 100%;
+			/*background-size: auto 100%;*/
+			background-size: cover;
 
 			&::before {
 				content: '';

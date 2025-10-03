@@ -17,7 +17,7 @@
 				<div class="content-page__container">
 					<div class="content-page__row">
 						<div class="slider-out">
-                            <div class="content-page__row content-page__nav swiper" data-cp-nav>
+                            <div class="content-page__row content-page__nav swiper" data-cp-nav data-cp-nav-initial="1">
                                 <div class="swiper-wrapper">
                                     <div class="swiper-slide">
                                         <a class="content-page__nav-item" href="javascript:;">О нас</a>

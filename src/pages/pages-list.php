@@ -64,7 +64,7 @@
             <img src="img/logo.svg#logo" width="350" height="100" alt="Логотип компании">
         </div>
         <span style="display: inline-flex; align-items:center; font-size: 24px;">
-            <span style="color: forestgreen; font-weight: 600;">18 + ui</span>
+            <span style="color: forestgreen; font-weight: 600;">25 + ui</span>
             &nbsp;/&nbsp;
             <span style="font-size: 24px;">26 + forms + ui (всего страниц в макете)</span>
         </span>
@@ -97,6 +97,8 @@
             <li><a class="ready" href="cp-news-details.php" target="_blank">Новости (детальная)</a></li>
             <li><a class="ready" href="cp-services.php" target="_blank">Услуги</a></li>
             <li><a class="ready" href="cp-services-details.php" target="_blank">Услуги (детальная)</a></li>
+            <li><a class="dev" href="cp-contacts.php" target="_blank">Контакты (доработка блок "Карта" / Адреса десктоп)</a></li>
+            <li><a class="dev" href="cp-partnership.php" target="_blank">Партнерство (доработка блок "Теги")</a></li>
 
             <br>
             <li><a class="ready" href="cp-about.php" target="_blank">О компании</a></li>
