@@ -94,6 +94,7 @@
             <br>
             <li><a class="ready" href="cp-dealers.php" target="_blank">Дилерам</a></li>
             <li><a class="dev" href="cp-news.php" target="_blank">Новости</a></li>
+            <li><a class="dev" href="cp-news-details.php" target="_blank">Новости (детальная)</a></li>
 
             <br>
             <li><a class="ready" href="cp-about.php" target="_blank">О компании</a></li>
