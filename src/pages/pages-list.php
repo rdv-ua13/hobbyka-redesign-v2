@@ -64,7 +64,7 @@
             <img src="img/logo.svg#logo" width="350" height="100" alt="Логотип компании">
         </div>
         <span style="display: inline-flex; align-items:center; font-size: 24px;">
-            <span style="color: forestgreen; font-weight: 600;">25 + ui</span>
+            <span style="color: forestgreen; font-weight: 600;">25</span> <?/* + ui*/?>
             &nbsp;/&nbsp;
             <span style="font-size: 24px;">26 + forms + ui (всего страниц в макете)</span>
         </span>
@@ -76,10 +76,10 @@
 
             <br>
 			<li><a class="ready" href="catalog-category.php" target="_blank">Каталог - категория</a></li>
-			<li><a class="dev" href="category.php" target="_blank">Категория каталога (доработка блок "Теги")</a></li>
+			<li><a class="ready" href="category.php" target="_blank">Категория каталога</a></li>
 
             <br>
-			<!--<li><a class="ready" href="product-details.php" target="_blank">Детальная товара</a></li>-->
+			<li><a class="dev" href="#">Детальная товара (доработка страницы)</a></li> <?/*product-details.php target="_blank"*/?>
 
             <br>
             <li><a class="ready" href="cart-empty.php" target="_blank">Корзина (пусто)</a></li>
@@ -88,8 +88,8 @@
 
             <br>
             <li><a class="ready" href="search-result-false.php" target="_blank">Результаты поиска (пусто)</a></li>
-            <li><a class="dev" href="search-result.php" target="_blank">Результаты поиска (доработка блок "Теги")</a></li>
-            <li><a class="dev" href="search-result2.php" target="_blank">Результаты поиска 2 (доработка блок "Теги")</a></li>
+            <li><a class="ready" href="search-result.php" target="_blank">Результаты поиска</a></li>
+            <li><a class="ready" href="search-result2.php" target="_blank">Результаты поиска 2</a></li>
 
             <br>
             <li><a class="ready" href="cp-dealers.php" target="_blank">Дилерам</a></li>
@@ -97,8 +97,8 @@
             <li><a class="ready" href="cp-news-details.php" target="_blank">Новости (детальная)</a></li>
             <li><a class="ready" href="cp-services.php" target="_blank">Услуги</a></li>
             <li><a class="ready" href="cp-services-details.php" target="_blank">Услуги (детальная)</a></li>
-            <li><a class="dev" href="cp-contacts.php" target="_blank">Контакты (доработка блок "Карта" / Адреса десктоп)</a></li>
-            <li><a class="dev" href="cp-partnership.php" target="_blank">Партнерство (доработка блок "Теги")</a></li>
+            <li><a class="dev" href="cp-contacts.php" target="_blank">Контакты (доработка блок "Карта")</a></li>
+            <li><a class="ready" href="cp-partnership.php" target="_blank">Партнерство</a></li>
 
             <br>
             <li><a class="ready" href="cp-about.php" target="_blank">О компании</a></li>
@@ -112,7 +112,7 @@
             <li><a class="ready" href="cp-press-details.php" target="_blank">Пресса о нас (детальная)</a></li>
 
             <br>
-            <li><a class="ready" href="ui.php" target="_blank">ui</a></li>
+            <!--<li><a class="ready" href="ui.php" target="_blank">ui</a></li>-->
         </ul>
     </div>
 </body>

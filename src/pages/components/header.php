@@ -1005,4 +1005,9 @@
     </div>
 </div>
 
-<main class="main">
+<main class="main
+            <?=(strpos($_SERVER["REQUEST_URI"], "category.php")
+            || strpos($_SERVER["REQUEST_URI"], "search-result.php")
+            || strpos($_SERVER["REQUEST_URI"], "search-result2.php"))? 'has-join-header-mobile' : ''?>
+            <?=(strpos($_SERVER["REQUEST_URI"], "cp-partnership.php"))? 'has-join-header-mobile-cp-nav' : ''?>
+">

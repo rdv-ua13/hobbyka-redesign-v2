@@ -9,19 +9,98 @@
 <div class="block-top-mobile block-bottom">
 	<div class="container">
 		<div class="cp-heading">
-			<h1 class="h1 cp-heading__title">Садовая и дачная мебель</h1>
-			<div class="cp-heading__placeholder">— 133 товара</div>
+            <div class="cp-heading__back mobile-only">
+                <a class="cp-heading__back-link link" href="javascript:;">
+                    <svg class="icon icon-fill">
+                        <use href="img/sprite.svg#chevron-left"></use>
+                    </svg>
+                    <span>Категории</span>
+                </a>
+            </div>
+			<div class="cp-heading__top">
+                <h1 class="h1 cp-heading__title">Садовая и дачная мебель</h1>
+                <span class="cp-heading__placeholder">&nbsp;
+                    <span class="desktop-only">—&nbsp;&nbsp;</span>
+                    133
+                    <span class="desktop-only"> товара</span>
+                </span>
+            </div>
 		</div>
 	</div>
 </div>
 
-<div class=""> <?/*!todo - block-bottom-desktop*/?>
+<div class="block-bottom-desktop join-header-mobile">
 	<div class="container">
-		Tags (dev)
+		<div class="slider-out basic-slider-wrap">
+		    <div class="tagbar basic-slider swiper" data-tagbar-slider>
+		        <div class="swiper-wrapper tagbar__list">
+                    <div class="swiper-slide tagbar__item">
+                        <a href="javascript:;" class="tagbar-tag active">
+                            <span class="text-content">Все товары</span>
+                        </a>
+                    </div>
+                    <div class="swiper-slide tagbar__item">
+                        <a href="javascript:;" class="tagbar-tag tagbar-tag--sale">
+                            <span class="text-content">Распродажа</span>
+                        </a>
+                    </div>
+                    <div class="swiper-slide tagbar__item">
+                        <a href="javascript:;" class="tagbar-tag">
+                            <span class="text-content">Кресла садовые</span>
+                        </a>
+                    </div>
+                    <div class="swiper-slide tagbar__item">
+                        <a href="javascript:;" class="tagbar-tag">
+                            <span class="text-content">Садовые скамейки</span>
+                        </a>
+                    </div>
+                    <div class="swiper-slide tagbar__item">
+                        <a href="javascript:;" class="tagbar-tag">
+                            <span class="text-content">Бескаркасная уличная мебель</span>
+                        </a>
+                    </div>
+                    <div class="swiper-slide tagbar__item">
+                        <a href="javascript:;" class="tagbar-tag">
+                            <span class="text-content">Садовое освещение и фонари</span>
+                        </a>
+                    </div>
+                    <div class="swiper-slide tagbar__item">
+                        <a href="javascript:;" class="tagbar-tag">
+                            <span class="text-content">Урны садовые</span>
+                        </a>
+                    </div>
+                    <div class="swiper-slide tagbar__item">
+                        <a href="javascript:;" class="tagbar-tag">
+                            <span class="text-content">Лежаки и шезлонги</span>
+                        </a>
+                    </div>
+                    <div class="swiper-slide tagbar__item">
+                        <a href="javascript:;" class="tagbar-tag">
+                            <span class="text-content">Мангалы и барбекю</span>
+                        </a>
+                    </div>
+                    <div class="swiper-slide tagbar__item">
+                        <a href="javascript:;" class="tagbar-tag">
+                            <span class="text-content">Дровницы и угольницы</span>
+                        </a>
+                    </div>
+                    <div class="swiper-slide tagbar__item">
+                        <a href="javascript:;" class="tagbar-tag">
+                            <span class="text-content">Аксессуары для скамеек и кресел</span>
+                        </a>
+                    </div>
+                    <div class="swiper-slide tagbar__item">
+                        <a href="javascript:;" class="tagbar-tag">
+                            <span class="text-content">Тенты и чехлы</span>
+                        </a>
+                    </div>
+		        </div>
+		    </div>
 	</div>
+    </div>
 </div>
 
-<div class="block">
+<div class="block-bottom">
 	<div class="container">
 		<div class="category">
 			<div class="card card-product">

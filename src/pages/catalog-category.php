@@ -117,7 +117,7 @@
                     </div>
                 </div>
             </a>
-            <a class="card card-category card-category-photo-block card-category-photo-block--col-9" href="javascript:;" style="background-image: url('img/category-photo-block-col9.png')">
+            <a class="card card-category card-category-photo-block card-category-photo-block--span-2" href="javascript:;" style="background-image: url('img/category-photo-block-col9.png')">
                 <div class="card__descr">
                     <div class="card__title">Пример фото-блока который будет вести на посадочную страницу</div>
                 </div>
@@ -155,7 +155,7 @@
                     </div>
                 </div>
             </a>
-            <a class="card card-category card-category-photo-block card-category-photo-block--col-12" href="javascript:;" style="background-image: url('img/category-photo-block-col12.png')">
+            <a class="card card-category card-category-photo-block card-category-photo-block--span-3" href="javascript:;" style="background-image: url('img/category-photo-block-col12.png')">
                 <div class="card__descr">
                     <div class="card__title">Пример фото-блока который будет вести на посадочную страницу</div>
                 </div>
@@ -204,7 +204,7 @@
                     </div>
                 </div>
             </a>
-            <a class="card card-category card-category-photo-block card-category-photo-block--col-9" href="javascript:;" style="background-image: url('img/category-photo-block-col9.png')">
+            <a class="card card-category card-category-photo-block card-category-photo-block--span-2" href="javascript:;" style="background-image: url('img/category-photo-block-col9.png')">
                 <div class="card__descr">
                     <div class="card__title">Пример фото-блока который будет вести на посадочную страницу</div>
                 </div>
