@@ -292,6 +292,10 @@
 			}
 		}
 	}
+
+	&-cut {
+		display: none;
+	}
 }
 
 .burger {
@@ -952,6 +956,8 @@
 			margin-left: -16px;
 
 			form {
+				min-height: 48px;
+				height: 48px;
 				border-top: 1px solid var(--surface-gray5);
 				border-bottom: 1px solid var(--surface-gray5);
 
@@ -994,6 +1000,40 @@
 
 		.burger {
 			order: 5;
+		}
+
+		&.header-mini {
+			.header {
+				&-top,
+				&-nav {
+					display: none;
+				}
+
+				&-cut {
+					display: flex;
+					gap: 8px;
+					padding-top: 12px;
+					padding-bottom: 12px;
+
+					&__act {
+						display: flex;
+						justify-content: center;
+						align-items: center;
+
+						.icon {
+							min-width: 24px;
+							width: 24px;
+							min-height: 24px;
+							height: 24px;
+							fill: var(--text-secondary);
+							stroke: var(--text-secondary);
+						}
+
+						&-search {}
+						&-more {}
+					}
+				}
+			}
 		}
 	}
 }

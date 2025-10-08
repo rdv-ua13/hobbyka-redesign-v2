@@ -43,12 +43,14 @@
     <script defer src="js/main.js?v=<?=time();?>"></script>
 </head>
 
-<? if (strpos($_SERVER["REQUEST_URI"], "index.php")) : ?>
-<body class="index">
-<? else : ?>
-<body>
-<? endif; ?>
-<header class="header fixed-block">
+<body class="<?=strpos($_SERVER["REQUEST_URI"], "index.php")? 'index' : ''?>">
+<header
+        class="header
+        <?=(strpos($_SERVER["REQUEST_URI"], "product-details.php")
+        || strpos($_SERVER["REQUEST_URI"], "cart.php")
+        || strpos($_SERVER["REQUEST_URI"], "cart-empty.php")
+        || strpos($_SERVER["REQUEST_URI"], "cart-offer.php"))? 'header-mini' : ''?>
+">
     <div class="header-top">
         <div class="container header-container">
             <div class="header-top-nav">
@@ -665,6 +667,12 @@
                     </svg>
                 </button>
             </div>
+        </div>
+    </div>
+
+    <div class="header-cut">
+        <div class="container header-container">
+            123
         </div>
     </div>
 </header>
