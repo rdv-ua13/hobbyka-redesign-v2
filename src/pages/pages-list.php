@@ -79,7 +79,7 @@
 			<li><a class="ready" href="category.php" target="_blank">Категория каталога</a></li>
 
             <br>
-			<li><a class="dev" href="product-details.php" target="_blank">Детальная товара (доработка страницы)</a></li>
+			<li><a class="dev" href="card-details.php" target="_blank">Детальная товара (доработка страницы)</a></li>
 
             <br>
             <li><a class="ready" href="cart-empty.php" target="_blank">Корзина (пусто)</a></li>

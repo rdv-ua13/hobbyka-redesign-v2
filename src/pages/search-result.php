@@ -88,8 +88,8 @@
 
 					<div class="card__act">
 						<button class="btn-reset btn card__act-btn switch-content card-tooltip" data-tippy-content="В избранное">
-							<svg class="icon icon-fill">
-								<use href="img/sprite.svg#favourite"></use>
+							<svg class="icon">
+								<use href="img/fill-stroke_favourite.svg#fill-stroke_favourite"></use>
 							</svg>
 							<span class="text-content">В избранное</span>
 						</button>
@@ -183,8 +183,8 @@
 
 					<div class="card__act">
 						<button class="btn-reset btn card__act-btn switch-content card-tooltip" data-tippy-content="В избранное">
-							<svg class="icon icon-fill">
-								<use href="img/sprite.svg#favourite"></use>
+							<svg class="icon">
+								<use href="img/fill-stroke_favourite.svg#fill-stroke_favourite"></use>
 							</svg>
 							<span class="text-content">В избранное</span>
 						</button>
@@ -275,8 +275,8 @@
 
 					<div class="card__act">
 						<button class="btn-reset btn card__act-btn switch-content card-tooltip" data-tippy-content="В избранное">
-							<svg class="icon icon-fill">
-								<use href="img/sprite.svg#favourite"></use>
+							<svg class="icon">
+								<use href="img/fill-stroke_favourite.svg#fill-stroke_favourite"></use>
 							</svg>
 							<span class="text-content">В избранное</span>
 						</button>
@@ -366,8 +366,8 @@
 
 					<div class="card__act">
 						<button class="btn-reset btn card__act-btn switch-content card-tooltip" data-tippy-content="В избранное">
-							<svg class="icon icon-fill">
-								<use href="img/sprite.svg#favourite"></use>
+							<svg class="icon">
+								<use href="img/fill-stroke_favourite.svg#fill-stroke_favourite"></use>
 							</svg>
 							<span class="text-content">В избранное</span>
 						</button>
@@ -457,8 +457,8 @@
 
 					<div class="card__act">
 						<button class="btn-reset btn card__act-btn switch-content card-tooltip" data-tippy-content="В избранное">
-							<svg class="icon icon-fill">
-								<use href="img/sprite.svg#favourite"></use>
+							<svg class="icon">
+								<use href="img/fill-stroke_favourite.svg#fill-stroke_favourite"></use>
 							</svg>
 							<span class="text-content">В избранное</span>
 						</button>
@@ -548,8 +548,8 @@
 
 					<div class="card__act">
 						<button class="btn-reset btn card__act-btn switch-content card-tooltip" data-tippy-content="В избранное">
-							<svg class="icon icon-fill">
-								<use href="img/sprite.svg#favourite"></use>
+							<svg class="icon">
+								<use href="img/fill-stroke_favourite.svg#fill-stroke_favourite"></use>
 							</svg>
 							<span class="text-content">В избранное</span>
 						</button>
@@ -663,8 +663,8 @@
 
                                         <div class="card__act">
                                             <button class="btn-reset btn card__act-btn switch-content card-tooltip" data-tippy-content="В избранное">
-                                                <svg class="icon icon-fill">
-                                                    <use href="img/sprite.svg#favourite"></use>
+                                                <svg class="icon">
+                                                    <use href="img/fill-stroke_favourite.svg#fill-stroke_favourite"></use>
                                                 </svg>
                                                 <span class="text-content">В избранное</span>
                                             </button>
@@ -760,8 +760,8 @@
 
                                         <div class="card__act">
                                             <button class="btn-reset btn card__act-btn switch-content card-tooltip" data-tippy-content="В избранное">
-                                                <svg class="icon icon-fill">
-                                                    <use href="img/sprite.svg#favourite"></use>
+                                                <svg class="icon">
+                                                    <use href="img/fill-stroke_favourite.svg#fill-stroke_favourite"></use>
                                                 </svg>
                                                 <span class="text-content">В избранное</span>
                                             </button>
@@ -854,8 +854,8 @@
 
                                         <div class="card__act">
                                             <button class="btn-reset btn card__act-btn switch-content card-tooltip" data-tippy-content="В избранное">
-                                                <svg class="icon icon-fill">
-                                                    <use href="img/sprite.svg#favourite"></use>
+                                                <svg class="icon">
+                                                    <use href="img/fill-stroke_favourite.svg#fill-stroke_favourite"></use>
                                                 </svg>
                                                 <span class="text-content">В избранное</span>
                                             </button>
@@ -947,8 +947,8 @@
 
                                         <div class="card__act">
                                             <button class="btn-reset btn card__act-btn switch-content card-tooltip" data-tippy-content="В избранное">
-                                                <svg class="icon icon-fill">
-                                                    <use href="img/sprite.svg#favourite"></use>
+                                                <svg class="icon">
+                                                    <use href="img/fill-stroke_favourite.svg#fill-stroke_favourite"></use>
                                                 </svg>
                                                 <span class="text-content">В избранное</span>
                                             </button>
@@ -1040,8 +1040,8 @@
 
                                         <div class="card__act">
                                             <button class="btn-reset btn card__act-btn switch-content card-tooltip" data-tippy-content="В избранное">
-                                                <svg class="icon icon-fill">
-                                                    <use href="img/sprite.svg#favourite"></use>
+                                                <svg class="icon">
+                                                    <use href="img/fill-stroke_favourite.svg#fill-stroke_favourite"></use>
                                                 </svg>
                                                 <span class="text-content">В избранное</span>
                                             </button>
@@ -1133,8 +1133,8 @@
 
                                         <div class="card__act">
                                             <button class="btn-reset btn card__act-btn switch-content card-tooltip" data-tippy-content="В избранное">
-                                                <svg class="icon icon-fill">
-                                                    <use href="img/sprite.svg#favourite"></use>
+                                                <svg class="icon">
+                                                    <use href="img/fill-stroke_favourite.svg#fill-stroke_favourite"></use>
                                                 </svg>
                                                 <span class="text-content">В избранное</span>
                                             </button>

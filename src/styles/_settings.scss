@@ -2451,11 +2451,25 @@ input.disabled {
 						width: 24px;
 						min-height: 24px;
 						height: 24px;
-						fill: var(--text-secondary);
+						fill: transparent;
 						stroke: var(--text-secondary);
 					}
 					.text-content {
 						display: none;
+					}
+
+					&:focus,
+					&:hover {
+						.icon {
+							fill: #D9D9D9;
+						}
+
+					}
+					&.active {
+						.icon {
+							fill: var(--surface-brand);
+							stroke: var(--surface-brand);
+						}
 					}
 				}
 			}

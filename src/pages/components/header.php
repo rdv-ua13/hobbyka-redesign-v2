@@ -48,7 +48,7 @@
 ">
 <header
         class="header
-        <?=(strpos($_SERVER["REQUEST_URI"], "product-details.php")
+        <?=(strpos($_SERVER["REQUEST_URI"], "card-details.php")
         || strpos($_SERVER["REQUEST_URI"], "cart.php")
         || strpos($_SERVER["REQUEST_URI"], "cart-empty.php")
         || strpos($_SERVER["REQUEST_URI"], "cart-offer.php"))? 'header-mini' : ''?>
@@ -677,17 +677,17 @@
                 </svg>
             </a>
             <div class="header-cut__title h5">
-				<?=strpos($_SERVER["REQUEST_URI"], "product-details.php")? 'Скамейка стальная «Афина УНИ»' : ''?>
+				<?=strpos($_SERVER["REQUEST_URI"], "card-details.php")? 'Скамейка стальная «Афина УНИ»' : ''?>
 				<?=(strpos($_SERVER["REQUEST_URI"], "cart.php") || strpos($_SERVER["REQUEST_URI"], "cart-empty.php"))? 'Корзина' : ''?>
 				<?=strpos($_SERVER["REQUEST_URI"], "cart-offer.php")? 'Коммерческое предложение' : ''?>
             </div>
             <div class="header-cut__act
                         <?=strpos($_SERVER["REQUEST_URI"], "cart-empty.php")? 'header-cut__act-empty' : ''?>
-                        <?=strpos($_SERVER["REQUEST_URI"], "product-details.php")? 'header-cut__act-search' : ''?>
+                        <?=strpos($_SERVER["REQUEST_URI"], "card-details.php")? 'header-cut__act-search' : ''?>
                         <?=(strpos($_SERVER["REQUEST_URI"], "cart.php")
                         || strpos($_SERVER["REQUEST_URI"], "cart-offer.php"))? 'header-cut__act-more switch-content' : ''?>
             ">
-				<?if(strpos($_SERVER["REQUEST_URI"], "product-details.php")):?>
+				<?if(strpos($_SERVER["REQUEST_URI"], "card-details.php")):?>
                     <svg class="icon icon-fill">
                         <use href="img/sprite.svg#search"></use>
                     </svg>
