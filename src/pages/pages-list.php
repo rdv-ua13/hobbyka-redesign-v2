@@ -79,12 +79,12 @@
 			<li><a class="ready" href="category.php" target="_blank">Категория каталога</a></li>
 
             <br>
-			<li><a class="dev" href="#">Детальная товара (доработка страницы)</a></li> <?/*product-details.php target="_blank"*/?>
+			<li><a class="dev" href="product-details.php" target="_blank">Детальная товара (доработка страницы)</a></li>
 
             <br>
             <li><a class="ready" href="cart-empty.php" target="_blank">Корзина (пусто)</a></li>
-            <li><a class="dev" href="cart.php" target="_blank">Корзина (доработка шапки - моб)</a></li>
-            <li><a class="dev" href="cart-offer.php" target="_blank">КП (доработка шапки - моб)</a></li>
+            <li><a class="ready" href="cart.php" target="_blank">Корзина</a></li>
+            <li><a class="ready" href="cart-offer.php" target="_blank">КП</a></li>
 
             <br>
             <li><a class="ready" href="search-result-false.php" target="_blank">Результаты поиска (пусто)</a></li>

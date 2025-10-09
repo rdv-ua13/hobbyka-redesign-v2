@@ -24,10 +24,22 @@ body {
 	font-family: var(--font-family-base);
 	background-color: var(--surface-bg);
 	color: var(--text-primary);
+
+	&:not(.note-show) {
+		.mobile-menu-panel__note {
+			opacity: 0;
+			user-select: none;
+			pointer-events: none;
+		}
+	}
 }
 @media (max-width: 991px) {
 	body {
-		padding-bottom: 44px;
+		padding-bottom: 60px;
+
+		&.cart {
+			padding-bottom: 144px;
+		}
 	}
 }
 
@@ -768,6 +780,7 @@ body:not(.is-using-mouse) {
 		}
 		&__count {
 			position: absolute;
+			z-index: 1;
 			top: 10px;
 			right: 6px;
 			display: flex;

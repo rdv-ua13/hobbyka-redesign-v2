@@ -43,7 +43,9 @@
     <script defer src="js/main.js?v=<?=time();?>"></script>
 </head>
 
-<body class="<?=strpos($_SERVER["REQUEST_URI"], "index.php")? 'index' : ''?>">
+<body class="<?=strpos($_SERVER["REQUEST_URI"], "index.php")? 'index' : ''?>
+            <?=strpos($_SERVER["REQUEST_URI"], "cart.php")? 'cart' : ''?>
+">
 <header
         class="header
         <?=(strpos($_SERVER["REQUEST_URI"], "product-details.php")
@@ -589,20 +591,18 @@
                 <div class="header-profile">
                     <ul class="list-reset header-profile__list">
                         <li>
-                            <button class="btn-reset btn btn-header" data-fancybox data-src="#modal-auth">
+                            <button class="btn-reset btn btn-header" data-fancybox data-src="#modal-auth" title="Войти">
                                 <svg class="icon icon-fill">
                                     <use href="img/sprite.svg#filled-user"></use>
                                 </svg>
-								<?/*<span class="text-content">Войти</span>*/?>
                             </button>
                         </li>
                         <li>
-                            <button class="btn-reset btn btn-header">
+                            <button class="btn-reset btn btn-header" title="Избранное">
                                 <span class="btn-header__count">1</span>
                                 <svg class="icon icon-fill">
                                     <use href="img/sprite.svg#filled-favourite"></use>
                                 </svg>
-                                <?/*<span class="text-content">Избранное</span>*/?>
                             </button>
                         </li>
                         <li>
@@ -611,7 +611,6 @@
                                 <svg class="icon icon-fill">
                                     <use href="img/sprite.svg#filled-cart"></use>
                                 </svg>
-                                <?/*<span class="text-content price">152 800 ₽</span>*/?>
                             </button>
                         </li>
                     </ul>
@@ -672,7 +671,38 @@
 
     <div class="header-cut">
         <div class="container header-container">
-            123
+            <a href="javascript:;" class="header-cut__act">
+                <svg class="icon icon-fill">
+                    <use href="img/sprite.svg#arrow-left"></use>
+                </svg>
+            </a>
+            <div class="header-cut__title h5">
+				<?=strpos($_SERVER["REQUEST_URI"], "product-details.php")? 'Скамейка стальная «Афина УНИ»' : ''?>
+				<?=(strpos($_SERVER["REQUEST_URI"], "cart.php") || strpos($_SERVER["REQUEST_URI"], "cart-empty.php"))? 'Корзина' : ''?>
+				<?=strpos($_SERVER["REQUEST_URI"], "cart-offer.php")? 'Коммерческое предложение' : ''?>
+            </div>
+            <div class="header-cut__act
+                        <?=strpos($_SERVER["REQUEST_URI"], "cart-empty.php")? 'header-cut__act-empty' : ''?>
+                        <?=strpos($_SERVER["REQUEST_URI"], "product-details.php")? 'header-cut__act-search' : ''?>
+                        <?=(strpos($_SERVER["REQUEST_URI"], "cart.php")
+                        || strpos($_SERVER["REQUEST_URI"], "cart-offer.php"))? 'header-cut__act-more switch-content' : ''?>
+            ">
+				<?if(strpos($_SERVER["REQUEST_URI"], "product-details.php")):?>
+                    <svg class="icon icon-fill">
+                        <use href="img/sprite.svg#search"></use>
+                    </svg>
+                <?endif;?>
+				<?if(strpos($_SERVER["REQUEST_URI"], "cart.php") || strpos($_SERVER["REQUEST_URI"], "cart-offer.php")):?>
+                    <svg class="icon icon-fill">
+                        <use href="img/sprite.svg#dots"></use>
+                    </svg>
+                <?endif;?>
+                <div class="header-cut__act-more-dropdown">
+                    <a href="javascript:;" class="header-cut__act-more-dropdown-item">Скачать в Excel</a>
+                    <a href="javascript:;" class="header-cut__act-more-dropdown-item">Выгрузить в csv</a>
+                    <a href="javascript:;" class="header-cut__act-more-dropdown-item">Запросить КП</a>
+                </div>
+            </div>
         </div>
     </div>
 </header>
@@ -970,17 +1000,95 @@
 </div>
 
 <div class="mobile-menu-panel">
+	<?if(strpos($_SERVER["REQUEST_URI"], "index.php")):?>
+        <div class="mobile-menu-panel__note">
+            <div class="mobile-menu-panel__note-info">
+                <div class="mobile-menu-panel__note-info-view">
+                    <img
+                        loading="lazy"
+                        class="image"
+                        src="img/category-5.png"
+                        width="32"
+                        height="32"
+                        alt="Изображение блока"
+                    >
+                </div>
+                <span class="text-content">Товар добавлен</span>
+            </div>
+            <button class="btn-reset btn btn-primary" type="button">
+                <span class="text-content">Перейти в корзину</span>
+            </button>
+
+            <?/*var 2
+            <div class="mobile-menu-panel__note-info">
+                <div class="mobile-menu-panel__note-info-view">
+                    <img
+                            loading="lazy"
+                            class="image"
+                            src="img/category-5.png"
+                            width="32"
+                            height="32"
+                            alt="Изображение блока"
+                    >
+                </div>
+                <span class="text-content">Товар добавлен в КП</span>
+            </div>
+            <button class="btn-reset btn btn-secondary" type="button">
+                <span class="text-content">Перейти к КП</span>
+            </button>
+            */?>
+
+            <?/*var 3
+            <div class="mobile-menu-panel__note-info">
+                <div class="mobile-menu-panel__note-info-view">
+                    <img
+                            loading="lazy"
+                            class="image"
+                            src="img/category-5.png"
+                            width="32"
+                            height="32"
+                            alt="Изображение блока"
+                    >
+                </div>
+                <span class="text-content">Товар удалён из корзины</span>
+            </div>
+            <button class="btn-reset btn btn-secondary" type="button">
+                <span class="text-content">Вернуть в корзину</span>
+            </button>
+            */?>
+        </div>
+        <div class="mobile-menu-panel__cart">
+            <button class="btn-reset btn btn-lg btn-primary" type="button">
+                <span class="text-content">14 263 ₽<br> перейти к оформлению</span>
+            </button>
+        </div>
+    <?endif;?>
+	<?if(strpos($_SERVER["REQUEST_URI"], "cart.php")):?>
+        <div class="mobile-menu-panel__cart">
+            <button class="btn-reset btn btn-lg btn-primary" type="button">
+                <span class="text-content">
+                    14 263 ₽<br> перейти к оформлению
+                </span>
+            </button>
+        </div>
+    <?endif;?>
     <div class="mobile-menu-panel__toolbar">
         <ul class="list-reset mobile-menu-panel__list">
             <li>
-                <a class="btn-reset btn btn-header" href="javascript:;">
+                <a href="javascript:;"
+                   class="btn-reset btn btn-header
+                        <?=(strpos($_SERVER["REQUEST_URI"], "index.php"))? 'active' : ''?>
+                ">
                     <svg class="icon icon-fill">
                         <use href="img/sprite.svg#filled-home2"></use>
                     </svg>
                 </a>
             </li>
             <li>
-                <a class="btn-reset btn btn-header" href="javascript:;">
+                <a href="javascript:;"
+                   class="btn-reset btn btn-header
+                        <?=(strpos($_SERVER["REQUEST_URI"], "category.php"))? 'active' : ''?>
+                ">
                     <svg class="icon icon-fill">
                         <use href="img/colored-category.svg#colored-category"></use>
                     </svg>
@@ -1002,7 +1110,9 @@
                 </button>
             </li>
             <li>
-                <button class="btn-reset btn btn-header">
+                <button class="btn-reset btn btn-header
+                        <?=(strpos($_SERVER["REQUEST_URI"], "cart.php"))? 'active' : ''?>
+                ">
                     <span class="btn-header__count">1</span>
                     <svg class="icon icon-fill">
                         <use href="img/sprite.svg#filled-cart"></use>
