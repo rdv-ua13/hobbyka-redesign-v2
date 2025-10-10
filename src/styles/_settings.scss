@@ -3513,6 +3513,42 @@ input.disabled {
 	}
 }
 
+.page-up {
+	z-index: 1499;
+	position: fixed;
+	right: 24px;
+	bottom: 48px;
+	display: none;
+	justify-content: center;
+	align-items: center;
+	min-width: 48px;
+	width: 48px;
+	min-height: 48px;
+	height: 48px;
+	padding: 0;
+	border: unset;
+	border-radius: 12px;
+	box-shadow: unset;
+	background-color: var(--surface-brand);
+
+	.icon {
+		min-width: 20px;
+		width: 20px;
+		min-height: 20px;
+		height: 20px;
+		fill: var(--surface-gray2);
+		stroke: var(--surface-gray2);
+	}
+	.text-content {
+		display: none;
+	}
+}
+@media (min-width: 992px) {
+	.page-up {
+		display: flex;
+	}
+}
+
 /*.modal {
 	position: relative;
 	display: none;

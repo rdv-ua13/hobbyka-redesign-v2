@@ -175,6 +175,12 @@
         </div>
     </footer>
 
+    <button class="btn-reset btn page-up" type="button">
+        <svg class="icon icon-fill">
+            <use href="img/sprite.svg#chevron-up"></use>
+        </svg>
+    </button>
+
 	<?/*
     <div class="preloader">
         <div class="preloader__inner">
