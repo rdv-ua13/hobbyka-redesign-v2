@@ -1,6 +1,44 @@
 <?php include($_SERVER["DOCUMENT_ROOT"] . "/build/components/header.php"); ?>
 
-<div class="cart commercial-offer">
+<div class="details">
+	<div class="block-top">
+		<div class="container">
+            <div class="details-toolbar">
+                <div class="details-breadcrumbs nav-breadcrumbs-wrapper">
+					<?php include($_SERVER["DOCUMENT_ROOT"] . "/build/components/breadcrumbs.php"); ?>
+                </div>
+
+                <div class="details-toolbar-act">
+                    <button class="btn-reset details-toolbar-btn" type="button">
+                        <svg class="icon icon-stroke">
+                            <use href="img/sprite.svg#strk_chart"></use>
+                        </svg>
+                        <span class="text-content">Сравнить</span>
+                    </button>
+                    <button class="btn-reset details-toolbar-btn" type="button">
+                        <svg class="icon icon-stroke">
+                            <use href="img/sprite.svg#strk_inbox"></use>
+                        </svg>
+                        <span class="text-content">В смету</span>
+                    </button>
+                    <button class="btn-reset details-toolbar-btn" type="button">
+                        <svg class="icon icon-stroke">
+                            <use href="img/fill-stroke_favourite.svg#fill-stroke_favourite"></use>
+                        </svg>
+                        <span class="text-content">В избранное</span>
+                    </button>
+                    <button class="btn-reset details-toolbar-btn" type="button">
+                        <svg class="icon icon-stroke">
+                            <use href="img/sprite.svg#stroke_share"></use>
+                        </svg>
+                        <span class="text-content">Поделиться</span>
+                    </button>
+                </div>
+            </div>
+		</div>
+	</div>
+
+
 	<div class="block">
 		<div class="container">
 			<div class="cp-heading">
@@ -476,6 +514,75 @@
 			</div>
 		</div>
 	</div>
+</div>
+
+<div class="block">
+    <div class="container">
+        <div class="basic-hca">
+            <div class="basic-hca__heading">
+                <div class="h4">Часто ищут</div>
+            </div>
+
+            <div class="basic-hca__content">
+                <div class="slider-out basic-slider-wrap">
+                    <div class="tagbar basic-slider swiper" data-tagbar-slider>
+                        <div class="swiper-wrapper tagbar__list">
+                            <div class="swiper-slide tagbar__item">
+                                <a href="javascript:;" class="tagbar-tag">
+                                    <span class="text-content">Кресла садовые</span>
+                                </a>
+                            </div>
+                            <div class="swiper-slide tagbar__item">
+                                <a href="javascript:;" class="tagbar-tag">
+                                    <span class="text-content">Садовые скамейки</span>
+                                </a>
+                            </div>
+                            <div class="swiper-slide tagbar__item">
+                                <a href="javascript:;" class="tagbar-tag">
+                                    <span class="text-content">Бескаркасная уличная мебель</span>
+                                </a>
+                            </div>
+                            <div class="swiper-slide tagbar__item">
+                                <a href="javascript:;" class="tagbar-tag">
+                                    <span class="text-content">Садовое освещение и фонари</span>
+                                </a>
+                            </div>
+                            <div class="swiper-slide tagbar__item">
+                                <a href="javascript:;" class="tagbar-tag">
+                                    <span class="text-content">Урны садовые</span>
+                                </a>
+                            </div>
+                            <div class="swiper-slide tagbar__item">
+                                <a href="javascript:;" class="tagbar-tag">
+                                    <span class="text-content">Лежаки и шезлонги</span>
+                                </a>
+                            </div>
+                            <div class="swiper-slide tagbar__item">
+                                <a href="javascript:;" class="tagbar-tag">
+                                    <span class="text-content">Мангалы и барбекю</span>
+                                </a>
+                            </div>
+                            <div class="swiper-slide tagbar__item">
+                                <a href="javascript:;" class="tagbar-tag">
+                                    <span class="text-content">Дровницы и угольницы</span>
+                                </a>
+                            </div>
+                            <div class="swiper-slide tagbar__item">
+                                <a href="javascript:;" class="tagbar-tag">
+                                    <span class="text-content">Аксессуары для скамеек и кресел</span>
+                                </a>
+                            </div>
+                            <div class="swiper-slide tagbar__item">
+                                <a href="javascript:;" class="tagbar-tag">
+                                    <span class="text-content">Тенты и чехлы</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 </div>
 
 <?php include($_SERVER["DOCUMENT_ROOT"] . "/build/components/footer.php"); ?>
