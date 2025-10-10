@@ -30,16 +30,9 @@
 					</div>
 
 					<div class="content-page__row">
-						<div class="content-page__pic">
-							<img
-								loading="lazy"
-								class="image"
-								src="img/cp-contacts-map.png"
-								width="343"
-								height="215"
-								alt="Изображение блока"
-							>
-						</div>
+                        <div class="contacts-map">
+                            <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A088478a73930dfd3e0d30741204d798b53fe060f74a98e2f1d6ab645185b1677&amp;width=100%25&amp;height=420&amp;lang=ru_RU&amp;scroll=true"></script>
+                        </div>
 					</div>
 
 					<div class="content-page__row">

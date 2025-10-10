@@ -20,7 +20,7 @@ application.prototype.init = function () {
     this.initInputSearch();
     this.initMaskedInput();
     this.initSwitchContent();
-    /*this.initContactsMap();*/
+    this.initContactsMap();
     this.initBasicTabs();
     this.initAccordion();
     this.initContactsAccordion();
@@ -503,12 +503,12 @@ application.prototype.initSwitchContent = function () {
 
 // Initialization contacts map
 application.prototype.initContactsMap = function () {
-    if ($('.contacts__map').length) {
+    if ($('.contacts-map').length) {
         ymaps.ready(init);
 
         let map,
             placemark,
-            mapItem = $('.contacts__map-content');
+            mapItem = $('.contacts-map-content');
 
         function init () {
             mapItem.each(function (i) {
@@ -550,6 +550,12 @@ application.prototype.initContactsMap = function () {
                 );
 
                 placemark = new ymaps.Placemark([coordX, coordY]);
+                /*placemark = new ymaps.Placemark([coordX, coordY], {}, {
+                    iconLayout: 'default#image',
+                    iconImageHref: '/build/img/map-pin.svg',
+                    iconImageSize: [47, 59],
+                    iconImageOffset: [0, 0]
+                });*/
 
                 map.geoObjects.add(placemark);
                 map.controls.add(zoomControl);
