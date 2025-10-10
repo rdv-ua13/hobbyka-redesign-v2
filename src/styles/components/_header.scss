@@ -1074,6 +1074,7 @@
 						flex: 1;
 						justify-content: center;
 						align-items: center;
+						text-align: center;
 					}
 					&__act {
 						display: flex;
@@ -1096,6 +1097,11 @@
 
 						&-empty {
 							.icon {
+								display: none;
+							}
+						}
+						&:not(.header-cut__act-more) {
+							.header-cut__act-more-dropdown {
 								display: none;
 							}
 						}

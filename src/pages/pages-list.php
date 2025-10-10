@@ -97,7 +97,7 @@
             <li><a class="ready" href="cp-news-details.php" target="_blank">Новости (детальная)</a></li>
             <li><a class="ready" href="cp-services.php" target="_blank">Услуги</a></li>
             <li><a class="ready" href="cp-services-details.php" target="_blank">Услуги (детальная)</a></li>
-            <li><a class="dev" href="cp-contacts.php" target="_blank">Контакты (доработка блок "Карта")</a></li>
+            <li><a class="ready" href="cp-contacts.php" target="_blank">Контакты</a></li>
             <li><a class="ready" href="cp-partnership.php" target="_blank">Партнерство</a></li>
 
             <br>
