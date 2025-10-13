@@ -404,24 +404,46 @@ application.prototype.initSliders = function () {
         });
     }
 
-    if ($('.detail-thumb-slider').length) {
-        let detailThumbSliderPointer = new Swiper('.detail-thumb-slider-pointer', {
+    if ($('.details-thumb-slider').length) {
+        let detailsThumbSliderPointer = new Swiper('.details-thumb-slider-pointer', {
             slidesPerView: 'auto',
-            spaceBetween: 8,
-            direction: "horizontal",
+            spaceBetween: 6,
+            direction: "vertical",
             freeMode: true,
-            watchSlidesProgress: true
-        });
-        let detailThumbSlider = new Swiper('.detail-thumb-slider', {
-            slidesPerView: 1,
-            effect: 'fade',
-            watchOverflow: true,
+            watchSlidesProgress: true,
             navigation: {
-                nextEl: '.detail-thumb-slider .swiper-button-next',
-                prevEl: '.detail-thumb-slider .swiper-button-prev',
-            },
+                nextEl: '.details-thumb-slider-pointer-wrap .swiper-button-next',
+                prevEl: '.details-thumb-slider-pointer-wrap .swiper-button-prev',
+            }
+        });
+        let detailsThumbSlider = new Swiper('.details-thumb-slider', {
+            slidesPerView: 1,
+            spaceBetween: 8,
+            watchOverflow: true,
             thumbs: {
-                swiper: detailThumbSliderPointer,
+                swiper: detailsThumbSliderPointer,
+            },
+            pagination: {
+                el: '.details-thumb-slider .swiper-pagination',
+            }
+        });
+    }
+
+    if ($('[data-color-slider]').length) {
+        let spaceBetween = 2;
+
+        if(window.matchMedia('(min-width: 992px)').matches) {
+            spaceBetween = 4;
+        }
+
+        let colorSlider = new Swiper('[data-color-slider]', {
+            slidesPerView: 'auto',
+            slidesPerGroup: 1,
+            spaceBetween: spaceBetween,
+            direction: 'horizontal',
+            navigation: {
+                nextEl: '[data-color-slider] .swiper-button-next',
+                prevEl: '[data-color-slider] .swiper-button-prev',
             }
         });
     }
