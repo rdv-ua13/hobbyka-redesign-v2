@@ -442,8 +442,8 @@ application.prototype.initSliders = function () {
             spaceBetween: spaceBetween,
             direction: 'horizontal',
             navigation: {
-                nextEl: '[data-color-slider] .swiper-button-next',
-                prevEl: '[data-color-slider] .swiper-button-prev',
+                nextEl: '.color-slider-wrap .swiper-button-next',
+                prevEl: '.color-slider-wrap .swiper-button-prev',
             }
         });
     }

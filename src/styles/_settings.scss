@@ -464,6 +464,12 @@ body:not(.is-using-mouse) {
 	flex-wrap: wrap;
 	align-items: center;
 	gap: 8px 12px;
+
+	&--v {
+		flex-direction: column;
+		flex-wrap: nowrap;
+		align-items: stretch;
+	}
 }
 .btn {
 	position: relative;
@@ -2079,7 +2085,6 @@ input.disabled {
 					}
 				}
 			}
-
 		}
 	}
 
